@@ -1,0 +1,27 @@
+<materials version="3">
+    <material name="mat_str_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_road_patched_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_road_patched_nm"/>
+        <material_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_road_patched_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_str_marking_01" version="2" decal_material="concrete" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE:NORMALMAP:OPACITY_TEXTURE:VERTEX_COLOR" >
+        <diffuse_texture file="units/pd2_dlc_pex/architecture/ext/ext_textures/pex_ext_road_markings_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.35800001700409"/>
+        <opacity_texture file="units/pd2_dlc_pex/architecture/ext/ext_textures/pex_ext_road_markings_mask"/>
+        <bump_normal_texture file="units/pd2_dlc_pex/architecture/ext/ext_textures/pex_ext_road_markings_nm"/>
+        <material_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_road_patched_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_pavement" version="2">
+        <diffuse_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_pavement_tiles_df"/>
+        <material_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_pavement_tiles_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_pavement_tiles_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="border_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_border_trims_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_border_trims_nm"/>
+        <material_texture file="units/pd2_dlc_chas/architecture/ext/chas_ext_road/chas_ext_border_trims_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

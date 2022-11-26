@@ -1,0 +1,328 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_gold_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_trims_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_trims_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_ceiling" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_ceiling_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_ceiling_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_plastic_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_plastic_floor_tiles_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_plastic_floor_tiles_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_plastic_floor_tiles_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_RELIEF:VERTEX_COLOR" name="mat_ceiling_hexa" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_ceiling_ornate_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_ceiling_ornate_dnm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_ceiling_ornate_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.066000003134832"/>
+        <variable type="scalar" name="parallax_layers" value="8"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_green_marble_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_nm" mip="2"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_01/sah_green_marble_01_gsma" mip="3"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_wallpaper_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_nm"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_limestone_int_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_marble_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_df" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_gsma" mip="2"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_nm" mip="3"/>
+        <reflection_texture file="units/pd2_dlc_sah/environments/cubemaps/white_plasma" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_wood_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_wooden_panel_trims/sah_wooden_panel_trims_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_marble_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_marble_floor_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_marble_floor_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_marble_floor_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_ceiling_a" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_ceiling_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_ceiling_a_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_marble_floor_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_marble_wall_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_dnm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_carpet_a" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_floor_carpet_a_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_carpet_a_trim" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_floor_carpet_a_trim_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_plaster_01" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_plaster_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_plaster_c_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_panel_wood" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_int_bigbank" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_base" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/tiling_textures/mat_metal_trim_sheet_01/des_metal_trim_sheet_01_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_bathroom_floor01" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_floor_08_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_bathroom_wall01" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_09_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_carpet_b_trim" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/casino_corridor_floor/textures/marble_floor_trim_02_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_carpet_c" version="2">
+        <diffuse_texture file="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_emp_floor01" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_corridors_employee/cas_int_corridor_floor_01_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_emp_wall01" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_07_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_07_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_floor1" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_marble_floor_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_floor_trim_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/casino_toillet_floor/marble_trim_floor_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_floor_trims1" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_wall1" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_01/sah_white_marble_01_df" mip="1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_wall_green" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_green_marble_03/sah_green_marble_03_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_marble_wall_trims1" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_white_marble_ornament_trims_01/sah_white_marble_ornament_trims_01_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_wallpaper_03" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/architecture/textures/cas_int_wall_08_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_wallpaper_04" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_walls/casino_corridor_wall/textures/wall_plaster_wallpaper_02_df"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_metal_bars" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_gold_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_gold_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_gold_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE" name="mat_sfm_mainroom_railings" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_mainroom_staircase_railings_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_mainroom_staircase_railings_nm"/>
+        <opacity_texture file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_mainroom_staircase_railings_op"/>
+        <variable type="scalar" name="alpha_ref" value="0.68900003272574"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_carshop_tunnels" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_sfm_pillar_plinth" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_mainroom_pillar_plinth_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/architecture/int/sfm_int_mainroom/sfm_mainroom_pillar_plinth_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="safetybox" version="2">
+        <diffuse_texture file="units/world/props/bank/safety_box/safety_box_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="vector3" name="environment_settings" value="1 0 0.20000000298023"/>
+        <bump_normal_texture file="units/world/props/bank/safety_box/safety_box_nm"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ext_plaster_blend_red" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_red_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_red_df"/>
+        <variable type="vector3" name="blend_control" value="0.25 1 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ext_plaster_blend_orange" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_orange_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_orange_df"/>
+        <variable type="vector3" name="blend_control" value="0.25 1 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>    
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_glass_broken" version="2">
+        <opacity_texture file="units/glass/window_glass/cracked_glass_op"/>
+        <diffuse_texture file="units/glass/window_glass/cracked_glass_df"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="3536 5784 0"/>
+        <reflection_texture file="environments/cubemaps/cubemap_diamond_01" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0 1 1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_ext_trims" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_trim_set_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_trim_set_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_large_stones" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_large_bricks_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_large_bricks_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_large_bricks_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_bex_ext_bank_facade_pillar_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/bex_ext_bank/bex_ext_bank_facade_pillar_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/bex_ext_bank/bex_ext_bank_facade_pillar_01_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/bex_ext_bank/bex_ext_bank_facade_pillar_01_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:VERTEX_COLOR" name="mat_edge_trim_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_holly/mansion/architecture/lxa_man_main_building/lxa_concrete_bare_df"/>
+        <opacity_texture file="units/pd2_dlc_bex/architecture/ext/bex_ext_bank_side_building/edge_trim_01_op"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/bex_ext_bank_side_building/edge_trim_01_nm"/>
+    </material>
+    <material name="mat_int_marble_04" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_04_df"/>
+        <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_blank_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="vector3" name="environment_settings" value="1 0 2"/>
+    </material>
+    <material name="mat_int_marble_05" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2" decal_material="marble">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_05_df"/>
+        <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_05_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0.39100003242493"/>
+    </material>
+    <material name="mat_int_trims" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" decal_material="wood">
+        <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_trims_df"/>
+        <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_trims_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" name="mat_plaster_b" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_plaster_b_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_plaster_b_nm"/>
+    </material>
+    <material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2" src="GLOBAL">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.66999995708466"/>
+        <opacity_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_door" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="scalar" name="glossiness_control" value="0.0040000001899898"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ext_plaster_blend_white" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_white_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_white_df"/>
+        <variable type="vector3" name="blend_control" value="0.25 1 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_nm"/>
+        <material_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:VERTEX_COLOR" name="mat_decals_leaks_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decals_leaking_df"/>
+        <opacity_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decals_leaking_mask" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm" mip="1"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_ext_bank_foyer_2_mat_ceiling_a" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_ceiling_a_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_ext_bank_foyer_2_mat_marble_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/int/int_textures/bex_int_marble_floor_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_ext_bank_foyer_2_mat_panel_wood" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_ext_bank_foyer_2_mat_wallpaper_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_wallpaper_01/sah_wallpaper_01_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_int_bank_vault_mat_carpet_b_trim1" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/casino_corridor_floor/textures/marble_floor_trim_02_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_int_bank_vault_mat_marble_floor_trim_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/environment/cas_int/cas_floor/casino_toillet_floor/marble_trim_floor_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_int_bank_vault_mat_marble_floor_trims2" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/tiling_textures/sah_marble_floor_trims/sah_marble_floor_trims_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="bex_int_bank_vault_mat_panel_wood1" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_df"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_gold_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_rvd/architecture/rvd_int/int_textures/tiling_gold_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_trim_set_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_rvd/architecture/rvd_int/int_textures/tiling_gold_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_gold_metal_flat" version="2">
+        <diffuse_texture file="units/pd2_dlc_rvd/architecture/rvd_int/int_textures/tiling_gold_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_rvd/architecture/rvd_int/int_textures/tiling_gold_gsma"/>
+    </material>
+    <material name="mat_ceiling_il" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP" version="2" src="GLOBAL">
+        <diffuse_texture file="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_glass_df"/>
+        <variable type="scalar" name="intensity" value="sun"/>
+        <variable type="scalar" name="falloff_exp" value="0.5"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_glow_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/architecture/sah_int/sah_int_ceiling_cell/sah_int_ceiling_cell_df" mip="1"/>
+        <self_illumination_texture file="units/pd2_dlc_sah/architecture/sah_int/sah_int_ceiling_cell/sah_int_ceiling_cell_il" mip="1"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+        <variable type="scalar" name="il_bloom" value="0.14600000693463"/>
+    </material>
+    <material decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" version="2" name="mat_glass_cracked_01">
+        <variable type="vector3" name="fresnel_settings" value="2 1 1"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="10 5000 0"/>
+    </material>
+    <material version="2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" name="mat_window_glass" src="GLOBAL">
+        <variable type="vector3" name="fresnel_settings" value="0 1 0.66999995708466"/>
+        <opacity_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_door" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_mullplane" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/shadow_mullplan/shadow_mullplan_df"/>
+    </material>
+</materials>

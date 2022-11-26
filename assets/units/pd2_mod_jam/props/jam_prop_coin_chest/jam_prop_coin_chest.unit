@@ -1,0 +1,15 @@
+<unit type="jam" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest" />
+	<dependencies>
+		<depends_on unit="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest_spawn" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="pick_lock_easy_no_skill" />
+			<var name="_interact_object" value="int_location"/>
+		</extension>
+	</extensions>
+</unit>

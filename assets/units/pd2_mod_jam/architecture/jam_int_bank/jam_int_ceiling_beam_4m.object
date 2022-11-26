@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_walls" orientation_object="rp_jam_int_ceiling_beam_4m" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jam_int_ceiling_beam_4m" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="g_beam" enabled="true" material="wood"/>	
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_beam" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="jam" slot="1">
+	<object file="units/pd2_mod_jam/architecture/jam_ext_wall/jam_ext_wall_4m_door" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

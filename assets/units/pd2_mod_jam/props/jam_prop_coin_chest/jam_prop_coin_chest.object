@@ -1,0 +1,38 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest" orientation_object="rp_jam_prop_coin_chest" />
+	<sequence_manager file="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest" />
+	
+	<animations>
+		<animation_group name="anim_lid" enabled="false">
+			<object name="a_lid" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jam_prop_coin_chest" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_animated" enabled="true" template="animated">
+			<object name="a_lid" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_wood_bottom" enabled="true" material="wood" />
+		<decal_mesh name="dm_wood_lid" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_icon" enabled="true" >
+            <lod_object name="lockpick_icon">
+                <object name="g_icon"   enabled="true"  max_distance="450"  max_draw_lod="0" />
+                <object name="g_icon_lod01"  enabled="true"  lod="1" />
+            </lod_object> 
+        </graphic_group>
+		<graphic_group name="grp_box" enabled="true" >
+			<object name="g_chest" enabled="true"/>
+			<object name="g_lid" enabled="true"/>
+			<object name="g_foam" enabled="false"/>
+        </graphic_group>
+	</graphics>
+</dynamic_object>
