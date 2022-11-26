@@ -1,0 +1,6 @@
+<materials version="3" group="jam_int_floor">
+    <material render_template="generic:DIFFUSE_TEXTURE:SIMPLE_TINT:VERTEX_COLOR" name="mat_carpet_a" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_floor_carpet_a_df"/>
+        <variable type="vector3" name="tint_color" value="0.459 0.545 0.639"/>
+    </material>
+</materials>

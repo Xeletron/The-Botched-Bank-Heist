@@ -5,7 +5,7 @@
 		<scene load="true" path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
-		<!--Roads-->
+		<!--ROADS-->
 		<material_config path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_road"/>
 
         <unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_road_16x16m"/>
@@ -13,10 +13,11 @@
 
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_road_16x24m_tcross"/>
 
-        <unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_8x8m"/>
+        <unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m"/>
         <unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m"/>
+        <unit_obj path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_8x8m"/>
 
-		<!--Bank Exterior Walls-->
+		<!--EXTERIOR ARCHITECTURE-->
 		<material_config path="units/pd2_mod_jam/architecture/jam_ext_wall/jam_ext_wall"/>
 		<unit_mat path="units/pd2_mod_jam/architecture/jam_ext_entrance/jam_ext_entrance"/>
 
@@ -41,18 +42,25 @@
 		<unit_obj_seq path="units/pd2_mod_jam/architecture/jam_ext_wall/jam_ext_wall_8m_window_v1"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_ext_wall/jam_ext_wall_8m_window_v2"/>
 
-		<!--INTERIOR WALLS-->
+		<!--INTERIOR ARCHITECTURE-->
 		<material_config path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_walls"/>
-		<material_config path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor"/>
+		<material_config path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_a"/>
+		<material_config path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_b"/>
+		<material_config path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_ceiling_a"/>
 
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_1m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m_door"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m_window"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m"/>
 		
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_beam"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_ceiling_beam_4m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_2m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m"/>
 
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_1m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_4m"/>
 
 		<!--PROPS-->

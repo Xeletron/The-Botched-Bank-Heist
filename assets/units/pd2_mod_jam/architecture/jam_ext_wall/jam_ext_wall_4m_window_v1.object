@@ -8,8 +8,6 @@
 			<object name="c_box_03" collision_type="box" padding="-2.5" />
 			<object name="c_box_04" collision_type="box" padding="-2.5" />
 			<object name="c_box_05" collision_type="box" padding="-2.5" />
-			<object name="c_box_06" collision_type="box" padding="-2.5" />
-			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces default_material="concrete">
