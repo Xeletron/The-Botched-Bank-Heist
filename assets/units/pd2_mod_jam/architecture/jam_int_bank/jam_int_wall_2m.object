@@ -1,5 +1,6 @@
 <dynamic_object>
-	<diesel materials="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_walls" orientation_object="rp_jam_int_wall_2m" />
+	<metadata material_config_group="jam_int_wall"/>
+	<diesel materials="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_a" orientation_object="rp_jam_int_wall_2m" />
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
 			<object name="rp_jam_int_wall_2m" />
