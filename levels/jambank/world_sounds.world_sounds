@@ -1,12 +1,45 @@
 <generic_scriptdata type="table">
 	<entry key="ambience_enabled" type="boolean" value="true"/>
-	<entry key="default_ambience" type="string" value="ambience_ext_big_city_day"/>
-	<entry key="default_environment" type="string" value="acoustics_outdoor_medium"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_ambience" type="string" value="ambience_ext_big_city_day_alley"/>
+	<entry key="default_environment" type="string" value="pd2_acoustics_outdoor_large_echo"/>
+	<entry key="default_occasional" type="string" value="occasionals_big_city"/>
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
+		<entry index="1" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ocean_wooden_bridge"/>
+			<entry key="name" type="string" value="emitter_water"/>
+			<entry key="position" type="vector3" value="-3600 -800 -300"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ocean_wooden_bridge"/>
+			<entry key="name" type="string" value="emitter_water"/>
+			<entry key="position" type="vector3" value="-3600 1200 -300"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ocean_wooden_bridge"/>
+			<entry key="name" type="string" value="emitter_water"/>
+			<entry key="position" type="vector3" value="-3600 -2600 -300"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
+		<entry index="1" type="table">
+			<entry key="ambience_event" type="string" value="ambience_int_office_medium"/>
+			<entry key="depth" type="number" value="3130"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_medium"/>
+			<entry key="height" type="number" value="810"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="occasional_event" type="string" value="occasionals_a_silent"/>
+			<entry key="position" type="vector3" value="393 1187 -5"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="2365"/>
+		</entry>
 	</entry>
 </generic_scriptdata>

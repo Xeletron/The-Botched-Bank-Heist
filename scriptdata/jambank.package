@@ -3,6 +3,7 @@
 		<environment path="environments/pd2_env_midday/pd2_env_midday"/>
 		<material_config path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
 		<scene load="true" path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+		<texture path="units/payday2/cubemaps/cubemap_window_weak_df"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
 		<!--ROADS-->
@@ -58,6 +59,7 @@
 		
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_beam"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_ceiling_beam_4m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_ceiling_beam_4x4m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_2m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m"/>
 

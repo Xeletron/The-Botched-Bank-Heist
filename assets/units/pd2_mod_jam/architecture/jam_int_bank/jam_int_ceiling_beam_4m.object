@@ -3,10 +3,7 @@
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
 			<object name="rp_jam_int_ceiling_beam_4m" />
-			<object name="c_box_01" collision_type="box" padding="-2.5"/>
-			<object name="c_box_02" collision_type="box" padding="-2.5"/>
-			<object name="c_box_03" collision_type="box" padding="-2.5"/>
-			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_beam" collision_type="box" padding="-2.5"/>
 		</body>
 	</bodies>
 
