@@ -27,19 +27,17 @@
 		</body>
 	</bodies>
 	<decal_surfaces default_material="metal" >
-    	<decal_mesh name="dm_fridge" enabled="true" material="metal" />
+    	<decal_mesh name="dm_cupboard" enabled="true" material="metal" />
     	<decal_mesh name="dm_door_right" enabled="true" material="metal" />
     	<decal_mesh name="dm_door_left" enabled="true" material="metal" />
     </decal_surfaces>
 	<graphics>
 		<object name="g_door_left" enabled="true" />
 		<object name="g_door_right" enabled="true" />
-		<object name="g_fridge" enabled="true" />
-		<object name="g_lock_01" enabled="true" />
-		<object name="g_lock_02" enabled="true" />
+		<object name="g_cupboard" enabled="true" />
 		<graphic_group name="lockpick_icons" enabled="true">
 			<lod_object name="lod_g_icon_lock">
-				<object name="g_icon_lock_lod0" enabled="true" max_distance="1500" />
+				<object name="g_icon_lock_lod0" enabled="true" max_distance="500" />
 				<object name="g_icon_lock_lod1" enabled="true" />
 			</lod_object>
 		</graphic_group>

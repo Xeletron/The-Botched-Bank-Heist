@@ -5389,22 +5389,22 @@
 			<unit_data continent="world" disable_shadows="true" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_drawers_5" name_id="off_prop_officehigh_drawer_standard_large_drawers_5_025" position="1140 -1079 400" rotation="0 0 1 -0" unit_id="101759"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="enable_interaction" name="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" name_id="jam_prop_cupboard_001" position="1139 -1072 400" rotation="-0 0 -0 -1" unit_id="101760"/>
+			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="enable_interaction" name="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" name_id="jam_prop_cupboard_001" position="1139 -1072 400" rotation="-0 0 -0 -1" unit_id="101760"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_001" position="1110 -972 400" rotation="0 0 -0.707107 -0.707107" unit_id="101661"/>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_001" position="1134 -1076 400" rotation="0 0 0 -1" unit_id="101761"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_001" position="1134 -1073 400" rotation="-0 0 -0 -1" unit_id="101761"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_002" position="891 -1077 400" rotation="0 0 0 -1" unit_id="101762"/>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_002" position="871 -1080 400" rotation="0 0 0 -1" unit_id="101762"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_002" position="1243 -519 402.837" rotation="0 0 -0.707107 -0.707107" unit_id="101763"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" position="407 -101 0" rotation="-0 0 -0 -1" unit_id="101764"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" position="1160 -990 400" rotation="0 0 -0.707107 -0.707107" unit_id="101765"/>
 		</table>
 	</statics>
 	<values>

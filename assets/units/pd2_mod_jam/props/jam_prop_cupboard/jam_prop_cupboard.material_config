@@ -1,13 +1,6 @@
 <materials version="3">
-    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_lock" version="2">
-        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge_lock_df"/>
-        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge_lock_nm"/>
-    </material>
-    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_bar" version="2">
-        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_bar_counter_df"/>
-        <bump_normal_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_bar_counter_nm"/>
-        <material_texture file="units/pd2_dlc_des/props/des_prop_fridge/des_prop_bar_counter_gsma"/>
-        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_metal" type="cubemap"/>
+    <material name="mat_drawer" version="2" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_df"/>
     </material>
     <material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="hud_brackets" version="2">
         <diffuse_texture file="units/gui/gui_brackets_df"/>
