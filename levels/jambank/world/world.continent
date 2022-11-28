@@ -25,7 +25,12 @@
 			</units>
 		</table>
 	</editor_groups>
-	<instances/>
+	<instances>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_001" position="1139 -1072 400" rotation="-0 0 -0 -1" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_002" position="401 -73 400.1" rotation="0 0 0.707107 -0.707107" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_003" position="1615 -604 400" rotation="-0 0 -0 -1" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_004" position="1275 1087 400" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
+	</instances>
 	<statics>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/bnk/bnk_int_floor_4x4m_b" name_id="bnk_int_floor_4x4m_b_038" position="2400 800 0" rotation="0 0 0 -1" unit_id="100103"/>
@@ -3711,7 +3716,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood" name_id="hcm_int_wall_1m_a_wood_006" position="1095 517 400" rotation="0 0 0 -1" unit_id="101246"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/world/props/office/copy_machine/copy_machine_03" name_id="copy_machine_03_001" position="1511 -584 400" rotation="0 0 1 -4.37114e-008" unit_id="101336"/>
+			<unit_data continent="world" disable_on_ai_graph="true" name="units/world/props/office/copy_machine/copy_machine_03" name_id="copy_machine_03_001" position="1511 -584 400" rotation="0 0 1 4.37114e-008" unit_id="101336"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_wall_4m_a_white" name_id="hcm_int_wall_4m_a_white_003" position="2059 1192 400" rotation="0 0 0.707107 -0.707107" unit_id="101128"/>
@@ -3926,7 +3931,7 @@
 			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_dark_straight_10" name_id="off_prop_officehigh_desk_dark_straight_10_019" position="425.001 475 400" rotation="1.07988e-007 1.67683e-007 0.707107 -0.707106" unit_id="101394"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc_dah/props/dah_prop_chair_e/dah_prop_chair_e" name_id="dah_prop_chair_e_033" position="522.53 299.32 400" rotation="1.50542e-007 -1.30829e-007 -0.800845 -0.598871" unit_id="101395"/>
+			<unit_data continent="world" name="units/pd2_dlc_dah/props/dah_prop_chair_e/dah_prop_chair_e" name_id="dah_prop_chair_e_033" position="522.53 339.32 400" rotation="1.50542e-007 -1.30829e-007 -0.800846 -0.598871" unit_id="101395"/>
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_dlc_casino/props/cas_int_keyboard/cas_int_keyboard" name_id="cas_int_keyboard_008" position="581 314 473" rotation="1.20812e-007 1.58694e-007 0.649449 -0.760406" unit_id="101396"/>
@@ -5208,12 +5213,6 @@
 			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" name_id="des_prop_fridge_001" position="2430 875 400" rotation="0 0 -0.707107 -0.707107" unit_id="101740"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" name_id="des_prop_fridge_002" position="1275 1087 400" rotation="0 0 1 4.37114e-008" unit_id="100933"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" name_id="des_prop_fridge_004" position="401 -73 400.1" rotation="0 0 0.707107 -0.707107" unit_id="101721"/>
-		</table>
-		<table>
 			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" name_id="des_prop_fridge_006" position="1910 380 400" rotation="0 0 1 -4.37114e-008" unit_id="101722"/>
 		</table>
 		<table>
@@ -5224,9 +5223,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_exit_v2" name_id="dah_prop_sign_glass_exit_v2_002" position="2275 1954 313" rotation="0 0 0 -1" unit_id="101589"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" name_id="des_prop_fridge_007" position="1615 -604 400" rotation="0 0 0 -1" unit_id="101590"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/world/props/office/whiteboard/whiteboard_01" name_id="whiteboard_01_001" position="1321 107 400" rotation="0 0 1 -4.37114e-008" unit_id="101724"/>
@@ -5389,22 +5385,49 @@
 			<unit_data continent="world" disable_shadows="true" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_drawers_5" name_id="off_prop_officehigh_drawer_standard_large_drawers_5_025" position="1140 -1079 400" rotation="0 0 1 -0" unit_id="101759"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="enable_interaction" name="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" name_id="jam_prop_cupboard_001" position="1139 -1072 400" rotation="-0 0 -0 -1" unit_id="101760"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_001" position="1134 -1076 400" rotation="0 0 0 -1" unit_id="101761"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_002" position="871 -1080 400" rotation="0 0 0 -1" unit_id="101762"/>
-		</table>
-		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_002" position="1243 -519 402.837" rotation="0 0 -0.707107 -0.707107" unit_id="101763"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" position="407 -101 0" rotation="-0 0 -0 -1" unit_id="101764"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" position="1160 -990 400" rotation="0 0 -0.707107 -0.707107" unit_id="101765"/>
+			<unit_data continent="world" disable_on_ai_graph="true" name="units/world/props/office/copy_machine/copy_machine_03" name_id="copy_machine_03_002" position="443 2 400.1" rotation="0 0 -0.707107 -0.707107" unit_id="101721"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_001" position="3550 -2775 195.355" rotation="0 0 0.707107 -0.707107" unit_id="101769"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_002" position="3875 -2775 195.355" rotation="0 0 0 -1" unit_id="101770"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_003" position="3875 -2375 195.355" rotation="0 0 0 -1" unit_id="101771"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_004" position="3875 -1975 195.355" rotation="0 0 0 -1" unit_id="101772"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_005" position="3875 -1575 195.355" rotation="0 0 0 -1" unit_id="101773"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_006" position="3875 -1225 195.355" rotation="0 0 -0.707107 -0.707107" unit_id="101774"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_007" position="2050 -1600 195.355" rotation="0 0 0 -1" unit_id="101775"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_008" position="2050 -2000 195.355" rotation="0 0 0 -1" unit_id="101776"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_003" position="1675 715 405" rotation="-0 0 -0 -1" unit_id="101661"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_004" position="1675 -110 405" rotation="0 0 0 -1" unit_id="101760"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_005" position="1103 617 400" rotation="0 0 0 -1" unit_id="101761"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_006" position="1103 817 400" rotation="0 0 0 -1" unit_id="101762"/>
 		</table>
 	</statics>
 	<values>

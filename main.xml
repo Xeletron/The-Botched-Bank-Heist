@@ -1,4 +1,9 @@
 <table min_lib_ver="4.5" name="jambank">
+	<instance id="jambank_hideaway_cupboard">
+		<packages>
+			<value_node value="package_jambank"/>
+		</packages>
+	</instance>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
@@ -10,15 +15,15 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<interactions>
+			<interaction based_on="gen_pku_artifact" id="jam_pku_coins" sound_done="bar_pickup_bolt_cutter_finished" sound_interupt="bar_pickup_bolt_cutter_cancel" sound_start="bar_pickup_bolt_cutter" timer="6"/>
+		</interactions>
+		<lootbags>
+			<carry based_on="treasure" id="jam_coins" name_id="hud_carry_jam_coins"/>
+		</lootbags>
 		<packages>
 			<value_node value="package_jambank"/>
 		</packages>
-		<interactions>
-			<interaction id="jam_pku_coins" based_on="gen_pku_artifact" timer="6" sound_start="bar_pickup_bolt_cutter" sound_interupt="bar_pickup_bolt_cutter_cancel" sound_done="bar_pickup_bolt_cutter_finished" />
-		</interactions>
-		<lootbags>
-			<carry id="jam_coins" based_on="treasure" name_id="hud_carry_jam_coins"/>
-		</lootbags>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>

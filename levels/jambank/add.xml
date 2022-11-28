@@ -1027,16 +1027,29 @@
 		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
-		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+	<add from_db="true" path="units/payday2/characters/civ_male_bank_manager_3/civ_male_bank_manager_3" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_3/civ_male_bank_manager_3"/>
+		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_3/civ_male_bank_manager_3_husk"/>
+		<object path="units/payday2/characters/civ_male_bank_manager_3/civ_male_bank_manager_3"/>
 	</add>
-	<add from_db="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1" type="unit">
-		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
-		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1_husk"/>
-		<bnk path="soundbanks/regular_vox"/>
-		<material_config path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
-		<object path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
 	</add>
 </table>

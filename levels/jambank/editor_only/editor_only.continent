@@ -1,6 +1,22 @@
 <table>
 	<editor_groups/>
-	<statics/>
+	<statics>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="1225 1475 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200000">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="diffuse_vc_decal" text="OBJ - CUPBOARD" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_001" position="800 1000 1965" rotation="-0 0 -0 -1" unit_id="200001"/>
+		</table>
+	</statics>
 	<values>
 		<workviews/>
 	</values>
