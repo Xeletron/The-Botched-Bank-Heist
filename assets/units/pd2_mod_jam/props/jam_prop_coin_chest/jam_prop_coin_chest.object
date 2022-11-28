@@ -29,10 +29,15 @@
                 <object name="g_icon_lod01"  enabled="true"  lod="1" />
             </lod_object> 
         </graphic_group>
+		<graphic_group name="grp_foam" enabled="false" >
+			<lod_object name="lod_foam">
+				<object name="g_foam_lod0" enabled="true" max_distance="500" max_draw_lod="0" />
+				<object name="g_foam_lod1" enabled="true" lod="1" />
+			</lod_object>
+        </graphic_group>
 		<graphic_group name="grp_box" enabled="true" >
 			<object name="g_chest" enabled="true"/>
 			<object name="g_lid" enabled="true"/>
-			<object name="g_foam" enabled="false"/>
-        </graphic_group>
+        </graphic_group> 
 	</graphics>
 </dynamic_object>
