@@ -1,0 +1,12 @@
+<unit type="jam" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" />
+	<extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+        <extension name="interaction" class="UseInteractionExt">
+        	<var name="tweak_data" value="pick_lock_easy_no_skill" />
+        	<var name="_interact_object" value="interact"/>
+        </extension>
+    </extensions>
+</unit>

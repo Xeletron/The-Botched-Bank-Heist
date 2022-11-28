@@ -70,5 +70,6 @@
 		<!--PROPS-->
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest_spawn"/>
+		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard"/>
 	</add>
 </table>

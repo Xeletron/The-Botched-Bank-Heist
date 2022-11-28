@@ -1,0 +1,47 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" orientation_object="rp_jam_prop_cupboard" />
+	<sequence_manager file="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" />
+	<animations>
+        <animation_group name="anim_doors" enabled="false">
+            <object name="anim_door_left" />
+            <object name="anim_door_right" />
+        </animation_group>
+    </animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jam_prop_cupboard" />
+			<object name="c_box_00" collision_type="box" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="anim_door_left" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="animated">
+			<object name="anim_door_right" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal" >
+    	<decal_mesh name="dm_fridge" enabled="true" material="metal" />
+    	<decal_mesh name="dm_door_right" enabled="true" material="metal" />
+    	<decal_mesh name="dm_door_left" enabled="true" material="metal" />
+    </decal_surfaces>
+	<graphics>
+		<object name="g_door_left" enabled="true" />
+		<object name="g_door_right" enabled="true" />
+		<object name="g_fridge" enabled="true" />
+		<object name="g_lock_01" enabled="true" />
+		<object name="g_lock_02" enabled="true" />
+		<graphic_group name="lockpick_icons" enabled="true">
+			<lod_object name="lod_g_icon_lock">
+				<object name="g_icon_lock_lod0" enabled="true" max_distance="1500" />
+				<object name="g_icon_lock_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

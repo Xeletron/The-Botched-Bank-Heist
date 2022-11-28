@@ -1013,8 +1013,30 @@
 		<unit path="units/world/props/office/whiteboard/whiteboard_01"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_stairs_short_3x16m_a" type="unit">
-		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_stairs_short_3x16m_a"/>
-		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_stairs_short_3x16m_a"/>
 		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_stairs_short_3x16m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_stairs_short_3x16m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1_husk"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<material_config path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
+		<object path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
 	</add>
 </table>
