@@ -439,11 +439,6 @@
 		<sequence_manager path="units/payday2/architecture/bnk/bnk_int_window_01"/>
 		<unit path="units/payday2/architecture/bnk/bnk_int_window_entrance_02"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown" type="unit">
-		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle"/>
-		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown"/>
-		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_light_ceiling_tiled/tag_prop_light_ceiling_tiled" type="unit">
 		<material_config path="units/pd2_dlc_tag/props/tag_prop_light_ceiling_tiled/tag_prop_light_ceiling_tiled"/>
 		<object path="units/pd2_dlc_tag/props/tag_prop_light_ceiling_tiled/tag_prop_light_ceiling_tiled"/>
@@ -845,13 +840,6 @@
 		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_05"/>
 		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_05"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/air_prop_terminal_coffecup/air_prop_terminal_coffecup" type="unit">
-		<effect load="true" path="effects/particles/dest/ceramic_cup_dest"/>
-		<material_config path="units/payday2/props/air_prop_terminal_coffecup/air_prop_terminal_coffecup"/>
-		<object path="units/payday2/props/air_prop_terminal_coffecup/air_prop_terminal_coffecup"/>
-		<sequence_manager path="units/payday2/props/air_prop_terminal_coffecup/air_prop_terminal_coffecup"/>
-		<unit path="units/payday2/props/air_prop_terminal_coffecup/air_prop_terminal_coffecup"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_diner_salt_pepper/rvd_prop_diner_salt_pepper" type="unit">
 		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_diner_salt_pepper/rvd_prop_diner_salt_pepper"/>
 		<object path="units/pd2_dlc_rvd/props/rvd_prop_diner_salt_pepper/rvd_prop_diner_salt_pepper"/>
@@ -985,18 +973,6 @@
 		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_c"/>
 		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_c"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" type="unit">
-		<unit path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
-		<object path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
-		<object path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_b"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_c"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_d"/>
-		<material_config path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_bar_counter/com_prop_bar_kitchen_fridge" type="unit">
 		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_kitchen"/>
 		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_kitchen_fridge"/>
@@ -1042,14 +1018,55 @@
 		<object path="units/test/jocke/plane_black_temp"/>
 		<unit path="units/test/jocke/plane_black_temp"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
-		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
-		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
-		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
-	</add>
 	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
-		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
-		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
 		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_glass" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_glass"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_glass"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_glass"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_meeting_room_carpet/pent_prop_meeting_room_carpet_01" type="unit">
+		<material_config path="units/pd2_dlc_pent/props/pent_prop_meeting_room_carpet/pent_prop_meeting_room_carpet_01"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_meeting_room_carpet/pent_prop_meeting_room_carpet_01"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_meeting_room_carpet/pent_prop_meeting_room_carpet_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<object path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<unit path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" type="unit">
+		<bnk path="soundbanks/zipline"/>
+		<material_config path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<object path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<unit path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_glass_doors" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard"/>
+		<object path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_glass_doors"/>
+		<sequence_manager path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_glass_doors"/>
+		<unit path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_glass_doors"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_small_drawers_3" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard"/>
+		<object path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_small_drawers_3"/>
+		<unit path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_small_drawers_3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

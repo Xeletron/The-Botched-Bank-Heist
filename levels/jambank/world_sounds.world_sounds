@@ -41,5 +41,20 @@
 			<entry key="use_occasional" type="boolean" value="true"/>
 			<entry key="width" type="number" value="2365"/>
 		</entry>
+		<entry index="2" type="table">
+			<entry key="ambience_event" type="string" value="ambience_int_office_medium"/>
+			<entry key="depth" type="number" value="812"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_medium"/>
+			<entry key="height" type="number" value="705"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="occasional_event" type="string" value="occasionals_a_silent"/>
+			<entry key="position" type="vector3" value="1660 1186 -5"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="920"/>
+		</entry>
 	</entry>
 </generic_scriptdata>
