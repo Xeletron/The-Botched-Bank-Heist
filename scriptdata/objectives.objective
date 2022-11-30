@@ -1,1 +1,4 @@
-<table></table>
+<table>
+	<objective description="hud_heist_jambank1" id="jambank_01" text="hud_heist_jambank1_hl"/>
+	<objective description="hud_heist_jambank2" id="jambank_02" text="hud_heist_jambank2_hl"/>
+</table>

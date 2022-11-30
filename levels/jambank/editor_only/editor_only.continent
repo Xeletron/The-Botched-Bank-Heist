@@ -56,9 +56,6 @@
 			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_005" position="1737 -130 0" rotation="0 0 0.707107 -0.707107" unit_id="200008"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_006" position="1746 1175 0" rotation="0 0 0.707107 -0.707107" unit_id="200009"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" position="407 -101 0" rotation="0 0 0 -1" unit_id="200010"/>
 		</table>
 		<table>
@@ -98,13 +95,13 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_002" position="2000 -125 2.1517" rotation="0 0 0.707107 -0.707107" unit_id="200036"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_007" position="1666 1350 400" rotation="0 0 0.707107 -0.707107" unit_id="200038"/>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_007" position="1666 1192 400" rotation="0 0 0.707107 -0.707107" unit_id="200038"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_005" position="2230 -611 3.72529e-007" rotation="0 0 -0.707107 -0.707107" unit_id="200039"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_008" position="1866 1350 400" rotation="0 0 0.707107 -0.707107" unit_id="200040"/>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_008" position="1866 1192 400" rotation="0 0 0.707107 -0.707107" unit_id="200040"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_003" position="2075 1314 400" rotation="0 0 1 -0" unit_id="200041"/>
@@ -143,13 +140,28 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_002" position="1764 1514 3.72529e-007" rotation="0 0 0 -1" unit_id="200055"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_002" position="2330 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="200056"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_009" position="2323 1985 0" rotation="0 0 -0.707107 -0.707107" unit_id="200057"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_003" position="1500 -831 3.72529e-007" rotation="0 0 0 -1" unit_id="200011"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_005" position="800 2100 1965" rotation="0 0 0 -1" unit_id="200012"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="1225 2575 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200013">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ - FIND VAULT" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_002" position="2330 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="200009"/>
 		</table>
 	</statics>
 	<values>

@@ -2,7 +2,7 @@
     <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_panel_wood" version="2">
         <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_df"/>
         <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_panel_wood_nm"/>
-        <reflection_texture file="environments/cubemaps/cubemap_int_bigbank" type="cubemap"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
     <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT:VERTEX_COLOR" name="mat_wallpaper" version="2">
         <diffuse_texture file="units/pd2_dlc_pex/architecture/int/int_textures/pex_int_plaster_01_df"/>
