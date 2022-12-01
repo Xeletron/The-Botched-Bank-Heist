@@ -86,6 +86,10 @@
 					<entry key="event" type="string" value="opened"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100012"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-200 400 100"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -301,6 +305,26 @@
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="13" type="table">
+				<entry key="class" type="string" value="ElementTeammateComment"/>
+				<entry key="editor_name" type="string" value="comment_there_he_is"/>
+				<entry key="id" type="number" value="100012"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="close_to_element" type="boolean" value="true"/>
+					<entry key="comment" type="string" value="v30"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-75 150 112"/>
+					<entry key="radius" type="number" value="0"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>

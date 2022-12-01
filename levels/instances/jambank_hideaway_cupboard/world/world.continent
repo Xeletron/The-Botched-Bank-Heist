@@ -6,16 +6,7 @@
 			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="disable_interaction" name="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard" name_id="jam_prop_cupboard_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" position="17 82 0" rotation="0 0 -0.707107 -0.707107" unit_id="100003"/>
-		</table>
-		<table>
 			<unit_data continent="world" disable_on_ai_graph="true" name="units/payday2/props/com_prop_drycleaner_clothes/com_prop_drycleaner_clothes" name_id="com_prop_drycleaner_clothes_001" position="-29 43 26" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" name_id="dev_nav_blocker_1x3m_001" position="-7 -4 0" rotation="-0 0 -0 -1" unit_id="100000"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" name_id="dev_nav_blocker_1x3m_002" position="-184 -7 0" rotation="-0 0 -0 -1" unit_id="100002"/>
 		</table>
 	</statics>
 	<values>

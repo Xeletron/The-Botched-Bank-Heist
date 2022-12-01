@@ -445,12 +445,6 @@
 		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
 		<unit path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector" type="unit">
-		<material_config path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
-		<object path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
-		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
-		<unit path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_store_alarm/com_prop_store_alarm" type="unit">
 		<material_config path="units/payday2/props/com_prop_store_alarm/com_prop_store_alarm_off"/>
 		<object path="units/payday2/props/com_prop_store_alarm/com_prop_store_alarm"/>
@@ -1035,13 +1029,6 @@
 		<object path="units/payday2/architecture/hcm/hcm_int_wall_6m_server"/>
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_6m_server"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
-		<object path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
-		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
-		<unit path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam" type="unit">
 		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
 		<effect load="true" path="effects/particles/equipment/apartment_saw/saw_active"/>
@@ -1053,208 +1040,16 @@
 		<sequence_manager path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
 		<unit path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
-		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
-		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
-		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_a" type="unit">
-		<material_config path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter"/>
-		<object path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_a"/>
-		<sequence_manager path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_a"/>
-		<unit path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_a"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_b" type="unit">
-		<material_config path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter"/>
-		<object path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_b"/>
-		<sequence_manager path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_b"/>
-		<unit path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_b"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters" type="unit">
-		<material_config path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
-		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
-		<unit path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_branch_security_shutter/sah_prop_branch_security_shutter" type="unit">
-		<material_config path="units/pd2_dlc_sah/props/sah_prop_branch_security_shutter/sah_prop_branch_security_shutter"/>
-		<object path="units/pd2_dlc_sah/props/sah_prop_branch_security_shutter/sah_prop_branch_security_shutter"/>
-		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_branch_security_shutter/sah_prop_branch_security_shutter"/>
-		<unit path="units/pd2_dlc_sah/props/sah_prop_branch_security_shutter/sah_prop_branch_security_shutter"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_warehouse_shutter/sand_interactable_warehouse_shutters" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_sand/props/sand_interactable_warehouse_shutter/sand_interactable_warehouse_shutters"/>
-		<object path="units/pd2_dlc_sand/props/sand_interactable_warehouse_shutter/sand_interactable_warehouse_shutters"/>
-		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_warehouse_shutter/sand_interactable_warehouse_shutters"/>
-		<unit path="units/pd2_dlc_sand/props/sand_interactable_warehouse_shutter/sand_interactable_warehouse_shutters"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter"/>
-		<object path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter"/>
-		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter"/>
-		<unit path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter" type="unit">
-		<effect load="true" path="effects/payday2/environment/parts/flashing_light_60s"/>
-		<effect load="true" path="effects/payday2/environment/small_thermal_burner_60s"/>
-		<effect load="true" path="effects/payday2/environment/parts/small_thermal_spark_60s"/>
-		<effect load="true" path="effects/payday2/environment/parts/small_thermal_fire_60s"/>
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
-		<object path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
-		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
-		<unit path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_1/pta_city_store3/pta_city_shop3_shutters" type="unit">
-		<material_config path="units/pd2_dlc_peta/architecture/pta_1/pta_city_store3/pta_city_store03"/>
-		<object path="units/pd2_dlc_peta/architecture/pta_1/pta_city_store3/pta_city_shop3_shutters"/>
-		<unit path="units/pd2_dlc_peta/architecture/pta_1/pta_city_store3/pta_city_shop3_shutters"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" type="unit">
-		<material_config path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02"/>
-		<object path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02"/>
-		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02"/>
-		<unit path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_shutter_01/brb_prop_shutter_01" type="unit">
-		<material_config path="units/pd2_dlc_brb/props/brb_prop_shutter_01/brb_prop_shutter_01"/>
-		<object path="units/pd2_dlc_brb/props/brb_prop_shutter_01/brb_prop_shutter_01"/>
-		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_shutter_01/brb_prop_shutter_01"/>
-		<unit path="units/pd2_dlc_brb/props/brb_prop_shutter_01/brb_prop_shutter_01"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_half_open" type="unit">
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_half_open"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_half_open"/>
-		<sequence_manager path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_room_01_a"/>
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_middle"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_middle"/>
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_edge"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_edge"/>
-		<sequence_manager path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_spawn_motel_railing"/>
-		<effect load="true" path="effects/particles/dest/door_wood_crowbar"/>
-		<material_config path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_room_01"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_open" type="unit">
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_open"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_shutters_open"/>
-		<sequence_manager path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_room_01"/>
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_middle"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_middle"/>
-		<unit path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_edge"/>
-		<object path="units/pd2_dlc1/architecture/res_int_motel/shutter_debris_edge"/>
-		<sequence_manager path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_spawn_motel_railing"/>
-		<effect load="true" path="effects/particles/dest/door_wood_crowbar"/>
-		<material_config path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_room_01"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door_v2" type="unit">
-		<material_config path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door_v2"/>
-		<object path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door_v2"/>
-		<unit path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door_v2"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door" type="unit">
-		<material_config path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door"/>
-		<object path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door"/>
-		<unit path="units/pd2_dlc_spa/architecture/ext/spa_ext_shutter_door/spa_ext_shutter_door"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_small" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate"/>
-		<object path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_small"/>
-		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_small"/>
-		<unit path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_small"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_big" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate"/>
-		<object path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_big"/>
-		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_big"/>
-		<unit path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_1_big"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_2_big" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate"/>
-		<object path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_2_big"/>
-		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_2_big"/>
-		<unit path="units/pd2_dlc_sand/props/sand_interactable_gates/sand_interactable_shutter_gate_2_big"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_b" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_b"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_b"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<effect load="true" path="effects/payday2/particles/window/jewelry_counter_1"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
-		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" type="unit">
 		<material_config path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor"/>
 		<object path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01"/>
 		<sequence_manager path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01"/>
 		<unit path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_nmh/architecture/nmh_hospital_securitydoor_01/nmh_hospital_securitydoor_01" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_nmh/architecture/nmh_hospital_securitydoor_01/nmh_hospital_securitydoor_01"/>
-		<object path="units/pd2_dlc_nmh/architecture/nmh_hospital_securitydoor_01/nmh_hospital_securitydoor_01"/>
-		<sequence_manager path="units/pd2_dlc_nmh/architecture/nmh_hospital_securitydoor_01/nmh_hospital_securitydoor_01"/>
-		<unit path="units/pd2_dlc_nmh/architecture/nmh_hospital_securitydoor_01/nmh_hospital_securitydoor_01"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_securitydoor_v2/are_prop_securitydoor_frame" type="unit">
 		<material_config path="units/pd2_dlc_arena/props/are_prop_securitydoor_v2/are_prop_securitydoor_v2"/>
 		<object path="units/pd2_dlc_arena/props/are_prop_securitydoor_v2/are_prop_securitydoor_frame"/>
 		<unit path="units/pd2_dlc_arena/props/are_prop_securitydoor_v2/are_prop_securitydoor_frame"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m"/>
-		<object path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m"/>
-		<sequence_manager path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m"/>
-		<unit path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_small" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_2m"/>
-		<object path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_small"/>
-		<sequence_manager path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_small"/>
-		<unit path="units/pd2_dlc_moon/props/moo_prop_securitydoor/moo_prop_securitydoor_small"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop" type="unit">
-		<material_config path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop"/>
-		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop"/>
-		<unit path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop_closed" type="unit">
-		<material_config path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop_closed"/>
-		<unit path="units/pd2_dlc_peta/props/pta_prop_securitydoor_coffee_shop/pta_prop_securitydoor_coffee_shop_closed"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store2/pta_prop_securitydoor_store2_01" type="unit">
-		<material_config path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store2/pta_prop_securitydoor_store2_01"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store2/pta_prop_securitydoor_store2_01"/>
-		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store2/pta_prop_securitydoor_store2_01"/>
-		<unit path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store2/pta_prop_securitydoor_store2_01"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store3/pta_store3_prop_securitydoor_01" type="unit">
-		<material_config path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store3/pta_store3_prop_securitydoor_01"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store3/pta_store3_prop_securitydoor_01"/>
-		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store3/pta_store3_prop_securitydoor_01"/>
-		<unit path="units/pd2_dlc_peta/props/pta_prop_securitydoor_store3/pta_store3_prop_securitydoor_01"/>
 	</add>
 	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" type="unit">
 		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced"/>
@@ -1277,29 +1072,77 @@
 		<bnk path="soundbanks/regular_sfx"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
-		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
-	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline" type="unit">
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
-		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
-	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3"/>
-		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3"/>
-		<material_config path="core/material_configs/hub_elements"/>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_explosion" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_explosion_debris"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_explosion_debris"/>
+		<effect load="true" path="effects/payday2/particles/explosions/trail_explosion"/>
+		<effect load="true" path="effects/payday2/particles/explosions/fire/fastburn_debri"/>
+		<effect load="true" path="effects/payday2/particles/explosions/fire/smoke_afterburn"/>
+		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
 </table>
