@@ -53,9 +53,6 @@
 			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_004" position="1424 677 0" rotation="0 0 -0.707107 -0.707107" unit_id="200007"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_005" position="1737 -130 0" rotation="0 0 0.707107 -0.707107" unit_id="200008"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" position="407 -101 0" rotation="0 0 0 -1" unit_id="200010"/>
 		</table>
 		<table>
@@ -158,7 +155,7 @@
 			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_002" position="2330 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="200009"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="925 2575 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200018">
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="625 2575 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200018">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="SECURITY GATE SAWING" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -461,7 +458,7 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_031" position="232 -650 -25" rotation="0 0 0 -1" unit_id="200137"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_006" position="725 1475 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200138">
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_006" position="1225 375 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200138">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 3 - ESCORT" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -471,6 +468,9 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_006" position="800 -100 1965" rotation="0 0 0 -1" unit_id="200139"/>
 		</table>
 	</statics>
 	<values>

@@ -1117,4 +1117,76 @@
 		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
 		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_b" type="unit">
+		<material_config path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling"/>
+		<object path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_b"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling"/>
+		<unit path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road"/>
+		<object path="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole"/>
+		<sequence_manager path="units/payday2/architecture/str/str_ext_road"/>
+		<unit path="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" type="unit">
+		<material_config path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<animation path="anims/car/car_hox_intro_skidding"/>
+		<animation path="anims/car/car_gen_whizz_by_160m"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<animation_def path="anims/units/car/car"/>
+		<animation_state_machine path="anims/units/car/car"/>
+		<animation_states path="anims/units/car/std"/>
+		<animation_subset path="anims/units/car/std"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<unit path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player" type="unit">
+		<unit path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<object path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<material_config path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<animation_def path="anims/units/van/van"/>
+		<animation_subset path="anims/units/van/std"/>
+		<animation path="anims/car/van_bigbank_leave"/>
+		<animation path="anims/car/van_straight_100m_puncture"/>
+		<animation path="anims/car/van_mus_leave"/>
+		<animation path="anims/car/van_rat_arrive_1"/>
+		<animation path="anims/car/van_rat_arrive_2"/>
+		<animation path="anims/car/van_rat_leave_1"/>
+		<animation path="anims/car/van_rat_leave_2"/>
+		<animation path="anims/car/van_hox_leave_1"/>
+		<animation path="anims/car/van_arrive_hot_100m_1"/>
+		<animation path="anims/car/van_red_arrive_1"/>
+		<animation path="anims/car/van_drk_arrive_1"/>
+		<animation path="anims/car/van_shouse_arrive_01"/>
+		<animation path="anims/car/van_shouse_arrive_02"/>
+		<animation path="anims/car/van_sfm_arrive_01"/>
+		<animation path="anims/car/van_sfm_arrive_02"/>
+		<animation path="anims/car/van_spa_arrive_01"/>
+		<animation path="anims/car/van_player_spa_crash_01"/>
+		<animation path="anims/car/van_player_rvd_arrive_1"/>
+		<animation path="anims/car/van_player_rvd_arrive_2"/>
+		<animation path="anims/car/van_player_rvd_arrive_3"/>
+		<animation path="anims/car/van_player_brb_intro_1"/>
+		<animation path="anims/car/van_player_brb_intro_2"/>
+		<animation path="anims/car/van_player_brb_intro_3"/>
+		<animation path="anims/car/van_player_brb_intro_4"/>
+		<animation path="anims/car/van_player_mex_exit"/>
+		<animation path="anims/car/van_player_bex_arrive_1"/>
+		<animation path="anims/car/van_player_bex_arrive_2"/>
+		<animation path="anims/car/van_player_fex_exit"/>
+		<animation path="anims/car/van_player_fex_arrive"/>
+		<animation path="anims/car/chas_anim_van_arrive_rightside"/>
+		<animation path="anims/car/chas_anim_van_stealth_main_road"/>
+		<animation path="anims/car/chas_anim_van_stealth_center_road"/>
+		<animation path="anims/car/van_player_sand_arrive_01"/>
+		<animation_state_machine path="anims/units/van/van"/>
+		<animation_states path="anims/units/van/std"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
 </table>

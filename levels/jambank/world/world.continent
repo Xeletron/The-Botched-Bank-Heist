@@ -1166,9 +1166,6 @@
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m" name_id="jam_ext_sidewalk_4x4m_028" position="2600 2400 0" rotation="0 0 0.707107 -0.707107" unit_id="100629"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m" name_id="jam_ext_sidewalk_4x4m_029" position="3000 2400 0" rotation="0 0 0.707107 -0.707107" unit_id="100630"/>
-		</table>
-		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m" name_id="jam_ext_sidewalk_4x4m_030" position="3400 2400 0" rotation="0 0 0.707107 -0.707107" unit_id="100631"/>
 		</table>
 		<table>
@@ -2585,7 +2582,7 @@
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_1m" name_id="jam_int_floor_1m_016" position="1175 671 0.35" rotation="-0 0 -0 -1" unit_id="100998"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_001" position="1737 -130 0" rotation="0 0 0.707107 -0.707107" unit_id="100999"/>
+			<unit_data continent="world" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_001" position="1737 -130 0" rotation="0 0 0.707107 -0.707107" unit_id="100999"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_002" position="1424 677 0" rotation="0 0 -0.707107 -0.707107" unit_id="100899"/>
@@ -3410,15 +3407,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m" name_id="jam_int_office_ceiling_4m_024" position="467 -207 800" rotation="0 0 0 -1" unit_id="101182"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m" name_id="jam_int_office_ceiling_4m_017" position="1199 -627 800" rotation="0 0 0 -1" unit_id="101183"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m" name_id="jam_int_office_ceiling_4m_025" position="799 -627 800" rotation="0 0 0 -1" unit_id="101184"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_office_ceiling_4m" name_id="jam_int_office_ceiling_4m_026" position="399 -627 800" rotation="0 0 0 -1" unit_id="101185"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_trim_2x1m_b" name_id="hcm_int_trim_2x1m_b_005" position="1395 -625 700" rotation="0 0 -0.707107 -0.707107" unit_id="101186"/>
@@ -5491,7 +5479,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_trim_4x1m_b" name_id="hcm_int_trim_4x1m_b_039" position="2059 1942 700" rotation="0 0 -0.707107 -0.707107" unit_id="101760"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_001" position="2330 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="101575"/>
+			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="activate_door" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_001" position="2330 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="101575"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_arena/props/are_prop_securitydoor_v2/are_prop_securitydoor_frame" name_id="are_prop_securitydoor_frame_003" position="1707 1190 688" rotation="0.5 -0.5 0.5 -0.5" unit_id="100916"/>
@@ -5655,6 +5643,72 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_007" position="1775 575 50.1" rotation="0 0 1 4.37114e-008" unit_id="101839"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a" name_id="hcm_int_ceiling_4x4m_a_004" position="999 -627 800" rotation="0 0 0.707107 -0.707107" unit_id="101840"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a" name_id="hcm_int_ceiling_4x4m_a_005" position="399 -627 800" rotation="0 0 0.707107 -0.707107" unit_id="101184"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_076" position="999 -627 800" rotation="0 0 1 4.37114e-008" unit_id="101183"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="state_bagblock_on" name="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling" name_id="com_prop_vent_ceiling_001" position="950 -800 800" rotation="0 0 0.707107 -0.707107" unit_id="101185"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_077" position="899 -627 800" rotation="0 0 1 4.37114e-008" unit_id="101841"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_078" position="899 -727 800" rotation="0 0 1 4.37114e-008" unit_id="101842"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_079" position="899 -827 800" rotation="0 0 1 4.37114e-008" unit_id="101843"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_080" position="899 -927 800" rotation="0 0 1 4.37114e-008" unit_id="101844"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_081" position="999 -852 800" rotation="0 0 1 4.37114e-008" unit_id="101845"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a" name_id="hcm_int_ceiling_1x1m_a_082" position="999 -952 800" rotation="0 0 1 4.37114e-008" unit_id="101846"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="" name="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole" name_id="str_ext_sidewalk_2x2m_a_manhole_001" position="2800 2400 0" rotation="0 0 1 -4.37114e-008" unit_id="101847"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_029" position="3000 2400 0" rotation="0 0 -0.707107 0.707107" unit_id="100630"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_030" position="3000 2200 0" rotation="0 0 0.707107 -0.707107" unit_id="101848"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_031" position="2800 2200 0" rotation="0 0 0.707107 -0.707107" unit_id="101849"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="state_vis_show" name="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" name_id="anim_vehicle_car_police_001" position="-224.614 20193.1 -20.3594" rotation="0 0 0.00274564 -0.999996" unit_id="101850">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.113725 0.513726 1" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="state_vis_show" name="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" name_id="anim_vehicle_car_police_003" position="-3298 -2415.61 -620" rotation="0 0 0.709046 -0.705162" unit_id="101852">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.113725 0.513726 1" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="exit" name="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player" name_id="anim_vehicle_van_player_001" position="-3200 -3150 -641" rotation="-0 0 -0 -1" unit_id="101851">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.580392" enabled="true" falloff_exponent="4" far_range="150" multiplier="identity" name="lo_omni_1" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="identity" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
