@@ -5519,7 +5519,7 @@
 			<unit_data continent="world" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_006" position="1850 1200 0" rotation="0 0 -0.707107 -0.707107" unit_id="101761"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="state_closed" name="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop" name_id="ranc_pku_laptop_001" position="670 -887 475" rotation="0 0 0.580703 -0.814116" unit_id="101764"/>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop" name_id="ranc_pku_laptop_001" position="670 -887 475" rotation="0 0 0.580703 -0.814116" unit_id="101764"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_028" position="3400 4200 -4.76837e-005" rotation="0 0 0 -1" unit_id="101765"/>
@@ -5631,6 +5631,30 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_pillar_05m_a_green" name_id="hcm_int_pillar_05m_a_green_011" position="1145 -1125 400" rotation="0 0 0.707107 -0.707107" unit_id="101754"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" position="2225 1925 3.72529e-007" rotation="0 0 0 -1" unit_id="101757"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_001" position="1775 475 50.1" rotation="0 0 1 4.37114e-008" unit_id="101831"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_002" position="1775 375 50.1" rotation="0 0 1 4.37114e-008" unit_id="101834"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_003" position="1775 275 50.1" rotation="0 0 1 4.37114e-008" unit_id="101835"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_004" position="1775 175 50.1" rotation="0 0 1 4.37114e-008" unit_id="101836"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_005" position="1775 75 50.1" rotation="0 0 1 4.37114e-008" unit_id="101837"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_006" position="1775 -25 50.1" rotation="0 0 1 4.37114e-008" unit_id="101838"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_007" position="1775 575 50.1" rotation="0 0 1 4.37114e-008" unit_id="101839"/>
 		</table>
 	</statics>
 	<values>

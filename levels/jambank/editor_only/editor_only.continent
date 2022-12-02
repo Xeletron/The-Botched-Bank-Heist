@@ -3,7 +3,7 @@
 	<statics>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="1225 1475 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200000">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ - CUPBOARD" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 2 - CUPBOARD" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -65,7 +65,7 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_001" position="1200 675 0" rotation="-0 0 -0 -1" unit_id="200015"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_002" position="1243 -519 402.837" rotation="0 0 -0.707107 -0.707107" unit_id="200016"/>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_002" position="1043 -519 402.837" rotation="0 0 -0.707107 -0.707107" unit_id="200016"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_006" position="1103 817 400" rotation="0 0 0 -1" unit_id="200017"/>
@@ -144,7 +144,7 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="1225 2575 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200013">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ - FIND VAULT" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 1 - FIND VAULT" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -459,6 +459,18 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_031" position="232 -650 -25" rotation="0 0 0 -1" unit_id="200137"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_006" position="725 1475 1967.5" rotation="0 0 0.707107 -0.707107" unit_id="200138">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 3 - ESCORT" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

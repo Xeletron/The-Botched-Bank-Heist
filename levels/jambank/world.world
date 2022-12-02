@@ -54,7 +54,7 @@
 				<entry key="continent" type="string" value="world"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_004"/>
-				<entry key="position" type="vector3" value="1000 -700 400"/>
+				<entry key="position" type="vector3" value="1025 -825 400"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="4"/>
 			</entry>

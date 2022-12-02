@@ -1077,14 +1077,6 @@
 		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<gui path="guis/timer_gui"/>
-		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop" type="unit">
 		<bnk path="soundbanks/regular_sfx"/>
 		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
@@ -1092,26 +1084,10 @@
 		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
 		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline" type="unit">
-		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
-		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
-		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
-	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
-	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
-		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
-	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
-		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>
@@ -1133,16 +1109,12 @@
 		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_explosion" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
-		<material_config path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
-		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_explosion"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_explosion_debris"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_explosion_debris"/>
-		<effect load="true" path="effects/payday2/particles/explosions/trail_explosion"/>
-		<effect load="true" path="effects/payday2/particles/explosions/fire/fastburn_debri"/>
-		<effect load="true" path="effects/payday2/particles/explosions/fire/smoke_afterburn"/>
-		<physic_effect path="physic_effects/push_sphere"/>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
 	</add>
 </table>

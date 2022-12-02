@@ -87,7 +87,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
+							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100012"/>
 						</entry>
 					</entry>
