@@ -1,5 +1,6 @@
 <table>
 	<editor_groups/>
+	<instances/>
 	<statics>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="1225 1475 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200000">
@@ -549,6 +550,9 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" position="1192 -400 0" rotation="0 0 1 -4.37114e-008" unit_id="200152"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_010" position="775 -408 0" rotation="0 0 -0.707107 -0.707107" unit_id="200153"/>
 		</table>
 	</statics>
 	<values>

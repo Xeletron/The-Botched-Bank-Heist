@@ -32,6 +32,7 @@
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_004" position="1275 1087 400" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_005" position="2430 872 400" rotation="0 0 0.707107 0.707107" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_006" position="1915 390 400" rotation="0 0 -1 0" script="default" start_index="1250"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_wire_box/world" index_size="250" mission_placed="true" name="jambank_wire_box_001" position="375 -1920 3368" rotation="0 0 0 -1" script="default" start_index="1500"/>
 	</instances>
 	<statics>
 		<table>
@@ -2247,12 +2248,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m" name_id="jam_int_wall_4m_004" position="2100 1175 0" rotation="0 0 -0.707107 -0.707107" unit_id="100853"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="enable_interaction" name="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red" name_id="securitycable_interaction_red_001" position="1546 -164 152" rotation="0 0 0.707107 -0.707107" unit_id="100926"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="enable_interaction" name="units/world/architecture/hospital/props/securitycables/securitycable_interaction_green" name_id="securitycable_interaction_green_001" position="1553 -164 152" rotation="-0 0 -0 -1" unit_id="100927"/>
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="" name="units/payday2/architecture/bnk/bnk_int_window_entrance_01" name_id="bnk_int_window_entrance_01_001" position="420 -173 212" rotation="-0 0 -0 -1" unit_id="100928"/>
@@ -5657,7 +5652,7 @@
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_031" position="2800 2200 0" rotation="0 0 0.707107 -0.707107" unit_id="101849"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="state_police_officers_on" name="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" name_id="anim_vehicle_car_police_001" position="-224 20193 -19" rotation="0 0 0 0" unit_id="101850">
+			<unit_data continent="world" mesh_variation="state_police_officers_on" name="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" name_id="anim_vehicle_car_police_001" position="-254 20193 -19" rotation="0 0 0 -1" unit_id="101850">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.109804 0.513726 1" enabled="true" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="true" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
@@ -5696,7 +5691,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" name_id="ind_ext_harbour_side_16m_055" position="-4175 -14675 -600" rotation="0 0 0 -1" unit_id="101857"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan" name_id="dev_door_blocker_vehicle_sedan_001" position="-512.73 283.299 -20.9841" rotation="-0.000576979 -4.14424e-005 0.4973 -0.867579" unit_id="101858"/>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan" name_id="dev_door_blocker_vehicle_sedan_001" position="-542.73 283.299 -20.9841" rotation="-0.000576979 -4.14424e-005 0.4973 -0.867579" unit_id="101858"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a" name_id="hwy_ext_road_underpass_wall_tile_8x6m_a_009" position="-2625 3025 -600" rotation="0 0 0 -1" unit_id="101859"/>
@@ -5925,7 +5920,7 @@
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables" name_id="jam_prop_magnetic_cables_001" position="2390 -1 -14" rotation="-0 0 -0 -1" unit_id="101899"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="mat_blue_yellow" name="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables" name_id="jam_prop_magnetic_cables_002" position="2390 -66 -14" rotation="-0 0 -0 -1" unit_id="101900"/>
+			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables" name_id="jam_prop_magnetic_cables_002" position="2390 -66 -14" rotation="-0 0 -0 -1" unit_id="101900"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_code_001" position="2397 -2 135" rotation="-0.5 0.5 0.5 -0.5" unit_id="101901">
@@ -6014,6 +6009,18 @@
 		<table>
 			<unit_data continent="world" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_code_008" position="2397 -11 135" rotation="-0.5 0.5 0.5 -0.5" unit_id="101907">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 0" font_size="0.25" render_template="Text" text="5" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_code_lockdown" position="2397 92.5 135" rotation="-0.5 0.5 0.5 -0.5" unit_id="100926">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 0 0" font_size="0.15" render_template="Text" text="Lockdown Engaged" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>

@@ -1,0 +1,21 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data continent="world" mesh_variation="mat_red" name="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red" name_id="securitycable_interaction_red_001" position="-4.79993 -17.6001 150.4" rotation="0.658831 -0.220215 0.239917 -0.67815" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="mat_green" name="units/world/architecture/hospital/props/securitycables/securitycable_interaction_green" name_id="securitycable_interaction_green_001" position="-4.69995 -16.2001 147.2" rotation="0.672498 -0.218508 0.218508 -0.672499" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="mat_blue" name="units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue" name_id="securitycable_interaction_blue_001" position="-4.40002 -16.2 143.8" rotation="0.754177 -0.315938 -0.136442 -0.559271" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box" name_id="bex_prop_cable_box_001" position="0 -17 135" rotation="0 0 0 -1" unit_id="100005"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

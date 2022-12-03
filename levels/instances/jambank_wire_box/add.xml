@@ -1,0 +1,30 @@
+<table directory="assets">
+	<add from_db="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/world/architecture/hospital/props/securitycables/securitycables"/>
+		<object path="units/world/architecture/hospital/props/securitycables/securitycable_interaction3"/>
+		<sequence_manager path="units/world/architecture/hospital/props/securitycables/securitycable_interaction"/>
+		<unit path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cable_box/bex_prop_cable_box"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red" type="unit">
+		<unit path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red"/>
+		<object path="units/world/architecture/hospital/props/securitycables/securitycable_interaction1"/>
+		<material_config path="units/world/architecture/hospital/props/securitycables/securitycables"/>
+		<sequence_manager path="units/world/architecture/hospital/props/securitycables/securitycable_interaction"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_green" type="unit">
+		<unit path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_green"/>
+		<object path="units/world/architecture/hospital/props/securitycables/securitycable_interaction2"/>
+		<material_config path="units/world/architecture/hospital/props/securitycables/securitycables"/>
+		<sequence_manager path="units/world/architecture/hospital/props/securitycables/securitycable_interaction"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+</table>
