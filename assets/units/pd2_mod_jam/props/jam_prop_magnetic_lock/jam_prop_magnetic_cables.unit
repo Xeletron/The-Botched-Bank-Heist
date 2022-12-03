@@ -1,0 +1,8 @@
+<unit type="jam" slot="1">
+	<object file="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

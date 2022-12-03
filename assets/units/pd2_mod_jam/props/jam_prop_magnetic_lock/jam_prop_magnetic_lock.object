@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_lock" orientation_object="rp_jam_prop_magnetic_lock" />
+	<sequence_manager file="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_lock" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jam_prop_magnetic_lock" />
+			<object name="c_box_1" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<object name="g_light_open" enabled="false" />
+		<object name="g_light_armed" enabled="false" />
+		<object name="g_light_broken" enabled="false" />
+		<object name="g_engaged_left" enabled="false" />
+		<object name="g_engaged_right" enabled="false" />
+		<graphic_group name="grp_contour" enabled="false" culling_object="g_outline_lod_0">
+			<lod_object name="lod_contour">
+				<object name="g_outline_lod_0" enabled="true"  max_distance="300"  max_draw_lod="0" />
+				<object name="g_outline_lod_1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

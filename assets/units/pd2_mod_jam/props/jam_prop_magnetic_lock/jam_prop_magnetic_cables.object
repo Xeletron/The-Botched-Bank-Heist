@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_red_blue" orientation_object="rp_jam_prop_magnetic_cables" />
+	<sequence_manager file="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="rp_jam_prop_magnetic_cables" />
+			<object name="c_box_editor" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_cable_1" enabled="true" />
+		<object name="g_cable_2" enabled="true" />
+	</graphics>
+</dynamic_object>

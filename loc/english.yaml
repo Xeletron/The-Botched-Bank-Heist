@@ -1,3 +1,15 @@
-#-CARRY
+# - CARRY
 hud_jam_pku_coins: "Hold $BTN_INTERACT to take the coins"
 hud_carry_jam_coins: "Ancient Coins"
+
+# - OBJECTIVES
+hud_heist_jambank1_hl: "Investigate the bank security"
+hud_heist_jambank1: ""
+hud_heist_jambank2_hl: "Find the manager"
+hud_heist_jambank1: ""
+hud_heist_jambank3_hl: "Escort the manager to the timelock"
+hud_heist_jambank3: ""
+hud_heist_jambank4_hl: "Get the correct code and start the timelock"
+hud_heist_jambank4: ""
+hud_heist_jambank5_hl: "Cut the wires in the correct order"
+hud_heist_jambank5: ""

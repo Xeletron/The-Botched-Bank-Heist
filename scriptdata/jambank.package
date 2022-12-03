@@ -77,5 +77,13 @@
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest_spawn"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard"/>
+
+		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_lock"/>
+		<unit_obj_seq path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables"/>
+		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_red_blue"/>
+		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_blue_yellow"/>
+		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_red_yellow"/>
+		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_yellow_red"/>
+		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_blue_red"/>
 	</add>
 </table>

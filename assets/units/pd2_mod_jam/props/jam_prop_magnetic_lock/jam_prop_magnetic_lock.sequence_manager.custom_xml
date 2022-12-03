@@ -1,0 +1,55 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'enable_outline'" triggable="true">
+			<graphic_group name="'grp_contour'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_outline'" triggable="true">
+			<graphic_group name="'grp_contour'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_armed'" triggable="true">
+			<run_sequence name="'state_turn_off_lights'"/>
+			<object enabled="true" name="'g_light_armed'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_open'" triggable="true">
+			<run_sequence name="'state_turn_off_lights'"/>
+			<object enabled="true" name="'g_light_open'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_engaged_left'" triggable="true">
+			<object enabled="true" name="'g_engaged_left'"/>
+			<object enabled="false" name="'g_engaged_right'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_engaged_right'" triggable="true">
+			<object enabled="false" name="'g_engaged_left'"/>
+			<object enabled="true" name="'g_engaged_right'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_disengaged'" triggable="true">
+			<object enabled="false" name="'g_engaged_left'"/>
+			<object enabled="false" name="'g_engaged_right'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_broken'" triggable="true">
+			<run_sequence name="'state_turn_off_lights'"/>
+			<run_sequence name="'disable_interaction'"/>
+			<object enabled="true" name="'g_light_broken'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_turn_off_lights'" triggable="true">
+			<object enabled="false" name="'g_light_armed'"/>
+			<object enabled="false" name="'g_light_open'"/>
+			<object enabled="false" name="'g_light_broken'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'interaction_swipe'" triggable="true">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'jam_door_lock_keycard'"/>
+		</sequence>
+		<sequence editable_state="true" name="'interaction_timelock'" triggable="true">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'timelock_numpad'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<sound action="'play'" event="'sah_door_lock_swipe_card'" object="'g_light_armed'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="cable_1">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_blue_df"/>
+    </material>
+    
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="cable_2">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_green_df"/>
+    </material>
+</materials>
