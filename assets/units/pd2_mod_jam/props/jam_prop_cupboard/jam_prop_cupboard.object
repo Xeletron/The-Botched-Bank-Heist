@@ -37,7 +37,7 @@
 		<object name="g_cupboard" enabled="true" />
 		<graphic_group name="lockpick_icons" enabled="true">
 			<lod_object name="lod_g_icon_lock">
-				<object name="g_icon_lock_lod0" enabled="true" max_distance="500" />
+				<object name="g_icon_lock_lod0" enabled="true" max_distance="800" />
 				<object name="g_icon_lock_lod1" enabled="true" />
 			</lod_object>
 		</graphic_group>

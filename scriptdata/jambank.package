@@ -6,6 +6,12 @@
 		<texture path="units/payday2/cubemaps/cubemap_window_weak_df"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
+		<!--CHARACTERS-->
+		<unit_mat path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager"/>
+		<unit path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager_husk"/>
+		<material_config path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager_contour"/>
+		<sequence_manager from_db="true" path="units/payday2/characters/civ_male_taxman/civ_male_taxman"/>
+
 		<!--ROADS-->
 		<material_config path="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_road"/>
 
