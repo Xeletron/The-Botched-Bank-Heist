@@ -1,0 +1,233 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'state_show_character'" triggable="true">
+			<graphic_group name="'grp_character'" visibility="true"/>
+			<animation_group enabled="true" from="0/30" name="'anim_character'" to="0/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_hide_character'" triggable="true">
+			<graphic_group name="'grp_character'" visibility="false"/>
+			<animation_group enabled="true" from="0/30" name="'anim_character'" to="0/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_character_crash'" triggable="true">
+			<object enabled="false" name="'g_driver'"/>
+			<object enabled="true" name="'g_driver_dead'"/>
+		</sequence>
+		<sequence editable_state="true" name="' enable_interaction '" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_outline'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="' disable_interaction '" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_outline'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'anim_trunk'"/>
+			<graphic_group name="'grp_outline'" visibility="false"/>
+		</sequence>
+		<sequence name="'shattered_glass_front'">
+			<graphic_group name="'glass_front'" visibility="false"/>
+			<graphic_group name="'glass_shattered_front'" visibility="true"/>
+		</sequence>
+		<sequence name="'shattered_glass_back'">
+			<graphic_group name="'glass_rear'" visibility="false"/>
+			<graphic_group name="'glass_shattered_back'" visibility="true"/>
+		</sequence>
+		<sequence name="'shattered_glass_door_left'">
+			<object enabled="false" name="'g_glass_door_left'"/>
+			<object enabled="true" name="'g_glass_door_left_shattered'"/>
+		</sequence>
+		<sequence name="'shattered_glass_door_right'">
+			<object enabled="false" name="'g_glass_door_right'"/>
+			<object enabled="true" name="'g_glass_door_right_shattered'"/>
+		</sequence>
+		<sequence name="'shattered_glass_right'">
+			<graphic_group name="'glass_right'" visibility="false"/>
+			<graphic_group name="'glass_shattered_right'" visibility="true"/>
+		</sequence>
+		<sequence name="'shattered_glass_left'">
+			<graphic_group name="'glass_left'" visibility="false"/>
+			<graphic_group name="'glass_shattered_left'" visibility="true"/>
+		</sequence>
+		<sequence name="'kill_glass_right'">
+			<graphic_group name="'glass_right'" visibility="false"/>
+			<graphic_group name="'glass_shattered_right'" visibility="false"/>
+			<body enabled="false" name="'body_glass_right'"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_effect_right_window'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_effect_right_window' )" position="v()"/>
+			<decal_mesh enabled="false" name="'dm_glass_rr'"/>
+		</sequence>
+		<sequence name="'kill_glass_left'">
+			<graphic_group name="'glass_left'" visibility="false"/>
+			<graphic_group name="'glass_shattered_left'" visibility="false"/>
+			<body enabled="false" name="'body_glass_left'"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_effect_left_window'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_effect_left_window' )" position="v()"/>
+			<decal_mesh enabled="false" name="'dm_glass_rl'"/>
+		</sequence>
+		<body name="'body_glass_front'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_front'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_left'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_left'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'kill_glass_left'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_back'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_back'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_door_right'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_door_right'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_door_left'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_door_left'"/>
+			</endurance>
+		</body>
+		<body name="'body_glass_right'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'shattered_glass_right'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'kill_glass_right'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="false" name="'show_intact'" triggable="false">
+			<graphic_group name="'car_exterior_intact'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_crashed_05'" triggable="true">
+			<graphic_group name="'car_exterior_crashed_05'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'hide_intact'" triggable="false">
+			<graphic_group name="'car_exterior_intact'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_crashed'" triggable="false">
+			<graphic_group name="'car_exterior_crashed_05'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'crash_05'" triggable="true">
+			<graphic_group name="'car_exterior_intact'" visibility="false"/>
+			<graphic_group name="'car_exterior_crashed_05'" visibility="true"/>
+			<run_sequence name="'shattered_glass_front'"/>
+			<run_sequence name="'anim_character_crash'"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_effect_engine'"/>
+			<effect name="'effects/particles/environment/steam_01'" parent="object( 'e_effect_engine' )" position="v()"/>
+		</sequence>
+		<sequence editable_state="false" name="'restore_crash'" triggable="true">
+			<graphic_group name="'car_exterior_intact'" visibility="true"/>
+			<graphic_group name="'car_exterior_crashed_05'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_trunk'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_trunk'" to="20/30"/>
+			<sound action="'play'" event="'car_door_old_open'" source="'trunk'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_crash_05'" triggable="true">
+			<animation_redirect name="'car_rvd_crash_05'"/>
+			<sound action="'play'" event="'car_cadillac_rvd_crash_05'" source="'snd'"/>
+			<run_sequence name="'crash_05'" start_time="179/30"/>
+			<run_sequence name="'done_anim_crash_05'" start_time="201/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_leave'" triggable="true">
+			<animation_redirect name="'car_jam_leave'"/>
+			<sound action="'play'" event="'car_cadillac_rvd_crash_04'" source="'snd'"/>
+		</sequence>
+		<sequence editable_state="false" name="'done_anim_crash_05'" triggable="false"/>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<run_sequence name="'hide_intact'"/>
+			<run_sequence name="'hide_crashed'"/>
+			<graphic_group name="'car'" visibility="false"/>
+			<graphic_group name="'car_exterior_intact'" visibility="false"/>
+			<body enabled="false" name="'body_glass_door_right'"/>
+			<body enabled="false" name="'body_glass_door_left'"/>
+			<object enabled="false" name="'g_glass_door_left'"/>
+			<object enabled="false" name="'g_glass_door_left_shattered'"/>
+			<object enabled="false" name="'g_glass_door_right'"/>
+			<object enabled="false" name="'g_glass_door_right_shattered'"/>
+			<graphic_group name="'glass_shattered_right'" visibility="false"/>
+			<graphic_group name="'glass_shattered_left'" visibility="false"/>
+			<graphic_group name="'glass_shattered_back'" visibility="false"/>
+			<graphic_group name="'glass_shattered_front'" visibility="false"/>
+			<graphic_group name="'glass_rear'" visibility="false"/>
+			<graphic_group name="'glass_right'" visibility="false"/>
+			<graphic_group name="'glass_left'" visibility="false"/>
+			<graphic_group name="'glass_front'" visibility="false"/>
+			<decal_mesh enabled="false" name="'dm_carpet'"/>
+			<decal_mesh enabled="false" name="'dm_cloth_stuffed'"/>
+			<decal_mesh enabled="false" name="'dm_glass_breakable'"/>
+			<decal_mesh enabled="false" name="'dm_glass_rr'"/>
+			<decal_mesh enabled="false" name="'dm_glass_rear'"/>
+			<decal_mesh enabled="false" name="'dm_glass_rl'"/>
+			<decal_mesh enabled="false" name="'dm_glass_small_front_r'"/>
+			<decal_mesh enabled="false" name="'dm_glass_small_front_l'"/>
+			<decal_mesh enabled="false" name="'dm_glass_front'"/>
+			<decal_mesh enabled="false" name="'dm_metal'"/>
+			<decal_mesh enabled="false" name="'dm_rubber'"/>
+			<decal_mesh enabled="false" name="'dm_wood'"/>
+			<body enabled="false" name="'body_glass_front'"/>
+			<body enabled="false" name="'body_glass_left'"/>
+			<body enabled="false" name="'body_glass_back'"/>
+			<body enabled="false" name="'body_glass_right'"/>
+			<body enabled="false" name="'body_collision_01'"/>
+			<body enabled="false" name="'body_tire_fl'"/>
+			<body enabled="false" name="'body_tire_fr'"/>
+			<body enabled="false" name="'body_tire_rl'"/>
+			<body enabled="false" name="'body_tire_rl'"/>
+			<body enabled="false" name="'body_tire_rr'"/>
+			<body enabled="false" name="'body_trunk'"/>
+			<body enabled="false" name="'body_left_door'"/>
+			<body enabled="false" name="'body_right_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<run_sequence name="'show_intact'"/>
+			<run_sequence name="'show_crashed'"/>
+			<graphic_group name="'car'" visibility="true"/>
+			<graphic_group name="'car_exterior_intact'" visibility="true"/>
+			<body enabled="true" name="'body_glass_door_right'"/>
+			<body enabled="true" name="'body_glass_door_left'"/>
+			<object enabled="true" name="'g_glass_door_left'"/>
+			<object enabled="false" name="'g_glass_door_left_shattered'"/>
+			<object enabled="true" name="'g_glass_door_right'"/>
+			<object enabled="false" name="'g_glass_door_right_shattered'"/>
+			<graphic_group name="'glass_shattered_right'" visibility="false"/>
+			<graphic_group name="'glass_shattered_left'" visibility="false"/>
+			<graphic_group name="'glass_shattered_back'" visibility="false"/>
+			<graphic_group name="'glass_shattered_front'" visibility="false"/>
+			<graphic_group name="'glass_rear'" visibility="true"/>
+			<graphic_group name="'glass_right'" visibility="true"/>
+			<graphic_group name="'glass_left'" visibility="true"/>
+			<graphic_group name="'glass_front'" visibility="true"/>
+			<decal_mesh enabled="true" name="'dm_carpet'"/>
+			<decal_mesh enabled="true" name="'dm_cloth_stuffed'"/>
+			<decal_mesh enabled="true" name="'dm_glass_breakable'"/>
+			<decal_mesh enabled="true" name="'dm_glass_rr'"/>
+			<decal_mesh enabled="true" name="'dm_glass_rear'"/>
+			<decal_mesh enabled="true" name="'dm_glass_rl'"/>
+			<decal_mesh enabled="true" name="'dm_glass_small_front_r'"/>
+			<decal_mesh enabled="true" name="'dm_glass_small_front_l'"/>
+			<decal_mesh enabled="true" name="'dm_glass_front'"/>
+			<decal_mesh enabled="true" name="'dm_metal'"/>
+			<decal_mesh enabled="true" name="'dm_rubber'"/>
+			<decal_mesh enabled="true" name="'dm_wood'"/>
+			<body enabled="true" name="'body_glass_front'"/>
+			<body enabled="true" name="'body_glass_left'"/>
+			<body enabled="true" name="'body_glass_back'"/>
+			<body enabled="true" name="'body_glass_right'"/>
+			<body enabled="true" name="'body_collision_01'"/>
+			<body enabled="true" name="'body_tire_fl'"/>
+			<body enabled="true" name="'body_tire_fr'"/>
+			<body enabled="true" name="'body_tire_rl'"/>
+			<body enabled="true" name="'body_tire_rl'"/>
+			<body enabled="true" name="'body_tire_rr'"/>
+			<body enabled="true" name="'body_trunk'"/>
+			<body enabled="true" name="'body_left_door'"/>
+			<body enabled="true" name="'body_right_door'"/>
+		</sequence>
+	</unit>
+</table>

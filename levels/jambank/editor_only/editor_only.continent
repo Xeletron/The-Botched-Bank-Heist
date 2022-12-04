@@ -578,6 +578,9 @@
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_042" position="-2190 3250 5.36442e-005" rotation="0 0 0 -1" unit_id="200161"/>
 		</table>
+		<table>
+			<unit_data continent="editor_only" disable_on_ai_graph="true" mesh_variation="crash_05" name="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac" name_id="jam_vehicle_cadillac_002" position="-698.286 3857.73 -22.6747" rotation="0.0194324 -0.0240249 0.909257 -0.415087" unit_id="200162"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

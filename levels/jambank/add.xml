@@ -1101,18 +1101,6 @@
 		<sequence_manager path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
 		<unit path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
 	</add>
-	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player" type="unit">
-		<material_config path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<animation path="anims/car/van_arrive_hot_100m_1"/>
-		<animation_def path="anims/units/van/van"/>
-		<animation_state_machine path="anims/units/van/van"/>
-		<animation_states path="anims/units/van/std"/>
-		<animation_subset path="anims/units/van/std"/>
-		<object path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<unit path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling" type="unit">
 		<material_config path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling"/>
 		<object path="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling"/>
@@ -1198,12 +1186,6 @@
 		<object path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner"/>
 		<sequence_manager path="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_corner"/>
 		<unit path="units/payday2/props/str_prop_street_lamppost_corner/str_prop_street_lamppost_corner"/>
-	</add>
-	<add from_db="true" path="units/world/street/road_block/street_police_road_block" type="unit">
-		<material_config path="units/world/street/road_block/street_police_road_block"/>
-		<object path="units/world/street/road_block/street_police_road_block"/>
-		<sequence_manager path="units/world/street/road_block/street_police_road_block"/>
-		<unit path="units/world/street/road_block/street_police_road_block"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign" type="unit">
 		<material_config path="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign"/>
@@ -1462,5 +1444,25 @@
 		<object path="units/pd2_dlc_run/props/run_prop_phonebooth_street_01/run_prop_phonebooth_street_01"/>
 		<sequence_manager path="units/pd2_dlc_run/props/run_prop_phonebooth_street_01/run_prop_phonebooth_street_01"/>
 		<unit path="units/pd2_dlc_run/props/run_prop_phonebooth_street_01/run_prop_phonebooth_street_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_street_police_road_block_01/run_prop_street_police_road_block_01" type="unit">
+		<effect load="true" path="effects/particles/dest/wall_dest_rvd"/>
+		<material_config path="units/pd2_dlc_run/props/run_prop_street_police_road_block_01/run_prop_street_police_road_block_01"/>
+		<object path="units/pd2_dlc_run/props/run_prop_street_police_road_block_01/run_prop_street_police_road_block_01"/>
+		<sequence_manager path="units/pd2_dlc_run/props/run_prop_street_police_road_block_01/run_prop_street_police_road_block_01"/>
+		<unit path="units/pd2_dlc_run/props/run_prop_street_police_road_block_01/run_prop_street_police_road_block_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/str_prop_decal_ground_skidmark/str_prop_decal_ground_skidmark_curve_right_45" type="unit">
+		<material_config path="units/pd2_dlc1/props/str_prop_decal_ground_skidmark/str_prop_decal_ground_skidmark"/>
+		<object path="units/pd2_dlc1/props/str_prop_decal_ground_skidmark/str_prop_decal_ground_skidmark_curve_right_45"/>
+		<unit path="units/pd2_dlc1/props/str_prop_decal_ground_skidmark/str_prop_decal_ground_skidmark_curve_right_45"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/scene_birds" type="effect">
+		<effect load="true" path="effects/particles/environment/scene_birds"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3_husk"/>
+		<object path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
 	</add>
 </table>

@@ -1,0 +1,12 @@
+<!-- If the animation finishes inside the viewable area and does not finish outside of the viewable area, 
+	 you must animate the root point. Or else the animation will not sync at drop in. 
+	 For eample the police car arrives and stop in the viewable area, here the root point shoul be animated.
+	 The heicopter arrives and leaves the the viewable area, here all_no_root is allowed. -->
+
+<xml>
+	
+	<anim	name="anim_car_rvd_crash_05"		file="anims/level/rvd/rvd_vehicle_cadillac_crash_05"	blend_set="all"/>
+	<anim	name="anim_car_jam_leave"			file="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/jam_vehicle_cadillac_leave"	blend_set="all"/>
+
+	
+</xml>

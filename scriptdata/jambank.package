@@ -87,4 +87,23 @@
 		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_yellow_red"/>
 		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_yellow_blue"/>
 	</add>
+
+	<!--CRASH SEQUENCE VECHICLE-->
+	<add>
+		<unit path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<object path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<material_config path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<sequence_manager path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<cooked_physics path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<model path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>
+		<texture path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac_exterior_df"/>
+		<animation from_db="true" path="anims/level/rvd/rvd_vehicle_cadillac_crash_05"/>
+		<animation path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/jam_vehicle_cadillac_leave"/>
+		<material_config from_db="true" path="units/payday2/props/dest_glass/glass_shatter"/>
+		<animation_def path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/car"/>
+		<animation_state_machine path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/car"/>
+		<animation_states path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/std"/>
+		<animation_subset path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/anims/std"/>
+		<effect from_db="true" load="true" path="effects/particles/environment/steam_01"/>
+	</add>
 </table>

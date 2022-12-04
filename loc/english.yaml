@@ -3,7 +3,7 @@ hud_jam_pku_coins: "Hold $BTN_INTERACT to take the coins"
 hud_carry_jam_coins: "Ancient Coins"
 
 # - OBJECTIVES
-hud_heist_jambank1_hl: "Investigate the vault's security"
+hud_heist_jambank1_hl: "Investigate the Vault"
 hud_heist_jambank1: ""
 hud_heist_jambank2_hl: "Find the manager"
 hud_heist_jambank1: ""
