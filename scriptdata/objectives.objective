@@ -6,4 +6,7 @@
 	<objective description="hud_heist_jambank5" id="jambank_05" text="hud_heist_jambank5_hl"/>
 	<objective description="hud_heist_jambank6" id="jambank_06" text="hud_heist_jambank6_hl"/>
 	<objective description="hud_heist_jambank7" id="jambank_07" text="hud_heist_jambank7_hl"/>
+	<objective description="hud_heist_jambank8" id="jambank_08" text="hud_heist_jambank8_hl"/>
+	<objective description="hud_heist_jambank9" id="jambank_09" text="hud_heist_jambank9_hl"/>
+	<objective description="hud_heist_jambank10" id="jambank_10" text="hud_heist_jambank10_hl"/>
 </table>
