@@ -1,0 +1,6 @@
+<unit type="jam" slot="1" >
+    <object file="units/pd2_mod_jam/architecture/jam_bdrop/jam_bdrop_port" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_ind_ext_harbour" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_harbour_df" mip="3"/>
+    </material>
+    <material name="mat_hwy_01" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/architecture/hwy/hwy_ext_01_df"/>
+    </material>
+</materials>

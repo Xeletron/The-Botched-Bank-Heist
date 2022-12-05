@@ -7236,7 +7236,7 @@
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="102416"/>
 							<entry key="notify_unit_sequence" type="string" value="start_tug_once"/>
-							<entry key="time" type="number" value="20"/>
+							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="1"/>
