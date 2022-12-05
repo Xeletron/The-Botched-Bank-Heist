@@ -1693,10 +1693,8 @@
 		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg"/>
 		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
-		<animation path="anims/car/van_swat_brb_arrive_01"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
-		<bnk path="soundbanks/weapon_swatturret"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
 		<material_config path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
@@ -1710,10 +1708,12 @@
 		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<animation path="anims/car/van_swat_brb_arrive_01"/>
 		<animation_def path="anims/units/swat_van/swat_van"/>
 		<animation_state_machine path="anims/units/swat_van/swat_van"/>
 		<animation_states path="anims/units/swat_van/std"/>
 		<animation_subset path="anims/units/swat_van/std"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m" type="unit">
@@ -1735,5 +1735,84 @@
 		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
 		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" type="unit">
+		<material_config path="units/payday2/props/gen_prop_container_a/gen_prop_container_a"/>
+		<object path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue"/>
+		<unit path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red" type="unit">
+		<material_config path="units/payday2/props/gen_prop_container_a/gen_prop_container_a"/>
+		<object path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red"/>
+		<unit path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_yellow" type="unit">
+		<material_config path="units/payday2/props/gen_prop_container_a/gen_prop_container_a"/>
+		<object path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_yellow"/>
+		<unit path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_yellow"/>
+	</add>
+	<add from_db="true" path="units/vehicles/truck_regular/man_vehicle_truck_variation_3" type="material_config">
+		<material_config path="units/vehicles/truck_regular/man_vehicle_truck_variation_3"/>
+	</add>
+	<add from_db="true" path="units/vehicles/truck_regular/man_vehicle_truck_variation_2" type="material_config">
+		<material_config path="units/vehicles/truck_regular/man_vehicle_truck_variation_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/bdrop_boat_01/bdrop_boat_01" type="unit">
+		<material_config path="units/payday2/vehicles/bdrop_boat_01/bdrop_boat_01"/>
+		<object path="units/payday2/vehicles/bdrop_boat_01/bdrop_boat_01"/>
+		<unit path="units/payday2/vehicles/bdrop_boat_01/bdrop_boat_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/ind_bdrop_boat_cargoship/ind_bdrop_boat_cargoship" type="unit">
+		<material_config path="units/payday2/vehicles/ind_bdrop_boat_cargoship/ind_bdrop_boat_cargoship"/>
+		<object path="units/payday2/vehicles/ind_bdrop_boat_cargoship/ind_bdrop_boat_cargoship"/>
+		<unit path="units/payday2/vehicles/ind_bdrop_boat_cargoship/ind_bdrop_boat_cargoship"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug" type="unit">
+		<effect load="true" path="effects/particles/dest/fire_hydrant_splash"/>
+		<effect load="true" path="effects/payday2/environment/club_smoke_machine"/>
+		<material_config path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<object path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<sequence_manager path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<unit path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_antenna_4" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_antenna"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_antenna_4"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_antenna_4"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_far_03" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_far_03"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_far_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_near" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_near"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_near"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" type="unit">
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
 	</add>
 </table>

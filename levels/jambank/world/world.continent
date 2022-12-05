@@ -1225,7 +1225,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32" name_id="hcm_bdrop_far_07_32x32_002" position="-34800 16900 -458" rotation="0 0 0 -1" unit_id="100650"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/world/architecture/backdrops/scrapers/night/backdrop_skyscrapers_night_cars" name_id="backdrop_skyscrapers_night_cars_001" position="-21244 -13300 1224.5" rotation="-0 0 -0 -1" unit_id="100651"/>
+			<unit_data continent="world" name="units/world/architecture/backdrops/scrapers/night/backdrop_skyscrapers_night_cars" name_id="backdrop_skyscrapers_night_cars_001" position="-21244 -13300 1224.5" rotation="0 0 -4.54485e-007 -1" unit_id="100651"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/world/architecture/backdrops/scrapers/night/backdrop_skyscrapers_night_cars" name_id="backdrop_skyscrapers_night_cars_002" position="-22372 -6904 1740.5" rotation="-0 0 -0 -1" unit_id="100652"/>
@@ -1234,7 +1234,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_harbour/ind_water_dirt" name_id="ind_water_dirt_002" position="-11400 -10200 -840" rotation="-0 0 -0 -1" unit_id="100653"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/vehicles/ind_vehicle_boat_barge/ind_bdrop_boat_barge" name_id="ind_bdrop_boat_barge_001" position="-16300 7750 -1123" rotation="-0 0 -0 -1" unit_id="100551"/>
+			<unit_data continent="world" disable_shadows="true" mesh_variation="" name="units/payday2/vehicles/ind_vehicle_boat_barge/ind_bdrop_boat_barge" name_id="ind_bdrop_boat_barge_001" position="-10750 -20900 -1123" rotation="0 0 -0.113203 -0.993572" unit_id="100551"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_shadows="true" name="units/world/architecture/street/ground/road/backdrop_road_100x100" name_id="backdrop_road_100x100_006" position="-34920 -10800 -116" rotation="0 0 0.707107 -0.707107" unit_id="100654"/>
@@ -1582,22 +1582,22 @@
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge" name_id="bor_bridge_001" position="-13011 26330 1759" rotation="0 0 -0.104528 -0.994522" unit_id="100784"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_001" position="-1900 28783 -206" rotation="-0 0 -0 -1" unit_id="100753"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_001" position="-1900 28783 -206" rotation="0 0 0 -1" unit_id="100753"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_002" position="300 28729 -290" rotation="0 0 -0 -1" unit_id="100754"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_002" position="299.999 28729 -290" rotation="0 0 0 -1" unit_id="100754"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_003" position="-3900 28729 -164" rotation="0 0 -0 -1" unit_id="100755"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_003" position="-3900 28729 -164" rotation="0 0 0 -1" unit_id="100755"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_004" position="-7896 29649 -41.9999" rotation="1 0 0 -4.37114e-008" unit_id="100760"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_004" position="-7896 29649 -41.9999" rotation="1 0 7.70363e-016 -4.37114e-008" unit_id="100760"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_005" position="-3895 29650 -139" rotation="1 0 0 4.37114e-008" unit_id="100761"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_005" position="-3895.01 29650 -139" rotation="1 -0 -7.70363e-016 4.37114e-008" unit_id="100761"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_006" position="-7899 28730 -66.9999" rotation="8.74228e-008 0 0 -1" unit_id="100762"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_006" position="-7899 28730 -66.9999" rotation="8.74228e-008 -6.52544e-016 0 -1" unit_id="100762"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_007" position="-11843.5 28444.3 12.0001" rotation="8.70203e-008 -8.37911e-009 -0.0958458 -0.995396" unit_id="100763"/>
@@ -1609,28 +1609,28 @@
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_009" position="-15807.4 27873.5 46.0002" rotation="8.70203e-008 -8.37911e-009 -0.0958458 -0.995396" unit_id="100765"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_010" position="-15979.8 28776.2 71.0003" rotation="0.995396 0.0958458 -2.09478e-008 -4.35101e-008" unit_id="100766"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_010" position="-15979.8 28776.2 71.0002" rotation="0.995396 0.0958458 -2.09478e-008 -4.35101e-008" unit_id="100766"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_011" position="-19906.3 28013 103" rotation="0.990268 0.139173 -1.90299e-008 -4.43825e-008" unit_id="100767"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_012" position="-19655.9 27128.7 78.0004" rotation="8.54755e-008 -7.79578e-010 -0.139173 -0.990268" unit_id="100768"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_012" position="-19655.9 27128.7 78.0004" rotation="8.54755e-008 -7.79579e-010 -0.139173 -0.990268" unit_id="100768"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_013" position="-23782.4 27044.9 46.0005" rotation="0.993572 0.113203 -2.01849e-008 -4.38691e-008" unit_id="100769"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_014" position="-23578.6 26148.8 21.0005" rotation="8.64221e-008 -5.34036e-009 -0.113203 -0.993572" unit_id="100783"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_014" position="-23578.6 26148.8 21.0005" rotation="8.64221e-008 -5.34037e-009 -0.113203 -0.993572" unit_id="100783"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_015" position="-29548.8 25349.3 -207.999" rotation="0.984808 0.173648 -1.74692e-008 -4.50195e-008" unit_id="100785"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_016" position="-29237.3 24484.7 -232.999" rotation="8.41224e-008 5.30183e-009 -0.173648 -0.984808" unit_id="100786"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_016" position="-29237.3 24484.7 -232.999" rotation="8.41224e-008 5.30179e-009 -0.173647 -0.984808" unit_id="100786"/>
 		</table>
 		<table>
-			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_017" position="-32951.9 22995.4 -495.999" rotation="8.41224e-008 5.30183e-009 -0.173648 -0.984808" unit_id="100787"/>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_017" position="-32951.9 22995.4 -495.999" rotation="8.41224e-008 5.30179e-009 -0.173647 -0.984808" unit_id="100787"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_bdrop_far_16_32x64" name_id="hcm_bdrop_far_16_32x64_002" position="-39000 -12300 -92.7632" rotation="0 0 0 -1" unit_id="100789"/>
@@ -5289,11 +5289,11 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="" name="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" name_id="gen_equipment_zipline_motor_001" position="455 -856 393" rotation="0 0 0.233445 -0.97237" unit_id="101782">
-				<zipline ai_ignores_bag="true" end_pos="-16207 7485 -760" slack="300" speed="2000" usage_type="bag"/>
+				<zipline ai_ignores_bag="true" end_pos="-16207 7485 -930" slack="300" speed="1500" usage_type="bag"/>
 			</unit_data>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="player_deploy" name="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" name_id="gen_interactable_zipline_mount_ground_002" position="-16320.3 7532.84 -758.83" rotation="0 0 -0.551937 -0.833886" unit_id="101783"/>
+			<unit_data continent="world" mesh_variation="player_deploy" name="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" name_id="gen_interactable_zipline_mount_ground_002" position="-16320 7533 -928" rotation="0 0 -0.551937 -0.833886" unit_id="101783"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_dah/props/dah_prop_chair_e/dah_prop_chair_e" name_id="dah_prop_chair_e_048" position="1517 -911 3.72529e-007" rotation="0 -0 0.999202 0.0399409" unit_id="101789"/>
@@ -6150,7 +6150,7 @@
 			<unit_data continent="world" name="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign" name_id="str_prop_street_lamppost_walksign_003" position="-2019 2342 225" rotation="0 0 -0.707107 -0.707107" unit_id="101987"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="turn_lights_off" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_001" position="4057 4594 -24.0515" rotation="0 0 1 -4.37114e-008" unit_id="101988">
+			<unit_data continent="world" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_001" position="4057 4594 -24.052" rotation="0 0 1 4.37114e-008" unit_id="101988">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -6289,7 +6289,7 @@
 			<unit_data continent="world" name="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign" name_id="str_prop_street_lamppost_walksign_005" position="-2019 4042 225" rotation="0 0 -0.707107 -0.707107" unit_id="102033"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_001" position="-1850 13340 -18.9999" rotation="0 0 1 4.37114e-008" unit_id="102034"/>
+			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_001" position="-1786 17465 -18.9999" rotation="0 0 1 4.37114e-008" unit_id="102034"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_002" position="-100 22615 -18.9999" rotation="0 0 0 -1" unit_id="102035"/>
@@ -6526,7 +6526,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_005" position="-1850 21215 -18.9999" rotation="0 0 1 4.37114e-008" unit_id="102084"/>
+			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_005" position="-1786 25340 -18.9999" rotation="0 0 1 4.37114e-008" unit_id="102084"/>
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="ad_01" name="units/pd2_dlc_run/props/run_prop_sign_street_cover_poster_01/run_sign_street_cover_poster_01" name_id="run_sign_street_cover_poster_01_004" position="1250 3800 -0" rotation="0 0 -0.707107 -0.707107" unit_id="102085"/>
@@ -7633,6 +7633,144 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_escape" position="-2100 -1875 0.2" rotation="0 0 -0.707107 -0.707107" unit_id="102396"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_001" position="2066 1218 400" rotation="-0 0 -0 -1" unit_id="102397"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" name_id="gen_prop_container_a_blue_001" position="-4625 -2425 -600.8" rotation="0 0 0 -1" unit_id="102398"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red" name_id="gen_prop_container_a_red_001" position="-4350 -2375 -600.8" rotation="0 0 0 -1" unit_id="102399"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" name_id="gen_prop_container_a_blue_002" position="-4525 -1925 -600.8" rotation="0 0 0.707107 -0.707107" unit_id="102400"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_yellow" name_id="gen_prop_container_a_yellow_001" position="-4525 -2275 -328.396" rotation="0 0 0 -1" unit_id="102401"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_004" position="-4093.04 -2613.55 -600" rotation="0 0 -0.0348995 -0.999391" unit_id="102402"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_005" position="-4100 -2485 -600" rotation="0 0 0 -1" unit_id="102403"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_006" position="-4550 -1770 -600.8" rotation="0 0 0 -1" unit_id="102404"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_007" position="-4425 -1770 -600.8" rotation="0 0 0 -1" unit_id="102405"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_008" position="-4300 -1770 -600.8" rotation="0 0 0 -1" unit_id="102406"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_009" position="-4357.51 -1777.39 -492.131" rotation="-4.22791e-006 -4.39186e-006 0.00533749 -0.999986" unit_id="102407"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_stains" name_id="rvd_ground_decal_stains_003" position="-4325 -1675 -600.8" rotation="-0 0 -0 -1" unit_id="102408"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_full" name_id="ind_ext_harbour_tire_full_002" position="-4675 -1600 -600.8" rotation="0 0 0 -1" unit_id="102409"/>
+		</table>
+		<table>
+			<unit_data continent="world" material_variation="units/vehicles/truck_regular/man_vehicle_truck_variation_3" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_002" position="-4075 -1325 -600" rotation="-0 0 -0 -1" unit_id="102410">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.420139 0.275" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID748ce7d9371994d6@" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_010" position="-3972.66 -2542.86 -598.977" rotation="3.79058e-006 -3.25489e-006 -0.0697554 -0.997564" unit_id="102411"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_006" position="-2950 16450 -620" rotation="0 0 0 -1" unit_id="102412"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/vehicles/bdrop_vehicles_cars/bdrop_vehicles_cars" name_id="bdrop_vehicles_cars_007" position="-3775 20700 -620" rotation="0 0 1 -4.37114e-008" unit_id="102413"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_020" position="-2975 575 -620" rotation="0 0 -0.00872591 -0.999962" unit_id="102414"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="color_variation_cream" name="units/payday2/vehicles/str_vehicle_car_sedan_2/str_vehicle_car_sedan_2" name_id="str_vehicle_car_sedan_2_005" position="-2975 575 -620" rotation="0 0 -0.00872654 -0.999962" unit_id="102415">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0 0" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID748ce7d9371994d6@" name="li_light_back" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 1 0.84" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID748ce7d9371994d6@" name="li_light_front" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="static_pos_end" name="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug" name_id="ind_bdrop_boat_tug_001" position="3550 52000 -1090" rotation="-0 0 -0 -1" unit_id="102416"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge" name_id="bor_bridge_002" position="-24831.7 -43713 1959" rotation="0 0 -0.165048 -0.986286" unit_id="102417"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_018" position="-14102.5 -39924.2 -6" rotation="0 0 -0.0610482 -0.998135" unit_id="102418"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_019" position="-11912.3 -39709.7 -90" rotation="0 0 -0.0610482 -0.998135" unit_id="102419"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_020" position="-16081 -40221.5 36" rotation="0 0 -0.0610482 -0.998135" unit_id="102420"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_021" position="-16188.3 -39306.8 61" rotation="0.998135 0.0610482 2.6685e-009 4.36299e-008" unit_id="102421"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_022" position="-20050.3 -40707.9 133" rotation="8.72598e-008 5.33701e-009 -0.0610482 -0.998135" unit_id="102422"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_023" position="-20159.3 -39795.4 158" rotation="0.998135 0.0610482 -2.6685e-009 -4.36299e-008" unit_id="102423"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_024" position="-23930.6 -41472.2 212" rotation="8.73695e-008 -3.05105e-009 -0.156434 -0.987688" unit_id="102424"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_025" position="-24211.7 -40597.2 237" rotation="0.987688 0.156434 -2.35648e-008 -4.21501e-008" unit_id="102425"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_026" position="-27795.4 -42521.8 246" rotation="8.73695e-008 -3.05105e-009 -0.156434 -0.987688" unit_id="102426"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_027" position="-28076.5 -41646.9 271" rotation="0.987688 0.156434 -2.35649e-008 -4.21501e-008" unit_id="102427"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_028" position="-31524.4 -43730.1 278" rotation="8.53637e-008 4.44e-009 -0.199367 -0.979925" unit_id="102428"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_029" position="-31880.7 -42882.9 303" rotation="0.979925 0.199368 -2.17039e-008 -4.3138e-008" unit_id="102429"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_030" position="-8069.83 -39487.4 -177.833" rotation="9.209e-008 -2.39497e-008 -0.0348995 -0.999391" unit_id="102430"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_031" position="-8130.95 -38570.4 -152.833" rotation="0.999391 0.0349001 -2.85269e-008 -3.89654e-008" unit_id="102431"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_032" position="-14215.2 -39006.1 -6.00008" rotation="0.998135 0.0610486 2.6685e-009 4.36299e-008" unit_id="102432"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_033" position="-12025.2 -38790.6 -72.0001" rotation="0.998135 0.0610486 2.6685e-009 4.36299e-008" unit_id="102433"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_034" position="-5077.14 -39278.1 -443.833" rotation="9.20883e-008 -2.39492e-008 -0.0348999 -0.999391" unit_id="102434"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_035" position="-5138.26 -38361.1 -418.833" rotation="0.999391 0.0349001 -2.85267e-008 -3.8965e-008" unit_id="102435"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_shadows="true" name="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge_pillar" name_id="bor_bridge_pillar_036" position="-1815.35 -38974.8 -443.833" rotation="9.20883e-008 -2.39492e-008 -0.0348999 -0.999391" unit_id="102436"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/world/props/street/roof_addons/roof_antenna_far_03" name_id="roof_antenna_far_03_001" position="1019.45 4879.81 3800" rotation="0 0 0.92388 -0.382683" unit_id="102437"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="ad_01" name="units/pd2_dlc_run/props/run_prop_sign_street_cover_poster_01/run_sign_street_cover_poster_01" name_id="run_sign_street_cover_poster_01_006" position="6575 2500 4.76837e-005" rotation="0 0 -0.71934 -0.694658" unit_id="102438"/>
 		</table>
 	</statics>
 	<values>
