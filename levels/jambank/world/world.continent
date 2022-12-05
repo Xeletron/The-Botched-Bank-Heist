@@ -7435,10 +7435,10 @@
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m" name_id="jam_ext_sidewalk_4x4m_037" position="1400 -1200 0.2" rotation="0 0 0.707107 -0.707107" unit_id="102333"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_036" position="1400 -1200 0.200054" rotation="0 0 0 -1" unit_id="100362"/>
+			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_036" position="1400 -1600 0.200054" rotation="0 0 0 -1" unit_id="100362"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole" name_id="str_ext_sidewalk_2x2m_a_manhole_002" position="1600 -1400 0.200054" rotation="0 0 1 -4.37114e-008" unit_id="102334"/>
+			<unit_data continent="world" mesh_variation="" name="units/payday2/architecture/str/str_ext_sidewalk_2x2m_a_manhole" name_id="str_ext_sidewalk_2x2m_a_manhole_002" position="1600 -1600 0.2" rotation="0 0 -0.707107 -0.707107" unit_id="102334"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_037" position="1600 -1200 0.200054" rotation="0 0 0 -1" unit_id="102335"/>
@@ -7450,7 +7450,7 @@
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_039" position="1600 -1600 0.200054" rotation="0 0 0 -1" unit_id="102337"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_040" position="1400 -1600 0.2" rotation="0 0 -0 -1" unit_id="102338"/>
+			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_2x2m" name_id="jam_ext_sidewalk_2x2m_040" position="1400 -1200 0.2" rotation="0 0 0 -1" unit_id="102338"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_road/jam_ext_sidewalk_4x4m" name_id="jam_ext_sidewalk_4x4m_038" position="1400 -1600 0.2" rotation="0 0 0.707107 -0.707107" unit_id="102339"/>

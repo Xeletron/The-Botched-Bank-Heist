@@ -1671,7 +1671,8 @@
 		<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
 		<material_config path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
 		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
-		<animation path="anims/car/van_swat_brb_arrive_01"/>
+		<effect load="true" path="effects/payday2/particles/flares/scene_flare_small_01"/>
+		<effect load="true" path="effects/payday2/particles/spotlight/scene_spotlight_01"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
 		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
@@ -1680,12 +1681,19 @@
 		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<animation path="anims/car/van_swat_brb_arrive_01"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
 		<bnk path="soundbanks/weapon_swatturret"/>
@@ -1699,7 +1707,9 @@
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
-		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<material_config path="units/payday2/mockup/occluder_plane"/>
 		<animation_def path="anims/units/swat_van/swat_van"/>
 		<animation_state_machine path="anims/units/swat_van/swat_van"/>
 		<animation_states path="anims/units/swat_van/std"/>
