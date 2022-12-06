@@ -32,7 +32,7 @@
 						<param key="sky_top_color_scale" value="0.21500000357628"/>
 						<param key="sky_top_color" value="0.30196079611778 0.53333336114883 1"/>
 						<param key="fog_min_range" value="0"/>
-						<param key="fog_max_density" value="0.46200001239777"/>
+						<param key="fog_max_density" value="0.58200001716614"/>
 					</apply_ambient>
 				</deferred_lighting>
 			</deferred>
