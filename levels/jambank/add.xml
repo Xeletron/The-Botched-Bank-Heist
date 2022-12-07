@@ -1956,6 +1956,97 @@
 		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing"/>
 		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing_short"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner" type="unit">
+		<unit path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<object path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<object path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<material_config path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_int_modular_parts/brb_int_floor_trim" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_int_modular_parts/brb_int_floor_trim"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_int/brb_int_modular_parts/brb_int_floor_trim"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_int_modular_parts/brb_int_floor_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b" type="unit">
+		<material_config path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted"/>
+		<object path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b"/>
+		<unit path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_bulletinboard/off_prop_officehigh_bulletinboard_long_02" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_bulletinboard/off_prop_officehigh_bulletinboard"/>
+		<object path="units/payday2/props/off_prop_officehigh_bulletinboard/off_prop_officehigh_bulletinboard_long_02"/>
+		<unit path="units/payday2/props/off_prop_officehigh_bulletinboard/off_prop_officehigh_bulletinboard_long_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_kitchen_lamp_ceiling/mcm_prop_kitchen_lamp_ceiling" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_kitchen_lamp_ceiling/mcm_prop_kitchen_lamp_ceiling"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_kitchen_lamp_ceiling/mcm_prop_kitchen_lamp_ceiling"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_kitchen_lamp_ceiling/mcm_prop_kitchen_lamp_ceiling"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_kitchen_lamp_ceiling/mcm_prop_kitchen_lamp_ceiling"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_wall_outlett_outlined/suburbia_wall_outlett_outlined" type="unit">
+		<material_config path="units/world/props/suburbia_wall_outlett_outlined/suburbia_wall_outlett"/>
+		<object path="units/world/props/suburbia_wall_outlett_outlined/suburbia_wall_outlett_outlined"/>
+		<sequence_manager path="units/world/props/suburbia_wall_outlett_outlined/suburbia_wall_outlett_outlined"/>
+		<unit path="units/world/props/suburbia_wall_outlett_outlined/suburbia_wall_outlett_outlined"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b" type="unit">
+		<unit path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b"/>
+		<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b"/>
+		<unit path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_plant_dracaenafragrans_b"/>
+		<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_plant_dracaenafragrans_b"/>
+		<unit path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_leaves_dracaenafragrans_b"/>
+		<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_leaves_dracaenafragrans_b"/>
+		<unit path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_pot_dracaenafragrans_b"/>
+		<object path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/spawn_debris_pot_dracaenafragrans_b"/>
+		<effect load="true" path="effects/payday2/particles/destruction/dest_plant_matter"/>
+		<material_config path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc2/props/bnk_prop_lobby_plant_dracaenafragrans/bnk_prop_lobby_plant_dracaenafragrans_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/props/closet_fire_extinguisher/closet_fire_extinguisher_b" type="unit">
+		<material_config path="units/pd2_dlc_cro/props/closet_fire_extinguisher/closet_fire_extinguisher_b"/>
+		<object path="units/pd2_dlc_cro/props/closet_fire_extinguisher/closet_fire_extinguisher_b"/>
+		<unit path="units/pd2_dlc_cro/props/closet_fire_extinguisher/closet_fire_extinguisher_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_02" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_02"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_02"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_entrance" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign"/>
+		<object path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_entrance"/>
+		<unit path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_entrance"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_moneycounter_fusebox/cas_prop_moneycounter_fusebox"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter" type="unit">
+		<unit path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter"/>
+		<object path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter"/>
+		<material_config path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+		<object path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
+		<gui path="guis/timer_gui"/>
+	</add>
 	<add from_db="true" path="units/world/brushes/trash/trash_brush_03" type="unit">
 		<material_config path="units/world/brushes/trash/trash_brush"/>
 		<object path="units/world/brushes/trash/trash_brush_03"/>

@@ -1415,6 +1415,21 @@
 				</editable_gui>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_011" position="2670 -405 331" rotation="0 0 0.707107 -0.707107" unit_id="200429"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_077" position="3450 -325 331" rotation="0 0 0 -1" unit_id="200430"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_078" position="3350 -425 3.72529e-007" rotation="0 0 0 -1" unit_id="200431"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_079" position="3130 510 3.72529e-007" rotation="0 0 0 -1" unit_id="200432"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_080" position="2725 918 331" rotation="0 0 0 -1" unit_id="200433"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
