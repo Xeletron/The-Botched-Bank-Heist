@@ -2058,8 +2058,13 @@
 		<unit path="units/world/brushes/trash/trash_brush_04"/>
 	</add>
 	<add from_db="true" path="units/world/brushes/trash/trash_brush_02" type="unit">
-		<unit path="units/world/brushes/trash/trash_brush_02"/>
-		<object path="units/world/brushes/trash/trash_brush_02"/>
 		<material_config path="units/world/brushes/trash/trash_brush"/>
+		<object path="units/world/brushes/trash/trash_brush_02"/>
+		<unit path="units/world/brushes/trash/trash_brush_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2" type="unit">
+		<unit path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2"/>
+		<object path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2"/>
+		<material_config path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_couch"/>
 	</add>
 </table>
