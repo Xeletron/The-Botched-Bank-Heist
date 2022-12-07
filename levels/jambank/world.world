@@ -765,7 +765,7 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="3130"/>
+				<entry key="depth" type="number" value="3230"/>
 				<entry key="environment" type="string" value=".map/environments/pd2_env_jambank_inside"/>
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="644be78b2651c798"/>
@@ -789,7 +789,7 @@
 					<entry index="19" type="string" value="72c5ffc46ab06e53"/>
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
-				<entry key="height" type="number" value="330"/>
+				<entry key="height" type="number" value="400"/>
 				<entry key="name" type="string" value=""/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="383 1193 -5"/>
@@ -806,7 +806,7 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="3130"/>
+				<entry key="depth" type="number" value="3230"/>
 				<entry key="environment" type="string" value=".map/environments/pd2_env_jambank_inside"/>
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="644be78b2651c798"/>
@@ -830,7 +830,7 @@
 					<entry index="19" type="string" value="72c5ffc46ab06e53"/>
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
-				<entry key="height" type="number" value="330"/>
+				<entry key="height" type="number" value="400"/>
 				<entry key="name" type="string" value=""/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="400 312 -5"/>
@@ -890,7 +890,7 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="3130"/>
+				<entry key="depth" type="number" value="3230"/>
 				<entry key="environment" type="string" value=".map/environments/pd2_env_jambank_inside"/>
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="644be78b2651c798"/>
@@ -914,7 +914,7 @@
 					<entry index="19" type="string" value="72c5ffc46ab06e53"/>
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
-				<entry key="height" type="number" value="330"/>
+				<entry key="height" type="number" value="400"/>
 				<entry key="name" type="string" value=""/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="381 -298 -5"/>

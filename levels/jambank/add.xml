@@ -1939,11 +1939,6 @@
 		<object path="units/pd2_dlc_dah/props/dah_prop_airconditioning_c/dah_prop_airconditioning_c"/>
 		<unit path="units/pd2_dlc_dah/props/dah_prop_airconditioning_c/dah_prop_airconditioning_c"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2" type="unit">
-		<material_config path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_couch"/>
-		<object path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2"/>
-		<unit path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug_v2"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug" type="unit">
 		<material_config path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_couch"/>
 		<object path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug"/>
@@ -1961,9 +1956,19 @@
 		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing"/>
 		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing_short"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_des/architecture/des_int/des_int_railing/des_int_railing_01" type="unit">
-		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_railing/des_int_railing_01"/>
-		<object path="units/pd2_dlc_des/architecture/des_int/des_int_railing/des_int_railing_01"/>
-		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_railing/des_int_railing_01"/>
+	<add from_db="true" path="units/world/brushes/trash/trash_brush_03" type="unit">
+		<material_config path="units/world/brushes/trash/trash_brush"/>
+		<object path="units/world/brushes/trash/trash_brush_03"/>
+		<unit path="units/world/brushes/trash/trash_brush_03"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/trash/trash_brush_04" type="unit">
+		<material_config path="units/world/brushes/trash/trash_brush"/>
+		<object path="units/world/brushes/trash/trash_brush_04"/>
+		<unit path="units/world/brushes/trash/trash_brush_04"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/trash/trash_brush_02" type="unit">
+		<unit path="units/world/brushes/trash/trash_brush_02"/>
+		<object path="units/world/brushes/trash/trash_brush_02"/>
+		<material_config path="units/world/brushes/trash/trash_brush"/>
 	</add>
 </table>
