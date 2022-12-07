@@ -1,0 +1,9 @@
+<materials version="3" group="jam_int_ceiling">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_ceilingtiles_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_df"/>
+        <material_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

@@ -1,0 +1,12 @@
+<materials version="3" group="jam_int_wall">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_panel_wood" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/marble/dah_gray_marble_floor_tiles_df"/>
+        <material_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/marble/dah_gray_marble_floor_tiles_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/marble/dah_gray_marble_floor_tiles_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_wallpaper" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_df"/>
+        <material_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/tiling_textures/limestone_bricks_int/brb_limestone_bricks_int_nm"/>
+    </material>
+</materials>

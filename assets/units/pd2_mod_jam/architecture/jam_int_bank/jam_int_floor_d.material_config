@@ -1,0 +1,8 @@
+<materials version="3" group="jam_int_floor">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_carpet_a" decal_material="marble" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/tiling_textures/brb_marble_floor_big_hall/brb_big_hall_marble_floor_df"/>
+        <material_texture file="units/pd2_dlc_brb/architecture/tiling_textures/brb_marble_floor_big_hall/brb_big_hall_marble_floor_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/tiling_textures/brb_marble_floor_big_hall/brb_big_hall_marble_floor_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+</materials>

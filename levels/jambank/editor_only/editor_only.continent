@@ -111,9 +111,6 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_003" position="3850 -2375 195.355" rotation="0 0 0 -1" unit_id="200051"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_008" position="1847 1178 1" rotation="0 0 -0.707107 -0.707107" unit_id="200053"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_009" position="1861 1525 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200054"/>
 		</table>
 		<table>
@@ -1372,6 +1369,36 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_016" position="1600 1196 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200053"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_008" position="2970 1011 331" rotation="0 0 0.707107 -0.707107" unit_id="200418"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_017" position="2503 78 3.72529e-007" rotation="0 0 0 -1" unit_id="200419"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" mesh_variation="anim_open" name="units/pd2_dlc_sah/props/sah_prop_electric_door/sah_prop_eletric_door" name_id="sah_prop_eletric_door_002" position="2494 380 0" rotation="0 0 1 -4.37114e-008" unit_id="200420"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_018" position="2516 512 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200421"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_019" position="2516 37 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200422"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_020" position="3141 37 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200423"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_021" position="3141 512 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200424"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_011" position="2149 1498 400" rotation="0 0 0 -1" unit_id="200425"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_012" position="2074 1498 400" rotation="0 0 0 -1" unit_id="200426"/>
 		</table>
 	</statics>
 	<values>
