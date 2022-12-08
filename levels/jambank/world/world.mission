@@ -7481,8 +7481,8 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="1325 -350 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.492424 -0.870356"/>
+					<entry key="position" type="vector3" value="1650 325 0.1"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.75471 -0.656059"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -12529,7 +12529,7 @@
 					<entry key="instance" type="string" value="jambank_wire_box_001"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="396 380 0"/>
+					<entry key="position" type="vector3" value="396 400 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
