@@ -1,7 +1,7 @@
 <materials version="3" group="jam_int_floor">
-    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_carpet_a" version="2">
-        <diffuse_texture file="units/pd2_dlc_brb/architecture/tiling_textures/wooden_floor/brb_wooden_floor_df"/>
-        <material_texture file="units/pd2_dlc_brb/architecture/tiling_textures/wooden_floor/brb_wooden_floor_gsma"/>
-        <bump_normal_texture file="units/pd2_dlc_brb/architecture/tiling_textures/wooden_floor/brb_wooden_floor_nm"/>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_carpet_a" version="2">
+        <diffuse_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_herringbone_wood_df"/>
+        <material_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_herringbone_wood_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_herringbone_wood_nm"/>
     </material>
 </materials>

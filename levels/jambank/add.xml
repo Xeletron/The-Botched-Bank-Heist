@@ -2331,4 +2331,95 @@
 		<sequence_manager path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
 		<unit path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_d" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_d"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_d"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_wallcables_1" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_wallcables"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_wallcables_1"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_wallcables_1"/>
+	</add>
+	<add from_db="true" path="units/world/props/prop_electricboxes/prop_electricbox_tiny_3" type="unit">
+		<material_config path="units/world/props/prop_electricboxes/prop_electricbox_1"/>
+		<object path="units/world/props/prop_electricboxes/prop_electricbox_tiny_3"/>
+		<unit path="units/world/props/prop_electricboxes/prop_electricbox_tiny_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_shelves_4" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard"/>
+		<object path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_shelves_4"/>
+		<unit path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_large_shelves_4"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" type="unit">
+		<material_config path="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox"/>
+		<object path="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox"/>
+		<unit path="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_03" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder"/>
+		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_03"/>
+		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder"/>
+		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01"/>
+		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder"/>
+		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07"/>
+		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice" type="unit">
+		<material_config path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
+		<object path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
+		<unit path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door" type="unit">
+		<material_config path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door"/>
+		<object path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door"/>
+		<sequence_manager path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door"/>
+		<unit path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b_black" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b_black"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b_black"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_end" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_end"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_end"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_b_black" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_b_black"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_b_black"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner_black" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner_black"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner_black"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a" type="unit">
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a"/>
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+	</add>
 </table>
