@@ -462,13 +462,6 @@
 		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
 	</add>
-	<add from_db="true" path="units/world/architecture/bank/bank_door_toilet/bank_door_toilet" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/world/architecture/bank/bank_door_toilet/bank_door_toilet"/>
-		<object path="units/world/architecture/bank/bank_door_toilet/bank_door_toilet"/>
-		<sequence_manager path="units/world/architecture/bank/bank_door_toilet/bank_door_toilet"/>
-		<unit path="units/world/architecture/bank/bank_door_toilet/bank_door_toilet"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
@@ -2262,11 +2255,6 @@
 		<sequence_manager path="units/payday2/props/bnk_prop_teller_calculator/bnk_prop_teller_calculator"/>
 		<unit path="units/payday2/props/bnk_prop_teller_calculator/bnk_prop_teller_calculator"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m" type="unit">
-		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves"/>
-		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m"/>
-		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m"/>
-	</add>
 	<add from_db="true" path="units/world/props/office/wall_documents/calendar_01" type="unit">
 		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
 		<object path="units/world/props/office/wall_documents/calendar_01"/>
@@ -2361,20 +2349,10 @@
 		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_03"/>
 		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_03"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01" type="unit">
-		<material_config path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder"/>
-		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01"/>
-		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07" type="unit">
 		<material_config path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder"/>
 		<object path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07"/>
 		<unit path="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice" type="unit">
-		<material_config path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
-		<object path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
-		<unit path="units/payday2/props/com_prop_mall_sign_outofservice/com_prop_mall_sign_outofservice"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door" type="unit">
 		<material_config path="units/payday2/props/com_prop_mall_bathroom_door/com_prop_mall_bathroom_door"/>
@@ -2392,11 +2370,6 @@
 		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_end"/>
 		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_end"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b" type="unit">
-		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
-		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b"/>
-		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_b"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_b_black" type="unit">
 		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
 		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_b_black"/>
@@ -2407,19 +2380,47 @@
 		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner_black"/>
 		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner_black"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c" type="unit">
-		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
-		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c"/>
-		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_2m_c"/>
+	<add from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle" type="unit">
+		<material_config path="units/world/props/bank/money_wrap/money_wrap_single_bundle"/>
+		<object path="units/world/props/bank/money_wrap/money_wrap_single_bundle"/>
+		<sequence_manager path="units/world/props/bank/money_wrap/money_wrap_single_bundle"/>
+		<unit path="units/world/props/bank/money_wrap/money_wrap_single_bundle"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner" type="unit">
-		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
-		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner"/>
-		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_corner"/>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a" type="unit">
-		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a"/>
-		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_pipe_1_1m_a"/>
-		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+	<add from_db="true" path="units/world/architecture/hospital/props/clock/clock" type="unit">
+		<material_config path="units/world/architecture/hospital/props/clock/clock"/>
+		<object path="units/world/architecture/hospital/props/clock/clock"/>
+		<unit path="units/world/architecture/hospital/props/clock/clock"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_light_switch/dah_prop_light_switch" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_light_switch/dah_prop_light_switch"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_light_switch/dah_prop_light_switch"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_light_switch/dah_prop_light_switch"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves"/>
+		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m"/>
+		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm" type="unit">
+		<material_config path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+		<object path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+		<unit path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm" type="unit">
+		<unit path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<object path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
 	</add>
 </table>

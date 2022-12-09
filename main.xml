@@ -14,9 +14,8 @@
 	<level ai_group_type="america" id="jambank" max_bags="54">
 		<assets>
 			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
+			<asset name="health_bag"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
@@ -26,8 +25,9 @@
 			<interaction action_text_id="hud_action_open_panicroom" based_on="dah_panicroom_keycard" equipment_consume="false" id="jam_door_lock_keycard" text_id="hud_int_open_panicroom"/>
 		</interactions>
 		<lootbags>
-			<carry based_on="treasure" id="jam_coins" type="light" name_id="hud_carry_jam_coins"/>
+			<carry based_on="treasure" id="jam_coins" name_id="hud_carry_jam_coins" type="light"/>
 		</lootbags>
+		<outro_event/>
 		<packages>
 			<value_node value="package_jambank"/>
 		</packages>
