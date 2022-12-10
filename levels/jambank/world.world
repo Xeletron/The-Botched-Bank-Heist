@@ -761,6 +761,8 @@
 		<entry key="preload_units" type="table">
 			<entry index="1" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_4"/>
 			<entry index="2" type="string" value="units/world/brushes/trash/trash_brush_01"/>
+			<entry index="3" type="string" value="units/world/brushes/bank_papers/bank_papers_3"/>
+			<entry index="4" type="string" value="units/world/brushes/bank_papers/bank_papers_2"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">

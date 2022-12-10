@@ -616,6 +616,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100382"/>
 						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100561"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="100 3200 3367.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -774,6 +778,27 @@
 						<entry index="3" type="number" value="100933"/>
 						<entry index="4" type="number" value="102245"/>
 						<entry index="5" type="number" value="102305"/>
+						<entry index="6" type="number" value="102832"/>
+						<entry index="7" type="number" value="103180"/>
+						<entry index="8" type="number" value="103178"/>
+						<entry index="9" type="number" value="103183"/>
+						<entry index="10" type="number" value="103187"/>
+						<entry index="11" type="number" value="103189"/>
+						<entry index="12" type="number" value="100969"/>
+						<entry index="13" type="number" value="100970"/>
+						<entry index="14" type="number" value="100971"/>
+						<entry index="15" type="number" value="100972"/>
+						<entry index="16" type="number" value="102831"/>
+						<entry index="17" type="number" value="102150"/>
+						<entry index="18" type="number" value="103177"/>
+						<entry index="19" type="number" value="103179"/>
+						<entry index="20" type="number" value="103181"/>
+						<entry index="21" type="number" value="103182"/>
+						<entry index="22" type="number" value="103184"/>
+						<entry index="23" type="number" value="103185"/>
+						<entry index="24" type="number" value="103186"/>
+						<entry index="25" type="number" value="103188"/>
+						<entry index="26" type="number" value="103190"/>
 					</entry>
 				</entry>
 			</entry>
@@ -1582,8 +1607,12 @@
 							<entry key="id" type="number" value="100067"/>
 						</entry>
 						<entry index="6" type="table">
-							<entry key="delay" type="number" value="5"/>
+							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100141"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100579"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="400 2300 3367.5"/>
@@ -12393,6 +12422,18 @@
 							<entry key="notify_unit_sequence" type="string" value="anim_open"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="102646"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_money_cassettes"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="102708"/>
+							<entry key="notify_unit_sequence" type="string" value="activate_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -12641,6 +12682,22 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100408"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100559"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100560"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100572"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100573"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-200 600 3367.5"/>
@@ -17156,6 +17213,1181 @@
 					<entry key="position" type="vector3" value="800 1200 3367.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="552" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_001"/>
+				<entry key="id" type="number" value="100551"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-700 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="553" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_002"/>
+				<entry key="id" type="number" value="100552"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_4/civ_male_casual_4"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-600 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="554" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_003"/>
+				<entry key="id" type="number" value="100553"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_7/civ_male_casual_7"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-500 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="555" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_004"/>
+				<entry key="id" type="number" value="100554"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_9/civ_male_casual_9"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-400 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="556" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_005"/>
+				<entry key="id" type="number" value="100555"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_3/civ_female_casual_3"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-300 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="557" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_006"/>
+				<entry key="id" type="number" value="100556"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_8/civ_female_casual_8"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-200 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="558" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_007"/>
+				<entry key="id" type="number" value="100557"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_5/civ_female_casual_5"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="-100 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="559" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_bank_civilian_008"/>
+				<entry key="id" type="number" value="100558"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="disable_orientation_on_use" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_2/civ_female_casual_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="orientation_elements" type="table">
+						<entry index="1" type="number" value="100562"/>
+						<entry index="2" type="number" value="100563"/>
+						<entry index="3" type="number" value="100564"/>
+						<entry index="4" type="number" value="100565"/>
+						<entry index="5" type="number" value="100567"/>
+						<entry index="6" type="number" value="100568"/>
+						<entry index="7" type="number" value="100569"/>
+						<entry index="8" type="number" value="100570"/>
+						<entry index="9" type="number" value="100571"/>
+					</entry>
+					<entry key="position" type="vector3" value="0 1700 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="560" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_civilian_004"/>
+				<entry key="id" type="number" value="100559"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_bank_1/civ_female_bank_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1267 257 0.3"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="561" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_civilian_005"/>
+				<entry key="id" type="number" value="100560"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_bank_1/civ_male_bank_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1275 462 0.3"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="562" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_bank_civilians"/>
+				<entry key="id" type="number" value="100561"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="6"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100551"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100552"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100553"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100554"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100555"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100556"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100557"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100558"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-700 1850 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="563" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_001"/>
+				<entry key="id" type="number" value="100562"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1100 450 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="564" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_002"/>
+				<entry key="id" type="number" value="100563"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1100 275 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="565" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_003"/>
+				<entry key="id" type="number" value="100564"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="490 555 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="566" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_004"/>
+				<entry key="id" type="number" value="100565"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100566"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1475 -725 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.995396 0.0958458"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="567" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_civilian_006"/>
+				<entry key="id" type="number" value="100566"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_bank_1/civ_male_bank_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1575 -950 0.689945"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="568" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_005"/>
+				<entry key="id" type="number" value="100567"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="878 1061 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.0261768 -0.999657"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="569" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_006"/>
+				<entry key="id" type="number" value="100568"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1815 -543 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.406736 -0.913546"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="570" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_007"/>
+				<entry key="id" type="number" value="100569"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2275 -950 0.689945"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.147809 -0.989016"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="571" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_008"/>
+				<entry key="id" type="number" value="100570"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2050 1325 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.96363 0.267239"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="572" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="orientation_civilian_009"/>
+				<entry key="id" type="number" value="100571"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="590 -303 3.72529e-007"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 1.49012e-007 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="573" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_civilian_003"/>
+				<entry key="id" type="number" value="100572"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_2/civ_female_casual_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-2177.5 -195.021 5.36442e-005"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.688355 -0.725374"/>
+					<entry key="state" type="string" value="cf_sp_sit_table_hands_in_knee"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="574" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_civilian_007"/>
+				<entry key="id" type="number" value="100573"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_7/civ_male_casual_7"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="150 550 4.76837e-005"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.936673 0.350207"/>
+					<entry key="state" type="string" value="cm_sp_accident_scene"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="575" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_office_civilian_001"/>
+				<entry key="id" type="number" value="100574"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_bank_1/civ_male_bank_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1900 200 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="576" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_office_civilian_002"/>
+				<entry key="id" type="number" value="100575"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_7/civ_male_casual_7"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2100 200 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="577" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_office_civilian_003"/>
+				<entry key="id" type="number" value="100576"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_bank_1/civ_female_bank_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2050 -500 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="578" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_office_civilian_004"/>
+				<entry key="id" type="number" value="100577"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_9/civ_male_casual_9"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1800 -525 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.374607 -0.927184"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="579" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="spawn_office_civilian_005"/>
+				<entry key="id" type="number" value="100578"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_casual_8/civ_female_casual_8"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1900 -350 404.125"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.559193 -0.829038"/>
+					<entry key="state" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="580" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="spawn_office_civs"/>
+				<entry key="id" type="number" value="100579"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100574"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="100575"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100576"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0.6"/>
+							<entry key="id" type="number" value="100577"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0.05"/>
+							<entry key="id" type="number" value="100578"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="400 1800 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="581" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_001"/>
+				<entry key="id" type="number" value="100580"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100581"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="600 -245 531"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="destroy_glass"/>
+							<entry key="unit_id" type="number" value="100311"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="582" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_001"/>
+				<entry key="id" type="number" value="100581"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="600 -170 531"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="0"/>
+						<entry index="2" type="number" value="100969"/>
+						<entry index="3" type="number" value="102832"/>
+						<entry index="4" type="number" value="100970"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="583" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_002"/>
+				<entry key="id" type="number" value="100582"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100583"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="600 155 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="destroy_glass"/>
+							<entry key="unit_id" type="number" value="100304"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="584" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_002"/>
+				<entry key="id" type="number" value="100583"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="600 230 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103185"/>
+						<entry index="2" type="number" value="103187"/>
+						<entry index="3" type="number" value="103186"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="585" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_003"/>
+				<entry key="id" type="number" value="100584"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100585"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="600 805 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="destroy_glass"/>
+							<entry key="unit_id" type="number" value="100813"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="586" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_003"/>
+				<entry key="id" type="number" value="100585"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="600 880 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103188"/>
+						<entry index="2" type="number" value="103189"/>
+						<entry index="3" type="number" value="103190"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="587" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_004"/>
+				<entry key="id" type="number" value="100586"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100587"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="600 -866 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="destroy_glass"/>
+							<entry key="unit_id" type="number" value="100287"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="588" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_004"/>
+				<entry key="id" type="number" value="100587"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="600 -791 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103179"/>
+						<entry index="2" type="number" value="103180"/>
+						<entry index="3" type="number" value="103181"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="589" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_005"/>
+				<entry key="id" type="number" value="100588"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100589"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="999 -1073 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="destroy_glass"/>
+							<entry key="unit_id" type="number" value="101786"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="590" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_005"/>
+				<entry key="id" type="number" value="100589"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="924 -1073 631"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103182"/>
+						<entry index="2" type="number" value="103183"/>
+						<entry index="3" type="number" value="103184"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="591" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_006"/>
+				<entry key="id" type="number" value="100590"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100591"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1498 -383 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="seq_break_window_right"/>
+							<entry key="unit_id" type="number" value="101130"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="592" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_006"/>
+				<entry key="id" type="number" value="100591"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1423 -383 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="102831"/>
+						<entry index="2" type="number" value="103178"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="593" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_007"/>
+				<entry key="id" type="number" value="100592"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100593"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1498 -308 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="seq_break_window_left"/>
+							<entry key="unit_id" type="number" value="101130"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="594" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_007"/>
+				<entry key="id" type="number" value="100593"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1423 -308 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100972"/>
+						<entry index="2" type="number" value="103178"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="595" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_008"/>
+				<entry key="id" type="number" value="100594"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100595"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1548 -208 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="seq_break_window_left"/>
+							<entry key="unit_id" type="number" value="101131"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="596" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_008"/>
+				<entry key="id" type="number" value="100595"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1473 -208 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100971"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="597" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_009"/>
+				<entry key="id" type="number" value="100596"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100597"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1548 142 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="seq_break_window_right"/>
+							<entry key="unit_id" type="number" value="101131"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="598" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_009"/>
+				<entry key="id" type="number" value="100597"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1473 142 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103177"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="599" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="glass_shatered_010"/>
+				<entry key="id" type="number" value="100598"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100599"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1548 192 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="seq_break"/>
+							<entry key="unit_id" type="number" value="101722"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="600" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="show_glass_shatter_010"/>
+				<entry key="id" type="number" value="100599"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1473 192 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="102150"/>
+					</entry>
 				</entry>
 			</entry>
 		</entry>

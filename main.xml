@@ -25,7 +25,7 @@
 			<interaction action_text_id="hud_action_open_panicroom" based_on="dah_panicroom_keycard" equipment_consume="false" id="jam_door_lock_keycard" text_id="hud_int_open_panicroom"/>
 		</interactions>
 		<lootbags>
-			<carry based_on="treasure" id="jam_coins" name_id="hud_carry_jam_coins" type="light"/>
+			<carry based_on="treasure" id="jam_coins" name_id="hud_carry_jam_coins" type="medium"/>
 		</lootbags>
 		<outro_event/>
 		<packages>

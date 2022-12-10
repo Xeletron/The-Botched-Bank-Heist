@@ -2300,6 +2300,21 @@
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_023" position="2875 -400 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200723"/>
 		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_106" position="1638 -658 400" rotation="0 0 0 -1" unit_id="200724"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_107" position="428 458 400" rotation="0 0 0 -1" unit_id="200725"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_431" position="-25 -175 0" rotation="0 0 0.92388 -0.382683" unit_id="200726"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_432" position="-25 -325 0" rotation="0 0 0.569595 -0.821926" unit_id="200727"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_433" position="-125 -275 -18.9999" rotation="0 0 0.596931 -0.802293" unit_id="200728"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
