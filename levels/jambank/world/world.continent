@@ -43,6 +43,10 @@
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_005" position="2430 872 400" rotation="0 0 0.707107 0.707107" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_006" position="1897 390 400" rotation="0 0 -1 0" script="default" start_index="1250"/>
 		<table continent="world" folder="levels/instances/mods/jambank/jambank_wire_box/world" index_size="250" mission_placed="true" name="jambank_wire_box_001" position="375 -1920 3368" rotation="0 0 0 -1" script="default" start_index="1500"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_001" position="2722 1021 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="1750"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_002" position="3322 1021 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="2000"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_003" position="3542 800 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="2250"/>
+		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_004" position="3542 -200 0" rotation="0 0 1 4.37114e-008" script="default" start_index="2500"/>
 	</instances>
 	<statics>
 		<table>
@@ -1789,7 +1793,7 @@
 			<unit_data continent="world" mesh_variation="" name="units/payday2/architecture/bnk/bnk_int_window_entrance_02" name_id="bnk_int_window_entrance_02_004" position="420 -172 -122" rotation="0 0 0 -1" unit_id="100932"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest" name_id="jam_prop_coin_chest_001" position="3050 -750 7.45058e-007" rotation="0 0 0.707107 -0.707107" unit_id="100937"/>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest" name_id="jam_prop_coin_chest_001" position="3050 -750 0" rotation="0 0 0.707107 -0.707107" unit_id="100937"/>
 		</table>
 		<table>
 			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_b" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_4m" name_id="jam_int_floor_4m_001" position="400 1200 0" rotation="-0 0 -0 -1" unit_id="100499"/>
@@ -6817,7 +6821,7 @@
 			<unit_data continent="world" name="units/pd2_dlc_dah/props/dah_prop_int_electric_circuit/dah_prop_int_electric_circuit" name_id="dah_prop_int_electric_circuit_002" position="1900 2001 5.36442e-005" rotation="0 0 1 -4.37114e-008" unit_id="102346"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="ad_01" name="units/pd2_dlc_run/props/run_prop_sign_street_cover_poster_01/run_sign_street_cover_poster_01" name_id="run_sign_street_cover_poster_01_005" position="0 -2500 0" rotation="0 0 0 -1" unit_id="102347"/>
+			<unit_data continent="world" mesh_variation="ad_01" name="units/pd2_dlc_run/props/run_prop_sign_street_cover_poster_01/run_sign_street_cover_poster_01" name_id="run_sign_street_cover_poster_01_005" position="0 -2500 0" rotation="-0 0 -0 -1" unit_id="102347"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01" name_id="run_prop_trashcan_01_008" position="-25 6350 9.53675e-005" rotation="0 0 0 -1" unit_id="102348"/>
@@ -7557,7 +7561,7 @@
 			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_d" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m" name_id="jam_int_floor_2m_032" position="2900 -200 0" rotation="-0 0 -0 -1" unit_id="102467"/>
 		</table>
 		<table>
-			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_d" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m" name_id="jam_int_floor_2m_044" position="3300 -200 0" rotation="-0 0 -0 -1" unit_id="102468"/>
+			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_d" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m" name_id="jam_int_floor_2m_044" position="3300 -200 0" rotation="0 0 0 -1" unit_id="102468"/>
 		</table>
 		<table>
 			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_d" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m" name_id="jam_int_floor_2m_045" position="3500 -200 0" rotation="-0 0 -0 -1" unit_id="102469"/>
@@ -7800,22 +7804,7 @@
 			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_c" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m" name_id="jam_int_wall_2m_026" position="3517 700 0" rotation="-0 0 -0 -1" unit_id="102515"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" name_id="chca_prop_titan_shutters_001" position="2722 1025 0" rotation="0 0 0.707107 -0.707107" unit_id="102517"/>
-		</table>
-		<table>
 			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_001" position="2800 1000 130" rotation="-0.707107 0 0 -0.707107" unit_id="102516"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" name_id="chca_prop_titan_shutters_002" position="3542 -200 0" rotation="0 0 1 0" unit_id="102518"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_002" position="3517 -278 130" rotation="-0.5 0.5 0.5 -0.5" unit_id="102519"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" name_id="chca_prop_titan_shutters_003" position="3322 1025 0" rotation="0 0 0.707107 -0.707107" unit_id="102520"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_003" position="3400 1000 130" rotation="-0.707107 0 0 -0.707107" unit_id="102521"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_marble_black" name_id="hcm_int_floor_4x4m_a_marble_black_004" position="2462 1592 400" rotation="0.0677732 -0.0677732 0.703851 -0.703851" unit_id="102504"/>
@@ -8208,12 +8197,6 @@
 			<unit_data continent="world" material_variation="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_c" mesh_variation="" name="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m" name_id="jam_int_wall_2m_029" position="2922 1000 0" rotation="0 0 -0.707107 -0.707107" unit_id="102628"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" name_id="chca_prop_titan_shutters_005" position="3542 800 0" rotation="0 0 1 -0" unit_id="102630"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_004" position="3517 722 130" rotation="-0.5 0.5 0.5 -0.5" unit_id="102631"/>
-		</table>
-		<table>
 			<unit_data continent="world" name="units/pd2_dlc_brb/architecture/brb_int/brb_int_modular_parts/brb_int_pillar" name_id="brb_int_pillar_008" position="2613 -308 0" rotation="0 0 0 -1" unit_id="102632"/>
 		</table>
 		<table>
@@ -8378,7 +8361,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_013" position="3205 -34 177.5" rotation="0 0 -0.0610491 -0.998135" unit_id="102672"/>
+			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_013" position="3205 -34 174.5" rotation="0 0 -0.0610491 -0.998135" unit_id="102672"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_cro/props/closet_fire_extinguisher/closet_fire_extinguisher_b" name_id="closet_fire_extinguisher_b_001" position="3031 999 80" rotation="-0 0 -0 -1" unit_id="102673"/>
@@ -9230,7 +9213,7 @@
 			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_02" name_id="off_prop_officehigh_binder_02_001" position="906 -856 88.1" rotation="0 0 -0.707107 -0.707107" unit_id="102941"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/shadow_mullplan/mullplan_vehicle_small_light_02" name_id="mullplan_vehicle_small_light_02_032" position="750 -824 0.1" rotation="0 0 8.9407e-008 -1" unit_id="102942"/>
+			<unit_data continent="world" name="units/payday2/props/shadow_mullplan/mullplan_vehicle_small_light_02" name_id="mullplan_vehicle_small_light_02_032" position="750 -824 0.1" rotation="-0 0 -0 -1" unit_id="102942"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/props/shadow_mullplan/mullplan_vehicle_small_light_02" name_id="mullplan_vehicle_small_light_02_033" position="925 -824 0.1" rotation="0 0 0 -1" unit_id="102943"/>

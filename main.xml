@@ -7,6 +7,9 @@
 	<instance id="jambank_wire_box">
 		<packages/>
 	</instance>
+	<instance id="jambank_deposit_room">
+		<packages/>
+	</instance>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>

@@ -1,0 +1,48 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data continent="world" mesh_variation="anim_close" name="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" name_id="chca_prop_titan_shutters_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover" name_id="brb_prop_deposit_box_cover_001" position="3 0 0" rotation="0 0 0 -1" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_002" position="10 -47.8 37.5" rotation="0 0 0.707107 -0.707107" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_001" position="10 1 37.5" rotation="0 0 0.707107 -0.707107" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_003" position="10 1 69.2" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_004" position="10 -47.8 69.2" rotation="0 0 0.707107 -0.707107" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_006" position="10 -47.8 100.8" rotation="0 0 0.707107 -0.707107" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_005" position="10 1 100.8" rotation="0 0 0.707107 -0.707107" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_007" position="10 1 132.5" rotation="0 0 0.707107 -0.707107" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_008" position="10 -47.8 132.5" rotation="0 0 0.707107 -0.707107" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_010" position="10 -47.8 164" rotation="0 0 0.707107 -0.707107" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/payday2/architecture/bnk/bnk_int_deposit_box" name_id="bnk_int_deposit_box_009" position="10 1 164" rotation="0 0 0.707107 -0.707107" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_001" position="21 78 130" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100013"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

@@ -18399,6 +18399,10 @@
 			<entry index="5" type="string" value="jambank_hideaway_cupboard_005"/>
 			<entry index="6" type="string" value="jambank_hideaway_cupboard_006"/>
 			<entry index="7" type="string" value="jambank_wire_box_001"/>
+			<entry index="8" type="string" value="jambank_deposit_room_001"/>
+			<entry index="9" type="string" value="jambank_deposit_room_002"/>
+			<entry index="10" type="string" value="jambank_deposit_room_003"/>
+			<entry index="11" type="string" value="jambank_deposit_room_004"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>

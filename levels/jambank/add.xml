@@ -2617,25 +2617,75 @@
 		<gui path="guis/timer_gui"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
-	<add from_db="true" path="units/lights/light_projection_01/light_projection_01" type="unit">
-		<material_config path="core/material_configs/hub_elements"/>
-		<object path="units/lights/light_projection_01/light_projection_01"/>
-		<unit path="units/lights/light_projection_01/light_projection_01"/>
-	</add>
 	<add from_db="true" path="units/lights/spot_light_projection_textures/spotprojection_13_ceiling_df" type="texture"/>
-	<add from_db="true" path="units/payday2/props/dest_glass/glass_shatter_small" type="unit">
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<object path="units/payday2/props/dest_glass/glass_shatter_small"/>
-		<unit path="units/payday2/props/dest_glass/glass_shatter_small"/>
-	</add>
 	<add from_db="true" path="units/world/props/glass_shatter/glass_shatter_small" type="unit">
 		<material_config path="units/world/props/glass_shatter/glass_shatter"/>
 		<object path="units/world/props/glass_shatter/glass_shatter_small"/>
 		<unit path="units/world/props/glass_shatter/glass_shatter_small"/>
 	</add>
 	<add from_db="true" path="units/world/props/glass_shatter/glass_shatter" type="unit">
-		<unit path="units/world/props/glass_shatter/glass_shatter"/>
-		<object path="units/world/props/glass_shatter/glass_shatter"/>
 		<material_config path="units/world/props/glass_shatter/glass_shatter"/>
+		<object path="units/world/props/glass_shatter/glass_shatter"/>
+		<unit path="units/world/props/glass_shatter/glass_shatter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_deposit_box" type="unit">
+		<unit path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<sequence_manager path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_achivement"/>
+		<unit path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<object path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<material_config path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<sequence_manager path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
 	</add>
 </table>
