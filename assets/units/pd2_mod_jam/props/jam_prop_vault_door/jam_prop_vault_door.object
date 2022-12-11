@@ -1,0 +1,62 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door" orientation_object="rp_jam_vault_door" />
+	<sequence_manager file="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door" />
+<animations>
+		<animation_group name="ag_open" enabled="false">
+			<object name="a_door" />
+		</animation_group>
+	</animations>
+  
+    <bodies>
+        <body enabled="true" template="static" name="body_static" >
+            <object name="rp_jam_vault_door" />
+            <object enabled="true" name="c_door_frame" collision_type="mesh_mopp" />
+        </body>
+        
+		<body enabled="true" template="animated" name="body_door" >
+			<object name="a_door" />
+
+            <object name="c_convex_000" collision_type="convex" padding="-2"/>
+            <object name="c_convex_001" collision_type="convex" padding="-2"/>
+            <object name="c_convex_002" collision_type="convex" padding="-2"/>
+            <object name="c_convex_003" collision_type="convex" padding="-2"/>
+            <object name="c_convex_004" collision_type="convex" padding="-2"/>
+			
+            <object name="c_box_000" collision_type="box" padding="-2"/>
+            <object name="c_box_001" collision_type="box" padding="-2"/>
+            <object name="c_box_002" collision_type="box" padding="-2"/>
+            <object name="c_box_003" collision_type="box" padding="-2"/>
+        </body>
+
+        <body name="body_handle_static" enabled="true" template="static">
+			<object name="a_handle" />
+            <object name="c_box_handle" collision_type="box" padding="-2.5"/>
+        </body>
+
+        <body name="body_handle_dynamic" enabled="false" template="dynamic" collides_with_mover="false" pushed_by_mover="false" >
+			<object name="a_handle" />
+            <object name="c_box_handle" collision_type="box" padding="-2.5"/>
+            <object name="c_convex_handle" collision_type="convex" padding="-2.5"/>
+        </body>
+
+		<body name="mover_block" enabled="true" template="mover_blocker" keyframed="true">
+			<object name="a_door" />
+			<object name="c_box_mover" collision_type="box" />
+		</body>	
+    </bodies>
+    <effects>
+		<effect_spawner name="effect_thermite" enabled="false" object="e_effect" effect="effects/payday2/particles/fire/thermite_infinite" />
+	</effects>
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_door_frame" enabled="true" material="metal" />
+		<decal_mesh name="dm_door" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+    <graphics>
+        <object enabled="true"  name="g_door" /> 
+        <object enabled="true"  name="g_handle" />
+        <object enabled="true"  name="g_button" />
+        <object enabled="true"  name="g_door_frame" />
+        <object enabled="false" name="g_thermite" />
+    </graphics>
+</dynamic_object>

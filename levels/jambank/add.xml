@@ -66,12 +66,6 @@
 		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_electric_door/sah_prop_eletric_door"/>
 		<unit path="units/pd2_dlc_sah/props/sah_prop_electric_door/sah_prop_eletric_door"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door" type="unit">
-		<material_config path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
-		<object path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
-		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
-		<unit path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_8x16m_e" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm"/>
 		<object path="units/payday2/architecture/hcm/hcm_ext_8x16m_e"/>
@@ -2687,5 +2681,19 @@
 		<object path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
 		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
 		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable" type="unit">
+		<material_config path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<object path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<sequence_manager path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<unit path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam"/>
 	</add>
 </table>

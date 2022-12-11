@@ -1,0 +1,22 @@
+<unit type="jam" slot="1">
+	<object file="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door" />
+  <network sync="spawn"/>
+  <dependencies>
+    <depends_on bnk="soundbanks/regular_sfx" />
+    <depends_on effect="effects/payday2/particles/fire/thermite_infinite" />
+    <depends_on effect="effects/payday2/particles/fire/thermite_fade" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+    <extension name="sync_materials" class="SyncMaterials">
+      <var name="_materials" type="table">
+          <var value="mat_glow"/>
+      </var>
+  </extension>
+	  <extension name="interaction" class="UseInteractionExt">
+      <var name="tweak_data" value="open_door" />
+	    <var name="_interact_object" value="interaction_location" />
+	  </extension>
+  </extensions>
+</unit>

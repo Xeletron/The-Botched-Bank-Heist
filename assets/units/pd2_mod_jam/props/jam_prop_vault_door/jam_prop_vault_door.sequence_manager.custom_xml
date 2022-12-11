@@ -1,0 +1,39 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'int_seq_startup'" startup="true" triggable="true">
+			<material name="'mat_glow'" time="0"/>
+			<material name="'mat_glow'" state="'pause'"/>
+		</sequence>
+		<sequence editable_state="true" name="'interaction_disable'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'interaction_enable'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_door'" triggable="true">
+			<animation_group enabled="true" end_time="143/30" name="'ag_open'" time="0/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_thermite'" triggable="true">
+			<effect_spawner enabled="true" name="'effect_thermite'"/>
+			<sound action="'play'" event="'thermite_paste_start'" object="'e_effect'"/>
+			<object enabled="true" name="'g_thermite'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_thermite_done'" triggable="true">
+			<material name="'mat_glow'" time="1"/>
+			<body enabled="false" name="'body_handle_static'" start_time="2"/>
+			<body enabled="true" name="'body_handle_dynamic'" start_time="2"/>
+			<object enabled="false" name="'g_thermite'" start_time="2"/>
+			<effect_spawner enabled="false" name="'effect_thermite'" start_time="2"/>
+			<sound action="'play'" event="'thermite_paste_finish'" object="'e_effect'" start_time="2"/>
+			<effect name="'effects/payday2/particles/fire/thermite_fade'" parent="object( 'e_effect' )" position="v()"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_cooling'" triggable="true">
+			<material name="'mat_glow'" state="'play -0.03'" time="1"/>
+		</sequence>
+		<sequence name="'interact'" triggable="true">
+			<interaction enabled="false"/>
+			<animation_group enabled="true" end_time="143/30" name="'ag_open'" time="0/30"/>
+			<sound action="'play'" event="'security_door_open'" object="'interaction_location'"/>
+		</sequence>
+	</unit>
+</table>
