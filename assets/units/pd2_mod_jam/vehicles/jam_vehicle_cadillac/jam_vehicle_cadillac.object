@@ -37,7 +37,9 @@
 			<object name="c_mesh_mopp_06" collision_type="mesh_mopp" />
 			<object name="c_mesh_mopp_02" collision_type="mesh_mopp" />
 			<object name="c_mesh_mopp_15" collision_type="mesh_mopp" />
-			<object name="c_mesh_mopp_14" collision_type="mesh_mopp" />			
+			<object name="c_mesh_mopp_14" collision_type="mesh_mopp" />	
+			<object name="c_convex_glass_door_left" collision_type="convex" />	
+			<object name="c_convex_glass_door_right" collision_type="convex" />	
 		</body>
 		<body name="body_tire_fl" enabled="true" template="animated">
 			<object name="anim_tire_front_right" />
@@ -60,11 +62,11 @@
 			<object name="c_mesh_mopp_05" collision_type="mesh_mopp" />
 		</body>
 		<body name="body_glass_door_right" enabled="true" template="animated">
-			<object name="anim_door_right" />
+			<object name="anim_body" />
 			<object name="c_convex_glass_door_right" collision_type="convex" />
 		</body>
 		<body name="body_glass_door_left" enabled="true" template="animated">
-			<object name="anim_door_left" />
+			<object name="anim_body" />
 			<object name="c_convex_glass_door_left" collision_type="convex" />
 		</body>
 	</bodies>
