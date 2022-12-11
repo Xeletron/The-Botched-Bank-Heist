@@ -1,4 +1,5 @@
 # - CARRY
+hud_action_jam_pku_coins: "Taking ancient coins"
 hud_jam_pku_coins: "Hold $BTN_INTERACT to take the coins"
 hud_carry_jam_coins: "Ancient Coins"
 

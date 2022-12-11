@@ -8,7 +8,7 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="UseInteractionExt">
-			<var name="tweak_data" value="pick_lock_easy_no_skill" />
+			<var name="tweak_data" value="lockpick_locker" />
 			<var name="_interact_object" value="int_location"/>
 		</extension>
 	</extensions>

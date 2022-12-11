@@ -24,7 +24,7 @@
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<interactions>
-			<interaction based_on="gen_pku_artifact" id="jam_pku_coins" sound_done="bar_pickup_bolt_cutter_finished" sound_interupt="bar_pickup_bolt_cutter_cancel" sound_start="bar_pickup_bolt_cutter" timer="6"/>
+			<interaction based_on="gen_pku_artifact" id="jam_pku_coins" action_text_id="hud_action_jam_pku_coins" sound_done="bar_pickup_bolt_cutter_finished" sound_interupt="bar_pickup_bolt_cutter_cancel" sound_start="bar_pickup_bolt_cutter" timer="4"/>
 			<interaction action_text_id="hud_action_open_panicroom" based_on="dah_panicroom_keycard" equipment_consume="false" id="jam_door_lock_keycard" text_id="hud_int_open_panicroom"/>
 		</interactions>
 		<lootbags>
