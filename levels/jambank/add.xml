@@ -463,11 +463,6 @@
 		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_trim_4x1m_a" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<object path="units/payday2/architecture/hcm/hcm_int_trim_4x1m_a"/>
@@ -1796,13 +1791,6 @@
 		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
 		<unit path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
-		<object path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
-		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
-		<unit path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_small_shelves_3" type="unit">
 		<material_config path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard"/>
 		<object path="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_standard_small_shelves_3"/>
@@ -2622,6 +2610,44 @@
 		<object path="units/world/props/glass_shatter/glass_shatter"/>
 		<unit path="units/world/props/glass_shatter/glass_shatter"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable" type="unit">
+		<material_config path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<object path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<sequence_manager path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<unit path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" type="unit">
+		<object path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<material_config path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<unit path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m"/>
+	</add>
 	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover" type="unit">
 		<material_config path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover"/>
 		<object path="units/pd2_dlc_brb/props/brb_prop_deposit_box_cover/brb_prop_deposit_box_cover"/>
@@ -2682,18 +2708,18 @@
 		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
 		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable" type="unit">
-		<material_config path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
-		<object path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
-		<sequence_manager path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
-		<unit path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
-	</add>
-	<add from_db="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam" type="unit">
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" type="unit">
 		<bnk path="soundbanks/regular_sfx"/>
-		<gui path="guis/timer_gui"/>
-		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
-		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
-		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<object path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<unit path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
 	</add>
 </table>
