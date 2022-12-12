@@ -2098,11 +2098,6 @@
 		<sequence_manager path="units/world/props/medium_prop"/>
 		<unit path="units/world/props/office/desk_accessories/desk_phone_02"/>
 	</add>
-	<add from_db="true" path="units/world/props/office/magazinerack/office_magazinepile_03" type="unit">
-		<material_config path="units/world/props/office/magazinerack/office_magazineracks"/>
-		<object path="units/world/props/office/magazinerack/office_magazinepile_03"/>
-		<unit path="units/world/props/office/magazinerack/office_magazinepile_03"/>
-	</add>
 	<add from_db="true" path="units/world/props/nick/nick_street_gnutte_flyer" type="unit">
 		<material_config path="units/world/props/nick/nick_street"/>
 		<object path="units/world/props/nick/nick_street_gnutte_flyer"/>
@@ -2599,7 +2594,6 @@
 		<gui path="guis/timer_gui"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
-	<add from_db="true" path="units/lights/spot_light_projection_textures/spotprojection_13_ceiling_df" type="texture"/>
 	<add from_db="true" path="units/world/props/glass_shatter/glass_shatter_small" type="unit">
 		<material_config path="units/world/props/glass_shatter/glass_shatter"/>
 		<object path="units/world/props/glass_shatter/glass_shatter_small"/>
@@ -2721,5 +2715,43 @@
 		<object path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
 		<sequence_manager path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
 		<unit path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_corner_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_corner_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_corner_a_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/suburbia/suburbia_sewer_gate" type="unit">
+		<object path="units/world/architecture/suburbia/suburbia_sewer_gate"/>
+		<material_config path="units/world/architecture/suburbia/suburbia"/>
+		<sequence_manager path="units/world/architecture/suburbia/suburbia_cellar_gate"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/equipment/suburbia_cellar_gate_crowbar"/>
+		<unit path="units/world/architecture/suburbia/suburbia_sewer_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_ladder/dev_ladder" type="unit">
+		<material_config path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<object path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<unit path="units/dev_tools/dev_ladder/dev_ladder"/>
 	</add>
 </table>

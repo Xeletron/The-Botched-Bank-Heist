@@ -13,4 +13,5 @@
 	<objective description="hud_heist_jambank12_hl" id="jambank_12" text="hud_heist_jambank12_hl"/>
 	<objective description="hud_heist_jambank13" id="jambank_13" text="hud_heist_jambank13_hl"/>
 	<objective description="hud_heist_jambank14_hl" id="jambank_14" text="hud_heist_jambank14_hl"/>
+	<objective description="hud_heist_jambank15" id="jambank_15" text="hud_heist_jambank15_hl"/>
 </table>
