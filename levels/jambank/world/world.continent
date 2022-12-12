@@ -6934,7 +6934,7 @@
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_escape" position="-2100 -2600 0.2" rotation="0 0 -0.707107 -0.707107" unit_id="102396"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_001" position="2066 1218 400" rotation="-0 0 -0 -1" unit_id="102397"/>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_001" position="2066 1318 400" rotation="0 0 0 -1" unit_id="102397"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" name_id="gen_prop_container_a_blue_001" position="-4625 -2425 -600.8" rotation="0 0 0 -1" unit_id="102398"/>
@@ -10139,13 +10139,10 @@
 			<unit_data continent="world" name="units/pd2_mod_jam/architecture/jam_ext_wall/jam_ext_wall_4m_v1" name_id="jam_ext_wall_4m_v1_002" position="1700 2000 0" rotation="-0 0 -0 -1" unit_id="103221"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="deactivate_door" name="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" name_id="are_int_double_door_v2_001" position="1975 875 400" rotation="-0 0 -0 -1" unit_id="100196"/>
-		</table>
-		<table>
 			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="disable_interactive" name="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator" name_id="pent_int_kitchen_elevator_001" position="2300 850 100" rotation="0 0 0.707107 -0.707107" unit_id="100203"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="disable_interactive" name="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator" name_id="pent_int_kitchen_elevator_002" position="1568 1018 500" rotation="-0 0 -0 -1" unit_id="100211"/>
+			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="disable_interactive" name="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator" name_id="pent_int_kitchen_elevator_002" position="1568 1018 500" rotation="-0 0 -0 -1" unit_id="100211"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_032" position="1570 1045 400" rotation="0 0 0.707107 -0.707107" unit_id="101509"/>
