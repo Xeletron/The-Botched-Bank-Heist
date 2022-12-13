@@ -2351,6 +2351,9 @@
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_109" position="1623 1731 154" rotation="0 0 0 -1" unit_id="200591"/>
 		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_013" position="-200 -5600 3365" rotation="0 0 0 -1" unit_id="200735"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

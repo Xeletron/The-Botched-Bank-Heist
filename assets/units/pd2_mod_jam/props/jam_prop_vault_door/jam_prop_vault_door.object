@@ -10,7 +10,14 @@
     <bodies>
         <body enabled="true" template="static" name="body_static" >
             <object name="rp_jam_vault_door" />
-            <object enabled="true" name="c_door_frame" collision_type="mesh_mopp" />
+
+            <object name="c_convex_005" collision_type="convex" padding="-2"/>
+            <object name="c_convex_006" collision_type="convex" padding="-2"/>
+            <object name="c_convex_007" collision_type="convex" padding="-2"/>
+
+            <object name="c_box_005" collision_type="box" padding="-2"/>
+            <object name="c_box_006" collision_type="box" padding="-2"/>
+            <object name="c_box_007" collision_type="box" padding="-2"/>
         </body>
         
 		<body enabled="true" template="animated" name="body_door" >
@@ -50,6 +57,7 @@
 	<decal_surfaces default_material="metal" static="true">
 		<decal_mesh name="dm_door_frame" enabled="true" material="metal" />
 		<decal_mesh name="dm_door" enabled="true" material="metal" />
+		<decal_mesh name="dm_wall" enabled="true" material="plaster" />
 	</decal_surfaces>
 	
     <graphics>
@@ -57,6 +65,7 @@
         <object enabled="true"  name="g_handle" />
         <object enabled="true"  name="g_button" />
         <object enabled="true"  name="g_door_frame" />
+        <object enabled="true" name="g_wall" />
         <object enabled="false" name="g_thermite" />
     </graphics>
 </dynamic_object>

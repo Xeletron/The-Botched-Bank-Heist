@@ -463,11 +463,6 @@
 		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_trim_4x1m_a" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_trim_4x1m_a"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_trim_4x1m_a"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_blue" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_blue"/>
@@ -2753,5 +2748,10 @@
 		<object path="units/dev_tools/dev_ladder/dev_ladder"/>
 		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder"/>
 		<unit path="units/dev_tools/dev_ladder/dev_ladder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small" type="unit">
+		<material_config path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
+		<object path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
+		<unit path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
 	</add>
 </table>
