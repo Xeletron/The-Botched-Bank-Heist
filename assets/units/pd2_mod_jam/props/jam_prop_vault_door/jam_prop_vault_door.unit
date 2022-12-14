@@ -13,9 +13,9 @@
       <var name="_materials" type="table">
           <var value="mat_glow"/>
       </var>
-  </extension>
+    </extension>
 	  <extension name="interaction" class="UseInteractionExt">
-      <var name="tweak_data" value="open_door" />
+      <var name="tweak_data" value="embassy_door" />
 	    <var name="_interact_object" value="interaction_location" />
 	  </extension>
   </extensions>

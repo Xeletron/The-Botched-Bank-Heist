@@ -9,12 +9,21 @@
 			<object name="c_box_04" collision_type="box" padding="-2.5" />
 			<object name="c_box_05" collision_type="box" padding="-2.5" />
 			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces default_material="metal">
 		<decal_mesh name="g_lod0" enabled="true" material="metal" />
 	</decal_surfaces>
 	<graphics>
-		<object name="g_lod0" enabled="true" />
+		<graphic_group name="grp_vault" enabled="true" >
+			<lod_object name="lod_vault">
+				<object name="g_lod0" enabled="true" max_distance="1800" max_draw_lod="0" />
+				<object name="g_lod1" enabled="true" lod="1" />
+			</lod_object>
+        </graphic_group>
 	</graphics>
 </dynamic_object>

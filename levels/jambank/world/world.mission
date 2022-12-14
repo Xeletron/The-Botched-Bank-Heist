@@ -776,7 +776,7 @@
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="103215"/>
 							<entry key="notify_unit_sequence" type="string" value="int_seq_startup"/>
-							<entry key="time" type="number" value="0"/>
+							<entry key="time" type="number" value="1"/>
 						</entry>
 						<entry index="12" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
