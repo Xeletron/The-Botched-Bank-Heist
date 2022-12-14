@@ -90,6 +90,8 @@
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_2m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_floor_4m"/>
 
+		<unit_mat path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_vault"/>
+
 		<!--PROPS-->
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest_spawn"/>

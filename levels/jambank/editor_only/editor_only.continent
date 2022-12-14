@@ -2271,7 +2271,7 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_105" position="375 -650 400" rotation="0 0 0 -1" unit_id="200722"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_023" position="2875 -400 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200723"/>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_023" position="2875 -404 3.72529e-007" rotation="0 0 0.707107 -0.707107" unit_id="200723"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_106" position="1638 -658 400" rotation="0 0 0 -1" unit_id="200724"/>
@@ -2353,6 +2353,9 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_013" position="-200 -5600 3365" rotation="0 0 0 -1" unit_id="200735"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" mesh_variation="open_door" name="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door" name_id="jam_prop_vault_door_002" position="2925 -400 0" rotation="-0 0 -0 -1" unit_id="200736"/>
 		</table>
 	</statics>
 	<values>

@@ -1,0 +1,33 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_chrome" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_tiling_crome_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_tiling_metallics_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_tiling_crome_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_int_white_walls" version="2">
+        <diffuse_texture file="units/pd2_dlc_cage/architecture/ind_cardealership_int/ind_cardealership_int_wall_white_df"/>
+        <bump_normal_texture file="units/pd2_dlc_cage/architecture/ind_cardealership_int/ind_cardealership_int_wall_white_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:VERTEX_COLOR" name="mat_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_df"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_deposit_boxes" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/tiling_textures/vault_deposit_boxes/brb_vault_deposit _boxes_df"/>
+        <material_texture file="units/pd2_dlc_brb/architecture/tiling_textures/vault_deposit_boxes/brb_vault_deposit _boxes_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/tiling_textures/vault_deposit_boxes/brb_vault_deposit _boxes_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_metal_holes_floor" version="2">
+        <diffuse_texture file="units/world/architecture/diamondheist/metalplatesholes_df"/>
+        <bump_normal_texture file="units/world/architecture/diamondheist/metalplatesholes_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_metal" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_metal_plates" version="2">
+        <diffuse_texture file="units/world/architecture/diamondheist/metal_panel_screws_df"/>
+        <bump_normal_texture file="units/world/architecture/diamondheist/metal_panel_screws_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_metal_heat" type="cubemap"/>
+    </material>
+</materials>
