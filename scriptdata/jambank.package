@@ -79,6 +79,9 @@
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m_window"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m_door"/>
+
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_trim_4m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_trim_2m"/>
 		
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_beam"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_ceiling_beam_4m"/>

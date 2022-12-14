@@ -306,11 +306,6 @@
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<physic_effect path="physic_effects/push_sphere_unit"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_2_stairs" type="unit">
-		<material_config path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_2_stairs"/>
-		<unit path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_2_stairs"/>
-	</add>
 	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" type="unit">
 		<material_config path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm"/>
 		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in"/>
@@ -393,11 +388,6 @@
 	<add from_db="true" path="units/payday2/props/com_prop_store_alarm/com_prop_store_alarm_on" type="material_config">
 		<material_config path="units/payday2/props/com_prop_store_alarm/com_prop_store_alarm_on"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_blue" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_blue"/>
@@ -430,11 +420,6 @@
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_025m_trim_light_a_corner"/>
 		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_025m_trim_light_a_corner"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
@@ -640,11 +625,6 @@
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
 		<object path="units/payday2/props/shadow_mullplan/mullplan_vehicle_small_light_02"/>
 		<unit path="units/payday2/props/shadow_mullplan/mullplan_vehicle_small_light_02"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
@@ -1855,11 +1835,6 @@
 		<object path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug"/>
 		<unit path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_rug"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white"/>
-		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing_short" type="unit">
 		<effect load="true" path="effects/particles/window/diamond_glass_exterior"/>
 		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_int_railing"/>
@@ -2593,20 +2568,6 @@
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small"/>
 		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small_no_jam"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" type="unit">
-		<object path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
-		<material_config path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
-		<sequence_manager path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
-		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
-		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
-		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
-		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
-		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
-		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
-		<bnk path="soundbanks/regular_sfx"/>
-		<gui path="guis/timer_gui"/>
-		<unit path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
-	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
@@ -2761,5 +2722,28 @@
 		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
 		<unit path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
 	</add>
-	<unit load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
+	<add from_db="true" path="units/payday2/props/are_int_double_door/are_int_double_door" type="unit">
+		<object path="units/payday2/props/are_int_double_door/are_int_double_door"/>
+		<material_config path="units/payday2/props/are_int_double_door/are_int_double_door"/>
+		<sequence_manager path="units/payday2/props/are_int_double_door/are_int_double_door"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<unit path="units/payday2/props/are_int_double_door/are_int_double_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_blue" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_blue"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_sign_stairs" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_sign"/>
+		<object path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_sign_stairs"/>
+		<unit path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_sign_stairs"/>
+	</add>
 </table>
