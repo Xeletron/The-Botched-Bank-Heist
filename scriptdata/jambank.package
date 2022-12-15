@@ -12,6 +12,16 @@
 	<add from_db="true" path="effects/payday2/particles/fire/thermite_fade" type="effect">
 		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
 	</add>
+	<add from_db="true">
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion"/>
+	</add>
 	<add auto_cp="false" unload_on_restart="true">
 		<!--CHARACTERS-->
 		<unit load="true" path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager"/>
@@ -101,6 +111,7 @@
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard"/>
 
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door"/>
+		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_double_door/jam_prop_double_door"/>
 
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_lock"/>
 		<unit_obj_seq path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cables"/>

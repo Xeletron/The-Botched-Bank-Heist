@@ -138,7 +138,7 @@
 			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_002" position="2355 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="200009"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="625 2575 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200018">
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="725 2575 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200018">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="SECURITY GATE SAWING" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -481,9 +481,6 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_035" position="1275 -29 3.72529e-007" rotation="0 0 0 -1" unit_id="200149"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" mesh_variation="state_door_open" name="units/pd2_dlc_rvd/props/rvd_prop_door_reinforced/rvd_interactable_door_reinforced" name_id="rvd_interactable_door_reinforced_003" position="2237 2722 399" rotation="0 0 1 4.37114e-008" unit_id="200150"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_010" position="900 -1850 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200151">

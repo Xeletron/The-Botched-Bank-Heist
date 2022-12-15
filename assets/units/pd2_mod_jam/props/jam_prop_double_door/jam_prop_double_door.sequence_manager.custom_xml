@@ -1,0 +1,50 @@
+<table>
+	<unit>
+		<sequence editable_state="false" name="'explode_door'" triggable="false">
+			<run_sequence name="'seq_explode_in'"/>
+		</sequence>
+		<sequence editable_state="false" name="'seq_explode_in'" triggable="false">
+			<animation_group enabled="true" from="70/30" name="'grp_anim_doors'" to="78/30"/>
+			<sound action="'play'" event="'c4_explode_metal'" object="'a_shp_charge_1'"/>
+			<body name="'body_anim_door1'" enabled="false"/>
+			<body name="'body_anim_door2'" enabled="false"/>
+			<run_sequence name="'done_exploded'"/>
+			<run_sequence name="'done_open'"/>
+			<run_sequence name="'deactivate_door'"/>
+			<effect name="'effects/payday2/particles/explosions/shapecharger_explosion'" parent="object( 'a_shp_charge_1' )" position="v()"/>
+			<effect name="'effects/payday2/particles/explosions/shapecharger_explosion'" parent="object( 'a_shp_charge_2' )" position="v()"/>
+		</sequence>
+		<sequence editable_state="false" name="'done_exploded'" triggable="false"/>
+		<sequence editable_state="false" name="'done_open'" triggable="false"/>
+		<sequence editable_state="true" name="'close_door'" triggable="true">
+			<animation_group enabled="true" from="30/30" name="'grp_anim_doors'" speed="-1" to="0/30"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_door'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'grp_anim_doors'" to="30/30"/>
+			<run_sequence name="'deactivate_door'"/>
+			<run_sequence name="'done_open'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'open_door'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'activate_door' " triggable="true">>
+			<function extension="'base'" function="'activate'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'deactivate_door' " triggable="true">
+			<function extension="'base'" function="'deactivate'"/>
+		</sequence>
+		<sequence name=" 'door_opened' "/>
+		<sequence name=" 'door_closed' "/>
+		<sequence name=" 'c4_placed' "/>
+		<sequence name=" 'c4_completed' "/>
+		<sequence name=" 'all_c4_placed' "/>
+		<sequence name=" 'drill_placed' "/>
+		<sequence name=" 'drill_jammed' "/>
+		<sequence name=" 'drill_resumed' "/>
+		<sequence name=" 'drill_power_off' "/>
+		<sequence name=" 'drill_power_on' "/>
+		<sequence name=" 'drill_completed' "/>
+		<sequence name=" 'all_drill_placed' "/>
+	</unit>
+</table>

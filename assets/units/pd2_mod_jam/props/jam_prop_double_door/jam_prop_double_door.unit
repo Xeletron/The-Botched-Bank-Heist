@@ -1,0 +1,20 @@
+<unit type="jam" slot="1">
+	<object file="units/pd2_mod_jam/props/jam_prop_double_door/jam_prop_double_door" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+		<depends_on unit="units/payday2/equipment/item_door_drill_small/item_door_drill_small" />
+		<depends_on unit="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" />
+		<depends_on effect="effects/payday2/particles/explosions/shapecharger_explosion" />
+	</dependencies>
+
+	<extensions>
+		<extension name="base" class="MissionDoor" >
+			<var name="tweak_data" value="reinforced_drill_shape_door" />				
+		</extension>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+        <extension name="sync_unit_data" class="SyncUnitData" />
+	</extensions>
+
+</unit>
