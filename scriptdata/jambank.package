@@ -23,6 +23,7 @@
 		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion"/>
 
 		<bnk load="true" path="soundbanks/ambiences"/>
+		<unit load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
 		<!--CHARACTERS-->

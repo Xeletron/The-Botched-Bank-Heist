@@ -1389,9 +1389,6 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" name_id="dev_nav_splitter_1x3m_011" position="2670 -405 331" rotation="0 0 0.707107 -0.707107" unit_id="200429"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_077" position="3450 -325 331" rotation="0 0 0 -1" unit_id="200430"/>
 		</table>
 		<table>
@@ -1402,15 +1399,6 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_080" position="2725 918 331" rotation="0 0 0 -1" unit_id="200433"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_002" position="2500 -850 331" rotation="0 0 0 -1" unit_id="200434"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_004" position="2500 -850 331" rotation="0 0 0.707107 -0.707107" unit_id="200435"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_005" position="2900 -850 331" rotation="0 0 0.707107 -0.707107" unit_id="200436"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" name_id="dev_nav_blocker_4x3m_008" position="3225 -850 331" rotation="0 0 0.707107 -0.707107" unit_id="200437"/>

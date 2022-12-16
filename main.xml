@@ -14,11 +14,16 @@
 		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
-	<level ai_group_type="america" id="jambank" max_bags="24">
+	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="health_bag"/>
+			<jam_zipline name_id="menu_asset_jam_zipline" unlock_desc_id="menu_asset_jam_zipline_desc" texture="guis/textures/pd2/mission_briefing/assets/big_oil/day2/asset03" no_mystery="true" money_lock="13000">
+				<stages>
+					<value_node value="jambank"/>
+				</stages>
+			</jam_zipline>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
@@ -40,24 +45,26 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="jambank">
+	<narrative contact="custom" id="jambank" brief_id="heist_jambank_crimenet">
 		<chain>
 			<table level_id="jambank" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="32000"/>
+			<value_node value="64000"/>
+			<value_node value="112000"/>
+			<value_node value="270000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
 		</crimenet_callouts>
 		<crimenet_videos>
+			<value_node value="cn_branchbank1"/>
 			<value_node value="cn_branchbank2"/>
+			<value_node value="cn_branchbank3"/>
 		</crimenet_videos>
 		<debrief_event/>
 		<experience_mul>
@@ -70,31 +77,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
+			<value_node value="35600"/>
+			<value_node value="35600"/>
+			<value_node value="37200"/>
+			<value_node value="42000"/>
+			<value_node value="43600"/>
+			<value_node value="48400"/>
+			<value_node value="48400"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="15400"/>
+			<value_node value="15400"/>
+			<value_node value="15400"/>
+			<value_node value="15400"/>
+			<value_node value="18600"/>
+			<value_node value="18600"/>
+			<value_node value="18600"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
-			<value_node value="30000"/>
-			<value_node value="50000"/>
 			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
+			<value_node value="120000"/>
+			<value_node value="300000"/>
+			<value_node value="500000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
 		</payout>
 	</narrative>
 </table>
