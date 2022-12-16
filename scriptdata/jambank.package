@@ -13,7 +13,7 @@
 		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
 	</add>
 	<add from_db="true">
-		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once"/>
+		<unit load="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once"/>
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
