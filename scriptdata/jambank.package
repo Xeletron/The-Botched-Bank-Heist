@@ -21,6 +21,8 @@
 		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion"/>
+
+		<bnk load="true" path="soundbanks/ambiences"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
 		<!--CHARACTERS-->
@@ -88,6 +90,7 @@
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m_door"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_2m_window"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m"/>
+		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m_window"/>
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_4m_door"/>
 
 		<unit_obj path="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_trim_4m"/>
@@ -109,6 +112,8 @@
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_coin_chest/jam_prop_coin_chest_spawn"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_cupboard/jam_prop_cupboard"/>
+
+		<unit_obj path="units/pd2_mod_jam/props/jam_prop_stairs/jam_prop_stairs"/>
 
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_vault_door/jam_prop_vault_door"/>
 		<unit_mat_seq path="units/pd2_mod_jam/props/jam_prop_double_door/jam_prop_double_door"/>

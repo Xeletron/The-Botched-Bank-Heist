@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_jam/architecture/jam_int_bank/jam_int_wall_a" orientation_object="rp_jam_prop_stairs" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box" />
+        </body>
+    </bodies>
+
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plaster" material="plaster" />
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+    </decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>
