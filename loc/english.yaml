@@ -1,3 +1,6 @@
+heist_jambank_name: "The Botched Bank"
+heist_jambank_brief: ""
+
 # - CARRY
 hud_action_jam_pku_coins: "Taking ancient coins"
 hud_jam_pku_coins: "Hold $BTN_INTERACT to take the coins"
@@ -7,7 +10,7 @@ hud_carry_jam_coins: "Ancient Coins"
 hud_heist_jambank1_hl: "Investigate the Vault"
 hud_heist_jambank1: ""
 hud_heist_jambank2_hl: "Find the manager"
-hud_heist_jambank1: ""
+hud_heist_jambank2: ""
 hud_heist_jambank3_hl: "Escort the manager to the time lock"
 hud_heist_jambank3: ""
 hud_heist_jambank4_hl: "Get the correct code and start the time lock"

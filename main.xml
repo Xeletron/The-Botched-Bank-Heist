@@ -14,7 +14,7 @@
 		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
-	<level ai_group_type="america" id="jambank" max_bags="54">
+	<level ai_group_type="america" id="jambank" max_bags="24">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="grenade_crate"/>
