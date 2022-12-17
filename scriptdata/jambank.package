@@ -26,6 +26,8 @@
 		<unit load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
 	</add>
 	<add auto_cp="false" unload_on_restart="true">
+		<texture path="guis/textures/mods/mission_briefing/assets/jambank/asset_zipline"/>
+
 		<!--CHARACTERS-->
 		<unit load="true" path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager"/>
 		<object path="units/pd2_mod_jam/characters/civ_male_tonis_manager/civ_male_tonis_manager"/>

@@ -19,7 +19,7 @@
 			<asset name="ammo_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="health_bag"/>
-			<jam_zipline name_id="menu_asset_jam_zipline" unlock_desc_id="menu_asset_jam_zipline_desc" texture="guis/textures/pd2/mission_briefing/assets/big_oil/day2/asset03" no_mystery="true" money_lock="13000">
+			<jam_zipline name_id="menu_asset_jam_zipline" unlock_desc_id="menu_asset_jam_zipline_desc" texture="guis/textures/mods/mission_briefing/assets/jambank/asset_zipline" no_mystery="true" money_lock="13000">
 				<stages>
 					<value_node value="jambank"/>
 				</stages>
