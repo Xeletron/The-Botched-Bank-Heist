@@ -2730,4 +2730,15 @@
 		<object path="units/pd2_dlc_bex/props/bex_prop_bank_railing/bex_prop_bank_railing_250"/>
 		<unit path="units/pd2_dlc_bex/props/bex_prop_bank_railing/bex_prop_bank_railing_250"/>
 	</add>
+	<add from_db="true" path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref" type="unit">
+		<material_config path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<animation_def path="anims/units/helicopter/helicopter"/>
+		<animation_state_machine path="anims/units/helicopter/helicopter"/>
+		<animation_states path="anims/units/helicopter/std"/>
+		<animation_subset path="anims/units/helicopter/std"/>
+		<object path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref"/>
+		<sequence_manager path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops"/>
+		<unit path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref"/>
+	</add>
 </table>

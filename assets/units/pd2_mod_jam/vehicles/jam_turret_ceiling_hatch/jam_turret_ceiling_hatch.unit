@@ -1,0 +1,14 @@
+<unit type="jam" slot="1">
+	<object file="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_hatch" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on unit="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling" />
+	</dependencies>
+	<extensions>
+		<extension name="base" class="AnimatedVehicleBase">
+			<var name="_body_name" value="rp_jam_turret_ceiling_hatch"/>
+		</extension>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

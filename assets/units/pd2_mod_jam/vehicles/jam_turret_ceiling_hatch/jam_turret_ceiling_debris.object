@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_hatch" orientation_object="rp_jam_turret_ceiling_debris" />
+	<bodies>
+		<body name="body_lid" enabled="true" template="dynamic" collides_with_mover="false" pushed_by_mover="false">
+			<object name="rp_jam_turret_ceiling_debris" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_debris" enabled="true" />
+	</graphics>
+</dynamic_object>

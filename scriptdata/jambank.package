@@ -129,8 +129,33 @@
 		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_blue_red"/>
 		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_yellow_red"/>
 		<material_config path="units/pd2_mod_jam/props/jam_prop_magnetic_lock/jam_prop_magnetic_cable_yellow_blue"/>
+
+		<!--TURRET-->
+		<unit_mat_seq path="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_hatch"/>
+		<unit_obj path="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_debris"/>
 	</add>
 
+	<add from_db="true" path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling" type="unit">
+		<unit path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<object path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<material_config path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+	</add>
 	<!--CRASH SEQUENCE VECHICLE-->
 	<add>
 		<unit path="units/pd2_mod_jam/vehicles/jam_vehicle_cadillac/jam_vehicle_cadillac"/>

@@ -1,0 +1,18 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'turret_spawn'" triggable="true">
+			<object enabled="false" name="'g_lid'" start_time="8/30"/>
+			<body enabled="false" name="'body_static'" start_time="8/30"/>
+			<body enabled="true" name="'body_static'" start_time="16/30"/>
+			<spawn_unit name="'units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_debris'" position="object_pos('spawn')" rotation="object_rot('spawn')" start_time="8/30"/>
+			<function extension="'base'" function="'spawn_module'" param1="'units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling'" param2="'spawn'" param3="'turret1'" start_time="8/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'turret_activate'" triggable="true">
+			<function extension="'base'" function="'run_module_function'" param1="'turret1'" param2="'base'" param3="'activate_as_module'" param4="'combatant'" param5="'crate_turret_module'" start_time="8/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'turret_disable'" triggable="true">
+			<function extension="'base'" function="'run_module_function'" param1="'turret1'" param2="'character_damage'" param3="'disable'"/>
+		</sequence>
+		<sequence editable_state="false" name="'done_turret_destroyed'" triggable="false"/>
+	</unit>
+</table>
