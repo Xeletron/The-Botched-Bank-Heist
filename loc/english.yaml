@@ -43,7 +43,7 @@ hud_heist_jambank15_hl: "Secure more loot or escape"
 hud_heist_jambank15: "You can stay and secure more loot, or get down to the river and escape."
 
 # - SUBTITLES
-clt_jambank_end_01:  "Well we sure had some hickups along the way, but it went pretty well dont you think? Enjoy your payment fellas, and pour one out for poor Mick."
+clt_jambank_end_01:  "Well we sure had some hickups along the way, but it went pretty well dont you think? Enjoy your payment fellas, and pour one out for old Mick."
 clt_jambank_intro_01: "The bank's just around the corner... Oh shit, a police blockade. We're here, get out quick!"
 clt_jambank_01_1: "What? How did the cops know we were coming? You'll have to be quick now. Check the vault, see if the alarm activated any security measures."
 clt_jambank_02_1: "Rats! A security gate. It needs a code and probably only the manager knows what it is. He has to be in his office upstairs, get up there and find him."

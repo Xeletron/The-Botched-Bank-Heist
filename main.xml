@@ -13,10 +13,12 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
+<!--
 	<Sounds directory="assets/sounds/vo" unload="true" dont_store_float="true">
         <sound id="clt_jambank_cbf_01" path="jambank_cbf_01.ogg"/>
         <sound id="clt_jambank_cnc_01" path="jambank_cnc_01.ogg"/>
     </Sounds>
+-->
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
 	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24" briefing_dialog="Play_clt_jambank_brf_01" intro_event="Play_clt_jambank_intro_01">
 		<assets>
