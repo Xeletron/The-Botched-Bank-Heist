@@ -2304,30 +2304,6 @@
 		<object path="units/world/brushes/bank_papers/bank_papers_3"/>
 		<unit path="units/world/brushes/bank_papers/bank_papers_3"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" type="unit">
-		<unit path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner"/>
-		<object path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner"/>
-		<material_config path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner"/>
-		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret"/>
-		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret"/>
-		<material_config path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret"/>
-		<sequence_manager path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret"/>
-		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris"/>
-		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris"/>
-		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front"/>
-		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
-		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper"/>
-		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper"/>
-		<bnk path="soundbanks/weapon_swatturret"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" type="unit">
 		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4"/>
 		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4_husk"/>
@@ -2594,11 +2570,6 @@
 		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder"/>
 		<unit path="units/dev_tools/dev_ladder/dev_ladder"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small" type="unit">
-		<material_config path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
-		<object path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
-		<unit path="units/pd2_dlc_casino/environment/balcon/cas_int_stairs_small"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_trolley" type="unit">
 		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
 		<object path="units/payday2/architecture/bnk/bnk_int_trolley"/>
@@ -2740,5 +2711,15 @@
 		<object path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref"/>
 		<sequence_manager path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops"/>
 		<unit path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_8x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_8x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_8x8"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_4x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_4x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_4x8"/>
 	</add>
 </table>
