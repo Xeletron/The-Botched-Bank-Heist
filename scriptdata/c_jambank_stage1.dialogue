@@ -1,0 +1,13 @@
+<table>
+	<dialog id="Play_clt_jambank_01" sound="Play_clt_jambank_01" priority="4"/>
+	<dialog id="Play_clt_jambank_02" sound="Play_clt_jambank_02" priority="2"/>
+	<dialog id="Play_clt_jambank_03" sound="Play_clt_jambank_03" priority="1"/>
+	<dialog id="Play_clt_jambank_04" sound="Play_clt_jambank_04" priority="1"/>
+	<dialog id="Play_clt_jambank_05" sound="Play_clt_jambank_05" priority="4"/>
+	<dialog id="Play_clt_jambank_06" sound="Play_clt_jambank_06" priority="2"/>
+	<dialog id="Play_clt_jambank_07" sound="Play_clt_jambank_07" priority="1"/>
+	<dialog id="Play_clt_jambank_08" sound="Play_clt_jambank_08" priority="1"/>
+	<dialog id="Play_clt_jambank_09" sound="Play_clt_jambank_09" priority="1"/>
+	<dialog id="Play_clt_jambank_10" sound="Play_clt_jambank_10" priority="1"/>
+	<dialog id="Play_clt_jambank_11" sound="Play_clt_jambank_11" priority="1"/>
+</table> 

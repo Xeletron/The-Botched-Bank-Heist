@@ -13,8 +13,12 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
+	<Sounds directory="assets/sounds/vo" unload="true" dont_store_float="true">
+        <sound id="clt_jambank_cbf_01" path="jambank_cbf_01.ogg"/>
+        <sound id="clt_jambank_cnc_01" path="jambank_cnc_01.ogg"/>
+    </Sounds>
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
-	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24">
+	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24" briefing_dialog="Play_clt_jambank_brf_01" intro_event="Play_clt_jambank_intro_01">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="grenade_crate"/>
@@ -39,13 +43,22 @@
 		<packages>
 			<value_node value="package_jambank"/>
 		</packages>
+		<xml>
+			<file path="scriptdata/job_c_jambank.sounds"/>
+		</xml>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
+			<mod replacement="c_jambank_stage1.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/c_jambank_stage1">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="jambank" brief_id="heist_jambank_crimenet">
+	<narrative contact="custom" id="jambank" brief_id="heist_jambank_crimenet" briefing_event="clt_jambank_cbf_01">
 		<chain>
 			<table level_id="jambank" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -59,7 +72,7 @@
 			<value_node value="400000"/>
 		</contract_cost>
 		<crimenet_callouts>
-			<value_node value="nothing"/>
+			<value_node value="clt_jambank_cnc_01"/>
 		</crimenet_callouts>
 		<crimenet_videos>
 			<value_node value="cn_branchbank1"/>

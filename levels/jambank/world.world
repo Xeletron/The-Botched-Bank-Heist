@@ -903,7 +903,7 @@
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
 				<entry key="height" type="number" value="400"/>
-				<entry key="name" type="string" value=""/>
+				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="383 1193 -5"/>
 				<entry key="prio" type="number" value="100"/>
@@ -944,7 +944,7 @@
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
 				<entry key="height" type="number" value="400"/>
-				<entry key="name" type="string" value=""/>
+				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="400 312 -5"/>
 				<entry key="prio" type="number" value="100"/>
@@ -987,7 +987,7 @@
 					<entry index="22" type="string" value="c45e91f4a9d72822"/>
 				</entry>
 				<entry key="height" type="number" value="405"/>
-				<entry key="name" type="string" value=""/>
+				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="378 1187 395"/>
 				<entry key="prio" type="number" value="100"/>
@@ -1028,7 +1028,7 @@
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
 				<entry key="height" type="number" value="400"/>
-				<entry key="name" type="string" value=""/>
+				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="381 -298 -5"/>
 				<entry key="prio" type="number" value="100"/>
@@ -1069,7 +1069,7 @@
 					<entry index="20" type="string" value="c827955ef583d8ce"/>
 				</entry>
 				<entry key="height" type="number" value="1100"/>
-				<entry key="name" type="string" value=""/>
+				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
 				<entry key="position" type="vector3" value="1580 1186 -5"/>
 				<entry key="prio" type="number" value="100"/>

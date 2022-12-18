@@ -1,0 +1,36 @@
+<table>
+	<Sounds auto_pause="true" directory="assets/sounds/vo" dont_store_float="true">
+        <sound id="Play_clt_jambank_brf_01" path="jambank_brf_01.ogg"/>
+        <sound id="Play_clt_jambank_intro_01" path="jambank_intro_01.ogg" subtitle_id="clt_jambank_intro_01"/>
+        <sound id="Play_clt_jambank_01" path="jambank_01_1.ogg" subtitle_id="clt_jambank_01_1"/>
+        <sound id="Play_clt_jambank_02" path="jambank_02_1.ogg" subtitle_id="clt_jambank_02_1"/>
+        <sound id="Play_clt_jambank_03" path="jambank_03_1.ogg" subtitle_id="clt_jambank_03_1"/>
+        <sound id="clt_jambank_04_01" path="jambank_04_1.ogg" subtitle_id="clt_jambank_04_1"/>
+        <sound id="clt_jambank_04_02" path="jambank_04_2.ogg" subtitle_id="clt_jambank_04_2"/>
+        <random id="Play_clt_jambank_04">
+            <sound id="clt_jambank_04_01"/>
+            <sound id="clt_jambank_04_02"/>  
+        </random>
+        <sound id="Play_clt_jambank_05" path="jambank_05_1.ogg" subtitle_id="clt_jambank_05_1"/>
+        <sound id="Play_clt_jambank_06" path="jambank_06_1.ogg" subtitle_id="clt_jambank_06_1"/>
+        <sound id="clt_jambank_07_01" path="jambank_07_1.ogg" subtitle_id="clt_jambank_07_1"/>
+        <sound id="clt_jambank_07_02" path="jambank_07_2.ogg" subtitle_id="clt_jambank_07_2"/>
+        <sound id="clt_jambank_07_03" path="jambank_07_3.ogg" subtitle_id="clt_jambank_07_3"/>
+        <random id="Play_clt_jambank_07">
+            <sound id="clt_jambank_07_01"/>
+            <sound id="clt_jambank_07_02"/>  
+            <sound id="clt_jambank_07_03"/>  
+        </random>
+        <sound id="Play_clt_jambank_08" path="jambank_08_1.ogg" subtitle_id="clt_jambank_08_1"/>
+        <sound id="Play_clt_jambank_09" path="jambank_09_1.ogg" subtitle_id="clt_jambank_09_1"/>
+        <sound id="clt_jambank_10_01" path="jambank_10_1.ogg" subtitle_id="clt_jambank_10_1"/>
+        <sound id="clt_jambank_10_02" path="jambank_10_2.ogg" subtitle_id="clt_jambank_10_2"/>
+        <sound id="clt_jambank_10_03" path="jambank_10_3.ogg" subtitle_id="clt_jambank_10_3"/>
+        <random id="Play_clt_jambank_10">
+            <sound id="clt_jambank_10_01"/>
+            <sound id="clt_jambank_10_02"/>  
+            <sound id="clt_jambank_10_03"/>  
+        </random>
+        <sound id="Play_clt_jambank_11" path="jambank_11_1.ogg" subtitle_id="clt_jambank_11_1"/>
+    </Sounds>
+</table>
