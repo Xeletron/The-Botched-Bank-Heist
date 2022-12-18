@@ -1,16 +1,33 @@
 <table>
-	<dialog id="Play_clt_jambank_01" sound="Play_clt_jambank_01" priority="2"/>
-	<dialog id="Play_clt_jambank_02" sound="Play_clt_jambank_02" priority="2"/>
+	<dialog id="Play_clt_jambank_01" sound="Play_clt_jambank_01" priority="1"/>
+	<dialog id="Play_clt_jambank_02" sound="Play_clt_jambank_02" priority="1"/>
 	<dialog id="Play_clt_jambank_03" sound="Play_clt_jambank_03" priority="0"/>
-	<dialog id="Play_clt_jambank_04" sound="Play_clt_jambank_04" priority="2"/>
-	<dialog id="Play_clt_jambank_05" sound="Play_clt_jambank_05" priority="2"/>
+	<dialog id="Play_clt_jambank_04" sound="Play_clt_jambank_04" priority="1"/>
+	<dialog id="Play_clt_jambank_05" sound="Play_clt_jambank_05" priority="1"/>
 	<dialog id="Play_clt_jambank_06" sound="Play_clt_jambank_06" priority="0"/>
-	<dialog id="Play_clt_jambank_07" sound="Play_clt_jambank_07" priority="2"/>
-	<dialog id="Play_clt_jambank_08" sound="Play_clt_jambank_08" priority="2"/>
-	<dialog id="Play_clt_jambank_09" sound="Play_clt_jambank_09" priority="2"/>
-	<dialog id="Play_clt_jambank_10" sound="Play_clt_jambank_10" priority="2"/>
-	<dialog id="Play_clt_jambank_11" sound="Play_clt_jambank_11" priority="2"/>
-	<dialog id="Play_clt_jambank_12" sound="Play_clt_jambank_12" priority="2"/>
-	<dialog id="Play_clt_jambank_13" sound="Play_clt_jambank_13" priority="2"/>
+	<dialog id="Play_clt_jambank_07" sound="Play_clt_jambank_07" priority="1"/>
+	<dialog id="Play_clt_jambank_08" sound="Play_clt_jambank_08" priority="1"/>
+	<dialog id="Play_clt_jambank_09" sound="Play_clt_jambank_09" priority="1"/>
+	<dialog id="Play_clt_jambank_10" sound="Play_clt_jambank_10" priority="1"/>
+	<dialog id="Play_clt_jambank_11" sound="Play_clt_jambank_11" priority="1"/>
+	<dialog id="Play_clt_jambank_12" sound="Play_clt_jambank_12" priority="1"/>
+	<dialog id="Play_clt_jambank_13" sound="Play_clt_jambank_13" priority="1"/>
 	<dialog id="Play_clt_jambank_14" sound="Play_clt_jambank_14" priority="0"/>
+	<dialog id="Play_clt_jambank_15" sound="Play_clt_jambank_15" priority="1"/>
+	<dialog id="Play_clt_jambank_16" sound="Play_clt_jambank_16" priority="1"/>
+	<dialog id="Play_clt_jambank_17" sound="Play_clt_jambank_17" priority="1"/>
+	<dialog id="Play_clt_jambank_18" sound="Play_clt_jambank_18" priority="1"/>
+	<dialog id="Play_clt_jambank_19" sound="Play_clt_jambank_19" priority="1"/>
+	<dialog id="Play_clt_jambank_20" sound="Play_clt_jambank_20" priority="1"/>
+	<dialog id="Play_clt_jambank_21" sound="Play_clt_jambank_21" priority="1"/>
+	<dialog id="Play_clt_jambank_22" sound="Play_clt_jambank_22" priority="1"/>
+	<dialog id="Play_clt_jambank_23" sound="Play_clt_jambank_23" priority="1"/>
+	<dialog id="Play_clt_jambank_24" sound="Play_clt_jambank_24" priority="1"/>
+	<dialog id="Play_clt_jambank_25" sound="Play_clt_jambank_25" priority="1"/>
+	<dialog id="Play_clt_jambank_26" sound="Play_clt_jambank_26" priority="0"/>
+	<dialog id="Play_clt_jambank_27" sound="Play_clt_jambank_27" priority="0"/>
+	<dialog id="Play_clt_jambank_28" sound="Play_clt_jambank_28" priority="0"/>
+	<dialog id="Play_clt_jambank_29" sound="Play_clt_jambank_29" priority="1"/>
+	<dialog id="Play_clt_jambank_30" sound="Play_clt_jambank_30" priority="1"/>
+	<dialog id="Play_clt_jambank_31" sound="Play_clt_jambank_31" priority="1"/>
 </table> 
