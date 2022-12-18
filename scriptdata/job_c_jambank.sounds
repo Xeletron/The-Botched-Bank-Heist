@@ -32,5 +32,13 @@
             <sound id="clt_jambank_10_03"/>  
         </random>
         <sound id="Play_clt_jambank_11" path="jambank_11_1.ogg" subtitle_id="clt_jambank_11_1"/>
+        <sound id="clt_jambank_12_01" path="jambank_12_1.ogg" subtitle_id="clt_jambank_12_1"/>
+        <sound id="clt_jambank_12_02" path="jambank_12_2.ogg" subtitle_id="clt_jambank_12_2"/>
+        <random id="Play_clt_jambank_12">
+            <sound id="clt_jambank_12_01"/>
+            <sound id="clt_jambank_12_02"/>  
+        </random>
+        <sound id="Play_clt_jambank_13" path="jambank_13_1.ogg" subtitle_id="clt_jambank_13_1"/>
+        <sound id="Play_clt_jambank_14" path="jambank_14_1.ogg" subtitle_id="clt_jambank_14_1"/>
     </Sounds>
 </table>

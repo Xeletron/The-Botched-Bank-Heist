@@ -23,7 +23,7 @@ hud_heist_jambank5_hl: "Wait for the time lock"
 hud_heist_jambank5: "Wait for the timelock to open the security gate. Don't let the cops stop it"
 hud_heist_jambank6_hl: "Unpause the time lock"
 hud_heist_jambank6: "The timelock has been stopped. Use the keypad to start it again."
-hud_heist_jambank7_hl: "Find security box and cut the wires in the correct order"
+hud_heist_jambank7_hl: "Find the security box and cut the correct wires"
 hud_heist_jambank7: "Security measures have lockdown the panel. Check which cables are connected to the side of the keypad that has a green light, then find a security box and cut those same wires in order."
 hud_heist_jambank8_hl: "Go outside and wait for the driver"
 hud_heist_jambank8: "The thermite you need was left in the trunk of the car. Get out on the road and wait for the driver to bring it you."
@@ -60,3 +60,35 @@ clt_jambank_10_1: "Wrong code, shout at him some more."
 clt_jambank_10_2: "Is he trying to be funny? Try motivating him again."
 clt_jambank_10_3: "Not the code we need, keep cracking him."
 clt_jambank_11_1: "Alright good. There's still a timelock, but we can get back to the plan after that. Do your jobs always end up like this?"
+clt_jambank_12_1: "Hold on, were those chatrooms public? Oh god damnit they had me tracked the whole time."
+clt_jambank_12_2: "Oh, I might have asked around for vault cracking techniques on... slightly, public forums... Whoops."
+clt_jambank_13_1: "*gasp* What now? A security lockdown, are you serious? Can you check on the keypad for me?"
+clt_jambank_14_1: "Ah okay, look at the color and order of the cables on the side of the panel thats lit up, then find a security box and cut those same colored cables in the same order. That should lift the lockdown."
+
+#--Hides in a cupboard, gets found and falls out.
+ton_jambank_01_1: "*falling out noise*"
+
+#-- Lying on the floor, speaking like he's just done with everything
+ton_jambank_02_1: "Ah fuck my life"
+ton_jambank_02_2: "How do I always get in these situations"
+ton_jambank_02_3: "I assume you're not here to make a deposit are you"
+
+#-- Tries to run away but gang catches him and shouts at him to move, he's very desprate
+ton_jambank_03_1: "Okay, okay, sorry."
+ton_jambank_03_2: "Please just let me gooo."
+ton_jambank_03_3: "Why you gotta do this man."
+
+#--At the timelock keypad, gang shouting at him to enter the code, but he refuses
+ton_jambank_04_1: "I don't know the code"
+ton_jambank_04_2: "I can't help you"
+ton_jambank_04_3: "You're not getting it from me"
+ton_jambank_04_4: "I'll get fired if I do!"
+
+#--He gives up and enters a code, might not be the correct one, he's not sure
+ton_jambank_05_1: "Okay fine... I think it's this one?."
+ton_jambank_05_2: "Alright, you win. But not sure which one it is, let's see..."
+ton_jambank_05_3: "God damnit, okay. (talking to himself) Uhmm... is that the one?"
+ton_jambank_05_4: "I really don't remember, but.... Maybe this?"
+
+#--Codes work, manager runs away
+ton_jambank_06_1: "I'm gonna get so fired for this"

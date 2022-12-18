@@ -31,6 +31,7 @@
 		</assets>
 		<hooks directory="hooks">
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="dialogmanager.lua" source_file="lib/managers/dialogmanager"/>
 		</hooks>
 		<interactions>
 			<interaction based_on="gen_pku_artifact" id="jam_pku_coins" action_text_id="hud_action_jam_pku_coins" sound_done="bar_pickup_bolt_cutter_finished" sound_interupt="bar_pickup_bolt_cutter_cancel" sound_start="bar_pickup_bolt_cutter" timer="4"/>
