@@ -97,5 +97,10 @@
             <sound id="ton_jambank_05_4" relative="true"/>  
         </random>
         <sound id="Play_ton_jambank_06" path="ton_jambank_06.ogg" relative="true"/>
+
+        <sound id="Play_drv_jambank_01" path="drv_jambank_01.ogg"  subtitle_id="drv_jambank_01"/>
+        <sound id="Play_drv_jambank_02" path="drv_jambank_02.ogg"  subtitle_id="drv_jambank_02"/>
+        <sound id="Play_drv_jambank_03" path="drv_jambank_03.ogg"  subtitle_id="drv_jambank_03"/>
+        <sound id="Play_drv_jambank_04" path="drv_jambank_04.ogg"  subtitle_id="drv_jambank_04"/>
     </Sounds>
 </table>
