@@ -36,17 +36,17 @@
 		</table>
 	</editor_groups>
 	<instances>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_001" position="1393 -674 400" rotation="0 0 -0.707107 -0.707107" script="default" start_index="0"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_002" position="401 -73 400.1" rotation="0 0 0.707107 -0.707107" script="default" start_index="250"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_003" position="1608.21 -592.996 400" rotation="0 0 0 -1" script="default" start_index="500"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_004" position="1251 1087 400" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_005" position="2430 872 400" rotation="0 0 0.707107 0.707107" script="default" start_index="1000"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_006" position="1897 390 400" rotation="0 0 -1 0" script="default" start_index="1250"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_wire_box/world" index_size="250" mission_placed="true" name="jambank_wire_box_001" position="375 -1920 3368" rotation="0 0 0 -1" script="default" start_index="1500"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_001" position="2722 1024 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="1750"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_002" position="3322 1025 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="2000"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_003" position="3542 800 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="2250"/>
-		<table continent="world" folder="levels/instances/mods/jambank/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_004" position="3543 -200 0" rotation="0 0 1 4.37114e-008" script="default" start_index="2500"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_001" position="1393 -674 400" rotation="0 0 -0.707107 -0.707107" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_002" position="401 -73 400.1" rotation="0 0 0.707107 -0.707107" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_003" position="1608.21 -592.996 400" rotation="0 0 0 -1" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_004" position="1251 1087 400" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_005" position="2430 872 400" rotation="0 0 0.707107 0.707107" script="default" start_index="1000"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_hideaway_cupboard/world" index_size="250" name="jambank_hideaway_cupboard_006" position="1897 390 400" rotation="0 0 -1 0" script="default" start_index="1250"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_wire_box/world" index_size="250" mission_placed="true" name="jambank_wire_box_001" position="375 -1920 3368" rotation="0 0 0 -1" script="default" start_index="1500"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_001" position="2722 1024 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="1750"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_002" position="3322 1025 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="2000"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_003" position="3542 800 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="2250"/>
+		<table continent="world" folder="levels/instances/mods/TheBotchedBankHeist/jambank_deposit_room/world" index_size="250" name="jambank_deposit_room_004" position="3543 -200 0" rotation="0 0 1 4.37114e-008" script="default" start_index="2500"/>
 	</instances>
 	<statics>
 		<table>

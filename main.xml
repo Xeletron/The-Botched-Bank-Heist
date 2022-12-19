@@ -1,4 +1,4 @@
-<table min_lib_ver="4.5" name="The Botched Bank Heist">
+<table min_lib_ver="4.5" name="TheBotchedBankHeist">
 	<instance id="jambank_hideaway_cupboard">
 		<packages>
 			<value_node value="package_jambank"/>
