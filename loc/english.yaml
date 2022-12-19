@@ -52,8 +52,8 @@ clt_jambank_04_1: "Who could have tipped them off? I had thought of everything"
 clt_jambank_04_2: "This was supposed to be an easy hit, I had planned it all out, what went wrong?"
 clt_jambank_05_1: "Wait where is he? No way, he must have hid somewhere. Open up all the cupboards and check for him."
 clt_jambank_06_1: "There you go, I knew he'd still be there. Get him down to the keypad, and make sure he doesn't try anything funny."
-clt_jambank_07_1: "He's getting away! Get em!"
-clt_jambank_07_2: "Hey, don't let him run away!"
+clt_jambank_07_1: "He's getting away! Get him!"
+clt_jambank_07_2: "Hey, don't let him get away!"
 clt_jambank_07_3: "Look out, Mr. manager is booking it!"
 clt_jambank_08_1: "Convince him to enter the code, a little verbal motivation should do it."
 clt_jambank_09_1: "It needs a keycard, of course it does. Try looking around the bank area or offices for one."
@@ -81,31 +81,5 @@ clt_jambank_27_1: "Hey that laptop can remotely open the deposit box shutters if
 clt_jambank_29_1: "Did you know some of these coins depict an infamously unlucky king? They say anyone he got in contact with was struck with bad fortune, which if I come to think of it..."
 clt_jambank_30_1: "Amazing, that's all I require from you. I strongly advise you take all the coins, but if you really wish to go, head down to the river for your arranged extraction."
 clt_jambank_31_1: "Oh shit, that turret must be the result of cutting the wrong cables. Good luck I guess."
-
-#--Hides in a cupboard, gets found and falls out.
-ton_jambank_01_1: "*falling out noise*"
-
-#-- Lying on the floor, speaking like he's just done with everything
-ton_jambank_02_1: "Ah fuck my life"
-ton_jambank_02_2: "How do I always get in these situations"
-ton_jambank_02_3: "I assume you're not here to make a deposit are you"
-
-#-- Tries to run away but gang catches him and shouts at him to move, he's very desprate
-ton_jambank_03_1: "Okay, okay, sorry."
-ton_jambank_03_2: "Please just let me gooo."
-ton_jambank_03_3: "Why you gotta do this man."
-
-#--At the timelock keypad, gang shouting at him to enter the code, but he refuses
-ton_jambank_04_1: "I don't know the code"
-ton_jambank_04_2: "I can't help you"
-ton_jambank_04_3: "You're not getting it from me"
-ton_jambank_04_4: "I'll get fired if I do!"
-
-#--He gives up and enters a code, might not be the correct one, he's not sure
-ton_jambank_05_1: "Okay fine... I think it's this one?."
-ton_jambank_05_2: "Alright, you win. But not sure which one it is, let's see..."
-ton_jambank_05_3: "God damnit, okay. (talking to himself) Uhmm... is that the one?"
-ton_jambank_05_4: "I really don't remember, but.... Maybe this?"
-
-#--Codes work, manager runs away
-ton_jambank_06_1: "I'm gonna get so fired for this"
+drv_jambank_01: "They're still in the car."
+drv_jambank_02: "I'm coming back, meet me out on the road."

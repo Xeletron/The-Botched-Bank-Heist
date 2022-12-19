@@ -94,6 +94,14 @@
 							<entry key="delay" type="number" value="5"/>
 							<entry key="id" type="number" value="100014"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.05"/>
+							<entry key="id" type="number" value="100026"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="2.2"/>
+							<entry key="id" type="number" value="100024"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-200 400 100"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -634,6 +642,51 @@
 					<entry key="set_trigger_times" type="number" value="1"/>
 					<entry key="toggle" type="string" value="on"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="25" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_01"/>
+				<entry key="id" type="number" value="100026"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_01"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-75 100 119"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="26" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_02"/>
+				<entry key="id" type="number" value="100024"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_02"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-75 150 26.732"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
 				</entry>
 			</entry>
 		</entry>

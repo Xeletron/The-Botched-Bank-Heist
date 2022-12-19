@@ -33,7 +33,7 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="1"/>
+							<entry key="delay" type="number" value="6.5"/>
 							<entry key="id" type="number" value="100826"/>
 						</entry>
 					</entry>
@@ -543,7 +543,7 @@
 							<entry key="id" type="number" value="100014"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="3"/>
+							<entry key="delay" type="number" value="6"/>
 							<entry key="id" type="number" value="100243"/>
 						</entry>
 						<entry index="5" type="table">
@@ -7920,7 +7920,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="interrupt" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
@@ -8323,6 +8323,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100245"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100869"/>
+						</entry>
 					</entry>
 					<entry key="outcome" type="string" value="fail"/>
 					<entry key="position" type="vector3" value="800 -1300 3367.5"/>
@@ -8352,6 +8356,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100260"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100868"/>
 						</entry>
 					</entry>
 					<entry key="outcome" type="string" value="success"/>
@@ -9078,8 +9086,12 @@
 							<entry key="id" type="number" value="100293"/>
 						</entry>
 						<entry index="8" type="table">
-							<entry key="delay" type="number" value="0"/>
+							<entry key="delay" type="number" value="0.3"/>
 							<entry key="id" type="number" value="100834"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="8"/>
+							<entry key="id" type="number" value="100870"/>
 						</entry>
 					</entry>
 					<entry key="outcome" type="string" value="success"/>
@@ -25931,6 +25943,151 @@
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="0 100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="869" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_04"/>
+				<entry key="id" type="number" value="100869"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_04"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="2412 60 80"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="870" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_05"/>
+				<entry key="id" type="number" value="100868"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_05"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="2407 60 130"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="871" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_06"/>
+				<entry key="id" type="number" value="100870"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_06"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="2374 60 80"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="872" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_ton_jambank_03_1"/>
+				<entry key="id" type="number" value="100871"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_03"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="725 -600 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="873" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="manager_going_001"/>
+				<entry key="id" type="number" value="100872"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100197"/>
+						<entry index="2" type="number" value="100198"/>
+						<entry index="3" type="number" value="100199"/>
+						<entry index="4" type="number" value="100200"/>
+						<entry index="5" type="number" value="100201"/>
+						<entry index="6" type="number" value="100209"/>
+						<entry index="7" type="number" value="100210"/>
+						<entry index="8" type="number" value="100211"/>
+						<entry index="9" type="number" value="100212"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="fail"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="100873"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="800 -100 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="2"/>
+				</entry>
+			</entry>
+			<entry index="874" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="Play_clt_jambank_007"/>
+				<entry key="id" type="number" value="100873"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_ton_jambank_03"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="800 -200 3367.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
