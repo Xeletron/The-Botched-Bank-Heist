@@ -13,6 +13,21 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
+	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_jambank" banner="guis/mods/fuel/textures/achievements/fuel_banner">
+		<achievement desc_id="achievement_jambank_wd_0_desc" icon="guis/textures/mods/achievements/jambank_normal" id="achievement_jambank_wd_0" name_id="achievement_jambank_wd_0" rank="1"/>
+		<achievement desc_id="achievement_jambank_wd_1_desc" icon="guis/textures/mods/achievements/jambank_hard" id="achievement_jambank_wd_1" name_id="achievement_jambank_wd_1" rank="1"/>
+		<achievement desc_id="achievement_jambank_wd_2_desc" icon="guis/textures/mods/achievements/jambank_veryhard" id="achievement_jambank_wd_2" name_id="achievement_jambank_wd_2" rank="1"/>
+		<achievement desc_id="achievement_jambank_wd_3_desc" icon="guis/textures/mods/achievements/jambank_overkill" id="achievement_jambank_wd_3" name_id="achievement_jambank_wd_3" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_pick_desc" icon="guis/textures/mods/achievements/jambank_mayhem" id="achievement_jambank_pick" name_id="achievement_jambank_pick" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_death_desc" icon="guis/textures/mods/achievements/jambank_deathwish" id="achievement_jambank_death" name_id="achievement_jambank_death" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_ggez_desc" icon="guis/textures/mods/achievements/jambank_deathsentence" id="achievement_jambank_ggez" name_id="achievement_jambank_ggez" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_axe_desc" icon="guis/textures/mods/achievements/jambank_onedown" id="achievement_jambank_axe" name_id="achievement_jambank_axe" rank="4" reward_amount="10" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_turret_desc" icon="guis/mods/jambank/textures/achievements/jambank_turret" id="achievement_jambank_turret" name_id="achievement_jambank_turret" rank="3" reward_amount="4" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture path="guis/textures/mods/loading/job_jambank_df"/>
+		<texture path="guis/textures/mods/crimenet/jambank"/>
+	</AddFiles>
 <!--
 	<Sounds directory="assets/sounds/vo" unload="true" dont_store_float="true">
         <sound id="clt_jambank_cbf_01" path="jambank_cbf_01.ogg"/>
@@ -20,7 +35,7 @@
     </Sounds>
 -->
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
-	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24" briefing_dialog="Play_clt_jambank_brf_01" intro_event="Play_clt_jambank_intro_01">
+	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24" briefing_dialog="Play_clt_jambank_brf_01" intro_event="Play_clt_jambank_intro_01" load_screen="guis/textures/mods/loading/job_jambank_df">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="grenade_crate"/>
@@ -64,7 +79,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="jambank" brief_id="heist_jambank_crimenet" briefing_event="clt_jambank_cbf_01">
+	<narrative contact="custom" id="jambank" brief_id="heist_jambank_crimenet" icon="guis/textures/mods/crimenet/jambank"  briefing_event="clt_jambank_cbf_01">
 		<chain>
 			<table level_id="jambank" type="d" type_id="heist_type_assault"/>
 		</chain>

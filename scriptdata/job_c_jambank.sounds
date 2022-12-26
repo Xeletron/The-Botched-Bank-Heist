@@ -1,8 +1,8 @@
 <table>
-	<Sounds auto_pause="true" directory="assets/sounds/vo" dont_store_float="true">
+	<Sounds auto_pause="true" directory="assets/sounds/vo" dont_store_float="true" dialog="true" unload="true">
         <sound id="Play_clt_jambank_brf_01" path="jambank_brf_01.ogg"/>
         <sound id="Play_clt_jambank_end_01" path="jambank_end_01.ogg"/>
-        <sound id="Play_clt_jambank_intro_01" path="jambank_intro_01.ogg" subtitle_id="clt_jambank_intro_01"/>
+        <sound id="Play_clt_jambank_intro_01" path="jambank_intro_01.ogg"/>
         <sound id="Play_clt_jambank_01" path="jambank_01_1.ogg" subtitle_id="clt_jambank_01_1"/>
         <sound id="Play_clt_jambank_02" path="jambank_02_1.ogg" subtitle_id="clt_jambank_02_1"/>
         <sound id="Play_clt_jambank_03" path="jambank_03_1.ogg" subtitle_id="clt_jambank_03_1"/>
