@@ -1,11 +1,11 @@
 local function lower_volume()
-    if Global.music_manager.current_track and Global.music_manager.current_event then
-        SoundDevice:set_rtpc("option_music_volume", Global.music_manager.volume * 0.37 * 100)
-    end
+    SoundDevice:set_rtpc("option_music_volume", Global.music_manager.volume * 50)
+    SoundDevice:set_rtpc("ingame_sound", 0.7)
 end
 
 local function reset_volume()
     SoundDevice:set_rtpc("option_music_volume", Global.music_manager.volume * 100)
+    SoundDevice:set_rtpc("ingame_sound", 1)
 end
 
 Hooks:PostHook(DialogManager, "_play_dialog", "jambank_dialog_start", function()
