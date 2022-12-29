@@ -2336,6 +2336,21 @@
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_113" position="-4841 -3084 -998.043" rotation="0 0 0 -1" unit_id="200435"/>
 		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_014" position="-300 -1225 3365" rotation="0 0 0 -1" unit_id="200436"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_017" position="125 -750 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200692">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="ACHIEVEMENTS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

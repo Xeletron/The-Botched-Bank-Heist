@@ -133,6 +133,8 @@
 		<!--TURRET-->
 		<unit_mat_seq path="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_hatch"/>
 		<unit_obj path="units/pd2_mod_jam/vehicles/jam_turret_ceiling_hatch/jam_turret_ceiling_debris"/>
+
+		<unit_mat_seq path="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin"/>
 	</add>
 
 	<add from_db="true" path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling" type="unit">
