@@ -41,6 +41,24 @@
 		<table>
 			<unit_data continent="world" mesh_variation="interact_enable" name="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" name_id="dah_prop_control_device_keycard_reader_001" position="21 78 130" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100013"/>
 		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_001" position="2 -6 38.5" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_002" position="2 41 38.5" rotation="0 0 -0.707107 -0.707107" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_003" position="2 -6 70.5" rotation="0 0 -0.707107 -0.707107" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_004" position="2 41 70.5" rotation="0 0 -0.707107 -0.707107" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_005" position="2 -6 101.5" rotation="0 0 -0.707107 -0.707107" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="disable_interaction" name="units/pd2_mod_jam/pickups/jam_pku_katcoin/jam_pku_katcoin" name_id="jam_pku_katcoin_006" position="2 41 101.5" rotation="0 0 -0.707107 -0.707107" unit_id="100018"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

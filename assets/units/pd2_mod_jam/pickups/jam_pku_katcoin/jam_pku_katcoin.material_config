@@ -1,8 +1,11 @@
 <materials version="3">
-    <material name="mat_coin" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
-        <diffuse_texture		file="units/pd2_dlc_uno/props/uno_interactable_goldbag_open/uno_interactable_goldbag_bar_df" mip="3" />
-        <material_texture		file="units/pd2_dlc_uno/props/uno_interactable_goldbag_open/uno_interactable_goldbag_bar_gsma" mip="3" />
-        <bump_normal_texture	file="core/textures/blank_texture_nm"/>
-        <reflection_texture		file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    <material render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_coin" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/props/uno_interactable_goldbag_open/uno_interactable_goldbag_bar_df" mip="3"/>
+        <material_texture file="units/pd2_dlc_uno/props/uno_interactable_goldbag_open/uno_interactable_goldbag_bar_gsma" mip="3"/>
+        <bump_normal_texture file="core/textures/blank_texture_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="1"/>
+        <variable type="scalar" name="contour_distance" value="0"/>
     </material>
 </materials>

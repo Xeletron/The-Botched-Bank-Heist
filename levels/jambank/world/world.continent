@@ -5200,7 +5200,7 @@
 			<unit_data continent="world" name="units/payday2/props/str_prop_street_lamppost_walksign/str_prop_street_lamppost_walksign" name_id="str_prop_street_lamppost_walksign_003" position="-2019 2342 225" rotation="0 0 -0.707107 -0.707107" unit_id="101987"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_001" position="4057 4594 -24.052" rotation="0 0 1 4.37114e-008" unit_id="101988">
+			<unit_data continent="world" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_001" position="4057 4594 -24.052" rotation="0 0 1 -4.37114e-008" unit_id="101988">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -6712,7 +6712,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_full" name_id="ind_ext_harbour_tire_full_002" position="-4675 -1600 -600.8" rotation="0 0 0 -1" unit_id="102409"/>
 		</table>
 		<table>
-			<unit_data continent="world" material_variation="units/vehicles/truck_regular/man_vehicle_truck_variation_3" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_002" position="-4075 -1325 -600" rotation="0 0 0 -1" unit_id="102410">
+			<unit_data continent="world" material_variation="units/vehicles/truck_regular/man_vehicle_truck_variation_3" mesh_variation="" name="units/vehicles/truck_regular/man_vehicle_truck" name_id="man_vehicle_truck_002" position="-4075 -1325 -601" rotation="0 0 0 -1" unit_id="102410">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>

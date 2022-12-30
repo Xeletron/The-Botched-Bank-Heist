@@ -8,12 +8,14 @@
 		<packages/>
 	</instance>
 	<instance id="jambank_deposit_room">
-		<packages/>
+		<packages>
+			<value_node value="package_jambank"/>
+		</packages>
 	</instance>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
-	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_jambank">
+	<Achievements icon="guis/textures/mods/achievements/jambank_pack" id="achievements_jambank">
 		<achievement desc_id="achievement_jambank_wd_0_desc" icon="guis/textures/mods/achievements/jambank_normal" id="achievement_jambank_wd_0" name_id="achievement_jambank_wd_0" rank="1"/>
 		<achievement desc_id="achievement_jambank_wd_1_desc" icon="guis/textures/mods/achievements/jambank_hard" id="achievement_jambank_wd_1" name_id="achievement_jambank_wd_1" rank="1"/>
 		<achievement desc_id="achievement_jambank_wd_2_desc" icon="guis/textures/mods/achievements/jambank_veryhard" id="achievement_jambank_wd_2" name_id="achievement_jambank_wd_2" rank="1"/>
@@ -22,15 +24,37 @@
 		<achievement desc_id="achievement_jambank_death_desc" icon="guis/textures/mods/achievements/jambank_deathwish" id="achievement_jambank_death" name_id="achievement_jambank_death" rank="3" reward_amount="6" reward_type="cc"/>
 		<achievement desc_id="achievement_jambank_ggez_desc" icon="guis/textures/mods/achievements/jambank_deathsentence" id="achievement_jambank_ggez" name_id="achievement_jambank_ggez" rank="4" reward_amount="8" reward_type="cc"/>
 		<achievement desc_id="achievement_jambank_axe_desc" icon="guis/textures/mods/achievements/jambank_onedown" id="achievement_jambank_axe" name_id="achievement_jambank_axe" rank="4" reward_amount="10" reward_type="cc"/>
-		<achievement desc_id="achievement_jambank_turret_desc" icon="guis/mods/jambank/textures/achievements/jambank_turret" id="achievement_jambank_turret" name_id="achievement_jambank_turret" rank="3" reward_amount="150000" reward_type="xp"/>
-		<achievement desc_id="achievement_jambank_coin_desc" icon="guis/mods/jambank/textures/achievements/jambank_coin" id="achievement_jambank_coin" name_id="achievement_jambank_coin" rank="3" reward_amount="2" reward_type="cc"/>
-		<achievement desc_id="achievement_jambank_mick_desc" icon="guis/mods/jambank/textures/achievements/jambank_mick" id="achievement_jambank_mick" name_id="achievement_jambank_mick" rank="2"/>
-		<achievement desc_id="achievement_jambank_rain_desc" icon="guis/mods/jambank/textures/achievements/jambank_rain" id="achievement_jambank_rain" name_id="achievement_jambank_rain" rank="2"/>
+		<achievement desc_id="achievement_jambank_turret_desc" icon="guis/textures/mods/achievements/jambank_turret" id="achievement_jambank_turret" name_id="achievement_jambank_turret" rank="3" reward_amount="150000" reward_type="xp"/>
+		<achievement desc_id="achievement_jambank_coin_desc" icon="guis/textures/mods/achievements/jambank_coin" id="achievement_jambank_coin" name_id="achievement_jambank_coin" rank="3" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="achievement_jambank_mick_desc" icon="guis/textures/mods/achievements/jambank_mick" id="achievement_jambank_mick" name_id="achievement_jambank_mick" rank="2"/>
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture path="guis/textures/mods/loading/job_jambank_df"/>
 		<texture path="guis/textures/mods/crimenet/jambank"/>
+		<texture path="guis/textures/mods/achievements/jambank_pack"/>
+		<texture path="guis/textures/mods/achievements/jambank_normal"/>
+		<texture path="guis/textures/mods/achievements/jambank_hard"/>
+		<texture path="guis/textures/mods/achievements/jambank_veryhard"/>
+		<texture path="guis/textures/mods/achievements/jambank_overkill"/>
+		<texture path="guis/textures/mods/achievements/jambank_mayhem"/>
+		<texture path="guis/textures/mods/achievements/jambank_deathwish"/>
+		<texture path="guis/textures/mods/achievements/jambank_deathsentence"/>
+		<texture path="guis/textures/mods/achievements/jambank_onedown"/>
+		<texture path="guis/textures/mods/achievements/jambank_turret"/>
+		<texture path="guis/textures/mods/achievements/jambank_coin"/>
+		<texture path="guis/textures/mods/achievements/jambank_mick"/>
 	</AddFiles>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_normal" texture="guis/textures/mods/achievements/jambank_normal"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_hard" texture="guis/textures/mods/achievements/jambank_hard"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_veryhard" texture="guis/textures/mods/achievements/jambank_veryhard"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_overkill" texture="guis/textures/mods/achievements/jambank_overkill"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_mayhem" texture="guis/textures/mods/achievements/jambank_mayhem"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_deathwish" texture="guis/textures/mods/achievements/jambank_deathwish"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_deathsentence" texture="guis/textures/mods/achievements/jambank_deathsentence"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_onedown" texture="guis/textures/mods/achievements/jambank_onedown"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_turret" texture="guis/textures/mods/achievements/jambank_turret"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_coin" texture="guis/textures/mods/achievements/jambank_coin"/>
+	<HUDIcon id="guis/textures/mods/achievements/jambank_mick" texture="guis/textures/mods/achievements/jambank_mick"/>
 	<Dependencies>
 		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
 	</Dependencies>
