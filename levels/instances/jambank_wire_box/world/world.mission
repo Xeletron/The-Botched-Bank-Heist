@@ -471,6 +471,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100028"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="45"/>
+							<entry key="id" type="number" value="100027"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="300 -150 -100"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -811,7 +815,7 @@
 					<entry key="position" type="vector3" value="-17 -17 185"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="text_id" type="string" value="debug_none"/>
-					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
 			<entry index="29" type="table">

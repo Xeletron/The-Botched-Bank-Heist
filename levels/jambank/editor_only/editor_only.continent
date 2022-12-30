@@ -124,7 +124,7 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="1225 2575 3367.5" rotation="0 0 0.707107 -0.707107" unit_id="200013">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 1 - FIND VAULT" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="3" render_template="OverlayVertexColorTextured" text="OBJ 1 - FIND VAULT &amp; OFFICES" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
