@@ -4,8 +4,9 @@
         <sound id="Play_clt_jambank_end_01" path="jambank_end_01.ogg"/>
         <sound id="Play_clt_jambank_intro_01" path="jambank_intro_01.ogg">
             <markers>
-                <table position="0" label="drv_jambank_intro_01"/>
-                <table position="2" label="drv_jambank_intro_02"/>
+                <table position="0.5" label="clt_jambank_intro_01"/>
+                <table position="6" label="clt_jambank_intro_02"/>
+                <table position="12.5" label="clt_jambank_intro_03"/>
             </markers>
         </sound>
         <sound id="Play_clt_jambank_01" path="jambank_01_1.ogg" subtitle_id="clt_jambank_01_1"/>
@@ -18,6 +19,12 @@
             <sound id="clt_jambank_04_02"/>  
         </random>
         <sound id="Play_clt_jambank_05" path="jambank_05_1.ogg" subtitle_id="clt_jambank_05_1"/>
+        <sound id="clt_jambank_05_02" path="jambank_05_2.ogg" subtitle_id="clt_jambank_05_2"/>
+        <sound id="clt_jambank_05_03" path="jambank_05_3.ogg" subtitle_id="clt_jambank_05_3"/>
+        <random id="Play_clt_jambank_05_2">
+            <sound id="clt_jambank_05_02"/>
+            <sound id="clt_jambank_05_03"/>  
+        </random>
         <sound id="Play_clt_jambank_06" path="jambank_06_1.ogg" subtitle_id="clt_jambank_06_1"/>
         <sound id="clt_jambank_07_01" path="jambank_07_1.ogg" subtitle_id="clt_jambank_07_1"/>
         <sound id="clt_jambank_07_02" path="jambank_07_2.ogg" subtitle_id="clt_jambank_07_2"/>
@@ -63,6 +70,16 @@
         <sound id="Play_clt_jambank_29" path="jambank_29_1.ogg" subtitle_id="clt_jambank_29_1"/>
         <sound id="Play_clt_jambank_30" path="jambank_30_1.ogg" subtitle_id="clt_jambank_30_1"/>
         <sound id="Play_clt_jambank_31" path="jambank_31_1.ogg" subtitle_id="clt_jambank_31_1"/>
+        <sound id="clt_jambank_32_01" path="jambank_32_1.ogg" subtitle_id="clt_jambank_32_1"/>
+        <sound id="clt_jambank_32_02" path="jambank_32_2.ogg" subtitle_id="clt_jambank_32_2"/>
+        <sound id="clt_jambank_32_03" path="jambank_32_3.ogg" subtitle_id="clt_jambank_32_3"/>
+        <random id="Play_clt_jambank_32">
+            <sound id="clt_jambank_32_01"/>
+            <sound id="clt_jambank_32_02"/>  
+            <sound id="clt_jambank_32_03"/>  
+        </random>
+        <sound id="Play_clt_jambank_33" path="jambank_33_1.ogg" subtitle_id="clt_jambank_33_1"/>
+        <sound id="Play_clt_jambank_34" path="jambank_34_1.ogg" subtitle_id="clt_jambank_34_1"/>
 
         <sound id="Play_ton_jambank_01" path="ton_jambank_01.ogg" relative="true"/>
         <sound id="ton_jambank_02_1" path="ton_jambank_02_1.ogg" relative="true"/>

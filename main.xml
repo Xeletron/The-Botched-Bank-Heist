@@ -1,4 +1,4 @@
-<table min_lib_ver="4.5" name="TheBotchedBankHeist">
+<table min_lib_ver="4.8" name="TheBotchedBankHeist">
 	<instance id="jambank_hideaway_cupboard">
 		<packages>
 			<value_node value="package_jambank"/>
@@ -44,17 +44,6 @@
 		<texture path="guis/textures/mods/achievements/jambank_coin"/>
 		<texture path="guis/textures/mods/achievements/jambank_mick"/>
 	</AddFiles>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_normal" texture="guis/textures/mods/achievements/jambank_normal"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_hard" texture="guis/textures/mods/achievements/jambank_hard"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_veryhard" texture="guis/textures/mods/achievements/jambank_veryhard"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_overkill" texture="guis/textures/mods/achievements/jambank_overkill"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_mayhem" texture="guis/textures/mods/achievements/jambank_mayhem"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_deathwish" texture="guis/textures/mods/achievements/jambank_deathwish"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_deathsentence" texture="guis/textures/mods/achievements/jambank_deathsentence"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_onedown" texture="guis/textures/mods/achievements/jambank_onedown"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_turret" texture="guis/textures/mods/achievements/jambank_turret"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_coin" texture="guis/textures/mods/achievements/jambank_coin"/>
-	<HUDIcon id="guis/textures/mods/achievements/jambank_mick" texture="guis/textures/mods/achievements/jambank_mick"/>
 	<Dependencies>
 		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
 	</Dependencies>

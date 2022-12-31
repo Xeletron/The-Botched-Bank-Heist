@@ -2722,4 +2722,7 @@
 		<object path="units/payday2/mockup/occluder_plane_4x8"/>
 		<unit path="units/payday2/mockup/occluder_plane_4x8"/>
 	</add>
+	<add from_db="true" path="effects/particles/environment/scene_vent_heat" type="effect">
+		<effect load="true" path="effects/particles/environment/scene_vent_heat"/>
+	</add>
 </table>

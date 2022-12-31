@@ -85,21 +85,18 @@ hud_heist_jambank16: "The manager has hid away somewhere in the office, probably
 
 # - SUBTITLES
 clt_jambank_end_01:  "Well we sure had some hickups along the way, but it went pretty well dont you think? Enjoy your payment fellas, and pour one out for old Mick."
-clt_jambank_intro_01: "The bank's just around the corner... Oh shit, a police blockade. We're here, get out quick!"
+clt_jambank_intro_01: "We're almost there, bank's just around the corner."
+clt_jambank_intro_02: "What the? A police blockade, they were expecting us."
+clt_jambank_intro_03: "We're here, get out quick!"
 
-#-- clt_jambank_01_1, clt_jambank_01_2
 clt_jambank_01_1: "What the hell? How did the cops know about our plan? Well, can't turn back now, check the vault and see if the alarm activated any security measures."
-clt_jambank_02_1: "Ah Rats, a security gate! The manager should know the code to open it. Get upstairs where his office is and find him."
-
+clt_jambank_02_1: "Aw crap, a security gate! The manager outta know the code to open it though. His office should be upstairs, so get up there and find him."
 clt_jambank_03_1: "Oh come on, get that door open."
 clt_jambank_04_1: "Who could have tipped them off? I had thought of everything"
 clt_jambank_04_2: "This was supposed to be an easy hit, I had planned it all out, what went wrong?"
-
-#-- clt_jambank_05_1, clt_jambank_05_2, clt_jambank_05_3
-clt_jambank_05_1: "Wait where is he? Nooooo, *desparetly* he must be hiding around the office somewhere. Those closets could fit a person right?"
-clt_jambank_05_2: "Look inside the closests, I'm absolutely positive the manager is hiding in one of those."
-clt_jambank_05_3: "Hey, the manager's not going to find himself, check the closests."
-
+clt_jambank_05_1: "Wait where is he? Uh, he must be hiding around the office somewhere. Those closets look like they could fit a person."
+clt_jambank_05_2: "Look inside the closets, I'm absolutely positive the manager is hiding in one of those."
+clt_jambank_05_3: "Hey, the manager's not going to find himself, check those closets!"
 clt_jambank_06_1: "There you go, I knew he'd still be there. Get him down to the keypad, and make sure he doesn't try anything funny."
 clt_jambank_07_1: "He's getting away! Get him!"
 clt_jambank_07_2: "Hey, don't let him get away!"
@@ -109,22 +106,15 @@ clt_jambank_09_1: "It needs a keycard, of course it does. Try looking around the
 clt_jambank_10_1: "Wrong code, keep shouting at him."
 clt_jambank_10_2: "Is he trying to be funny? Try motivating him again."
 clt_jambank_10_3: "Gave us the wrong code, keep cracking him."
-
-  #-- clt_jambank_11_1
-clt_jambank_11_1: "*relieved* Okay, okay... Still have to wait for the timelock, but after that, we're good. Do all your heists have this many difficulties?"
-
+#clt_jambank_11_1: "*relieved* Okay, okay... Still have to wait for the timelock, but after that, we're good. Do all your heists have this many difficulties?"
+clt_jambank_11_1: "Alight, good. There's still a timelock, but we can get back to the plan after that. Do your plans always end up like this."
 clt_jambank_12_1: "Hold on, were those chatrooms public? Oh they had me tracked the entire damn time."
 clt_jambank_12_2: "Okay, I might have asked around for vault cracking techniques on, slightly, monitored forums... Oops."
 clt_jambank_13_1: "What now? A security lockdown, are you serious? Can you check on the keypad for me?"
-#-- clt_jambank_14_1, clt_jambank_15_1
 clt_jambank_14_1: "Ah, see those wires connected the lit side of the keypad? They're hooked up to a security box somewhere on this floor. If you find it and cut the same colored wires in the same order, it will lift the lockdown."
-clt_jambank_15_1: "To lift the security lockdown, check which side of the keypad is lit up and remember the wires connected to it. Then find a security box and cut those same colored wires in the same order."
-
+clt_jambank_15_1: "To lift the security lockdown, check which side of the keypad is lit up and remember the wires connected to it. Then find a security box and cut those same wires in the same order."
 clt_jambank_16_1: "Oh you are great, security lockdown disabled. Now go and restart the timelock."
-
-#-- clt_jambank_17_1
 clt_jambank_17_1: "Something wasn't quite right about those wires... But the lockdown is lifted and nothing seems to have happened. Restart the timelock, maybe it'll be fine."
-
 clt_jambank_18_1: "Finally, we're in. Now, put the thermite on the vault door."
 clt_jambank_19_1: "Uhm, you did bring the thermite right?"
 clt_jambank_20_1: "You can't be serious."
@@ -137,15 +127,14 @@ clt_jambank_26_1: "You can set up a zipline to secure all the loot. My boat is a
 clt_jambank_27_1: "Hey that laptop can remotely open the deposit box shutters if your bring it near them, good find."
 clt_jambank_29_1: "Did you know some of these coins depict an infamously unlucky king? They say anyone he got in contact with was struck with bad fortune, which if I come to think of it..."
 clt_jambank_30_1: "Amazing, that's all I require from you. I strongly advise you take all the coins, but if you really wish to go, head down to the river for your arranged extraction."
-    
-#-- clt_jambank_31_1 
-clt_jambank_31_1: "Oh shit, that turret must be the result of cutting the wrong wires. Good luck I guess."
-clt_jambank_32_1: "No, they unpaused the timelock, get it restarted."
-clt_jambank_32_2: "Why is the timelock not going? Come on, get it going again."
-clt_jambank_32_3: "Oh you... restart the timelock, and *find* whoever turned it off."
-clt_jambank_33_1: "Is that a news chopper? *Hoho* We'll be famous! *pause* Oh wait, that's bad."
+clt_jambank_31_1: "Uh oh, that turret must be the result of cutting the wrong wires. Don't get on the wrong end of that thing!"
+clt_jambank_32_1: "Ack, they paused the timelock, get it restarted."
+clt_jambank_32_2: "Why is the timelock not ticking? Come on guys, restart it already."
+clt_jambank_32_3: "Oh you... restart the timelock, and 'find' whoever stopped it."
+clt_jambank_33_1: "Is that a news chopper? We'll be famous! Oh wait, that's bad."
+clt_jambank_34_1: "Ooo la la! That coin has the markings of the old god Kitteh-Rah on it. You're getting a bonus for that."
 
 drv_jambank_01: "I think it's still in the car."
 drv_jambank_02: "I'm coming back, meet me on the road outside."
-drv_jambank_03: "Be there in about ten seconds. There's a lot of heat, so be quick."
+drv_jambank_03: "Be there in about ten seconds. There's a lot of heat around, so you gotta be quick."
 drv_jambank_04: "Incoming, going to stop at the end of the road.... Oh shit!"
