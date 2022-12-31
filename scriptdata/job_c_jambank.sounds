@@ -124,5 +124,6 @@
         <sound id="Play_drv_jambank_02" path="drv_jambank_02.ogg"  subtitle_id="drv_jambank_02"/>
         <sound id="Play_drv_jambank_03" path="drv_jambank_03.ogg"  subtitle_id="drv_jambank_03"/>
         <sound id="Play_drv_jambank_04" path="drv_jambank_04.ogg"  subtitle_id="drv_jambank_04"/>
+        <sound id="Play_drv_jambank_05" path="drv_jambank_05.ogg"  subtitle_id="drv_jambank_05"/>
     </Sounds>
 </table>

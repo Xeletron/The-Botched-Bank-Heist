@@ -1035,7 +1035,7 @@
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_129" position="1475 -1325 0.200054" rotation="0 -0 -0.122183 -0.992508" unit_id="200326"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_130" position="950 -1250 0.200054" rotation="0 0 0.894427 0.447214" unit_id="200327"/>
+			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_130" position="808 -1332 0.200054" rotation="0 0 0.753964 0.656916" unit_id="200327"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_131" position="1250 -1750 0.200054" rotation="0 0 -0.471858 -0.881675" unit_id="200328"/>

@@ -15,6 +15,7 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
+	<AssetUpdates id="40787" provider="modworkshop" use_local_dir="true" version="1.0"/>
 	<Achievements icon="guis/textures/mods/achievements/jambank_pack" id="achievements_jambank">
 		<achievement desc_id="achievement_jambank_wd_0_desc" icon="guis/textures/mods/achievements/jambank_normal" id="achievement_jambank_wd_0" name_id="achievement_jambank_wd_0" rank="1"/>
 		<achievement desc_id="achievement_jambank_wd_1_desc" icon="guis/textures/mods/achievements/jambank_hard" id="achievement_jambank_wd_1" name_id="achievement_jambank_wd_1" rank="1"/>

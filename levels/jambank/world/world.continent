@@ -10895,7 +10895,7 @@
 		<table>
 			<unit_data continent="world" mesh_variation="diamondheist" name="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref" name_id="helicopter_cops_ref_001" position="325 625 2790.31" rotation="0 0 0.104528 -0.994522" unit_id="101088">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 0.858824 0.576471" enabled="false" falloff_exponent="4" far_range="150" multiplier="identity" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.576471" enabled="false" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
