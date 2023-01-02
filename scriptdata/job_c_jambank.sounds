@@ -4,9 +4,9 @@
         <sound id="Play_clt_jambank_end_01" path="jambank_end_01.ogg"/>
         <sound id="Play_clt_jambank_intro_01" path="jambank_intro_01.ogg">
             <markers>
-                <table position="0.5" label="clt_jambank_intro_01"/>
-                <table position="6" label="clt_jambank_intro_02"/>
-                <table position="12.5" label="clt_jambank_intro_03"/>
+                <table position="1" label="clt_jambank_intro_01"/>
+                <table position="7" label="clt_jambank_intro_02"/>
+                <table position="12" label="clt_jambank_intro_03"/>
             </markers>
         </sound>
         <sound id="Play_clt_jambank_01" path="jambank_01_1.ogg" subtitle_id="clt_jambank_01_1"/>

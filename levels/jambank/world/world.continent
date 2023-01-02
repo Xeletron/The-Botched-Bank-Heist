@@ -11446,6 +11446,18 @@
 		<table>
 			<unit_data continent="world" name="units/payday2/props/str_prop_park_tree_elm/str_prop_park_tree_elm_a" name_id="str_prop_park_tree_elm_a_024" position="50 -5650 50" rotation="0 0 0 -1" unit_id="103602"/>
 		</table>
+		<table>
+			<unit_data continent="world" disable_collision="true" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_001" position="3291 -391.52 447" rotation="0.0185099 0.706864 0.706864 -0.0185099" unit_id="103606">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 0.196078 0" font_size="0.18" render_template="diffuse_vc_decal" text="Scorp lost a minion." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
