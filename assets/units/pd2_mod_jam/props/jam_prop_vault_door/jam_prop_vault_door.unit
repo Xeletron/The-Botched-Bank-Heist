@@ -15,7 +15,7 @@
       </var>
     </extension>
 	  <extension name="interaction" class="UseInteractionExt">
-      <var name="tweak_data" value="embassy_door" />
+      <var name="tweak_data" value="hold_rvd_open_vault" />
 	    <var name="_interact_object" value="interaction_location" />
 	  </extension>
   </extensions>
