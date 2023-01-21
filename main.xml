@@ -15,7 +15,7 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
-	<AssetUpdates id="40787" provider="modworkshop" use_local_dir="true" version="1.2"/>
+	<AssetUpdates id="40787" provider="modworkshop" use_local_dir="true" version="1.3"/>
 	<Achievements icon="guis/textures/mods/achievements/jambank_pack" id="achievements_jambank">
 		<achievement desc_id="achievement_jambank_wd_0_desc" icon="guis/textures/mods/achievements/jambank_normal" id="achievement_jambank_wd_0" name_id="achievement_jambank_wd_0" rank="1"/>
 		<achievement desc_id="achievement_jambank_wd_1_desc" icon="guis/textures/mods/achievements/jambank_hard" id="achievement_jambank_wd_1" name_id="achievement_jambank_wd_1" rank="1"/>
@@ -48,12 +48,6 @@
 	<Dependencies>
 		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
 	</Dependencies>
-<!--
-	<Sounds directory="assets/sounds/vo" unload="true" dont_store_float="true">
-        <sound id="clt_jambank_cbf_01" path="jambank_cbf_01.ogg"/>
-        <sound id="clt_jambank_cnc_01" path="jambank_cnc_01.ogg"/>
-    </Sounds>
--->
 	<Package file="scriptdata/jambank.package" id="package_jambank" unload_on_restart="true"/>
 	<level ai_group_type="america" brief_id="heist_jambank_briefing" id="jambank" max_bags="24" briefing_dialog="Play_clt_jambank_brf_01" intro_event="Play_clt_jambank_intro_01" load_screen="guis/textures/mods/loading/job_jambank_df">
 		<assets>
