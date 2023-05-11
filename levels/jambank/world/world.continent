@@ -8008,10 +8008,10 @@
 			<unit_data continent="world" name="units/world/props/gym/stn_prop_inbox/stn_prop_inbox" name_id="stn_prop_inbox_003" position="3137 -380 406.304" rotation="0 0 0.688355 -0.725374" unit_id="102676"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_008" position="3322 -369 487" rotation="0 0 0.707107 -0.707107" unit_id="102677"/>
+			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_008" position="3322 -369 487" rotation="-0 0 0.707107 -0.707107" unit_id="102677"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_009" position="3230 -369 487" rotation="0 0 0.707107 -0.707107" unit_id="102678"/>
+			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_009" position="3230 -369 487" rotation="-0 0 0.707107 -0.707107" unit_id="102678"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_02" name_id="off_prop_officehigh_binder_02_004" position="3287 -370 453" rotation="-0 0 0.707107 -0.707107" unit_id="102679"/>
@@ -8023,10 +8023,10 @@
 			<unit_data continent="world" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_shelf_2m_b" name_id="bnk_prop_office_shelf_2m_b_004" position="2921 -369 331" rotation="0 0 0 -1" unit_id="102681"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_010" position="2921 -369 487" rotation="0 0 0.707107 -0.707107" unit_id="102682"/>
+			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_010" position="2921 -369 487" rotation="-0 0 0.707107 -0.707107" unit_id="102682"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_011" position="2829 -369 487" rotation="0 0 0.707107 -0.707107" unit_id="102683"/>
+			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_04" name_id="off_prop_officehigh_binder_04_011" position="2829 -369 487" rotation="-0 0 0.707107 -0.707107" unit_id="102683"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_02" name_id="off_prop_officehigh_binder_02_005" position="2886 -370 453" rotation="-0 0 0.707107 -0.707107" unit_id="102684"/>
